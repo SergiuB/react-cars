@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`A suite renders correctly 1`] = `
+exports[`CarFormPresentation renders correctly 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
@@ -215,7 +215,7 @@ ShallowWrapper {
 }
 `;
 
-exports[`A suite renders correctly with field errors but cannot submit 1`] = `
+exports[`CarFormPresentation renders correctly with field errors but cannot submit 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
     "buildPredicate": [Function],
