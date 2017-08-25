@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarForm renders correctly 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <CarFormPresentation
+    acceleration={12}
+    accelerationError=""
+    name="Audi"
+    nameError=""
+    onCancel={[Function]}
+    onChangeAcceleration={[Function]}
+    onChangeName={[Function]}
+    onSubmit={[Function]}
+/>,
+  "nodes": Array [
+    <CarFormPresentation
+      acceleration={12}
+      accelerationError=""
+      name="Audi"
+      nameError=""
+      onCancel={[Function]}
+      onChangeAcceleration={[Function]}
+      onChangeName={[Function]}
+      onSubmit={[Function]}
+/>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <CarForm
+        acceleration={12}
+        name="Audi"
+        onCancel={[Function]}
+        onSubmit={[Function]}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": CarForm {
+        "_reactInternalInstance": [Circular],
+        "changeAcceleration": [Function],
+        "changeName": [Function],
+        "context": Object {},
+        "props": Object {
+          "acceleration": 12,
+          "name": "Audi",
+          "onCancel": [Function],
+          "onSubmit": [Function],
+        },
+        "refs": Object {},
+        "state": Object {
+          "acceleration": 12,
+          "name": "Audi",
+        },
+        "submit": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+        "validateName": [Function],
+        "validateNumber": [Function],
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <CarFormPresentation
+          acceleration={12}
+          accelerationError=""
+          name="Audi"
+          nameError=""
+          onCancel={[Function]}
+          onChangeAcceleration={[Function]}
+          onChangeName={[Function]}
+          onSubmit={[Function]}
+/>,
+        "_debugID": 2,
+        "_renderedOutput": <CarFormPresentation
+          acceleration={12}
+          accelerationError=""
+          name="Audi"
+          nameError=""
+          onCancel={[Function]}
+          onChangeAcceleration={[Function]}
+          onChangeName={[Function]}
+          onSubmit={[Function]}
+/>,
+      },
+      "_renderedNodeType": 1,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CarForm
+    acceleration={12}
+    name="Audi"
+    onCancel={[Function]}
+    onSubmit={[Function]}
+/>,
+}
+`;
