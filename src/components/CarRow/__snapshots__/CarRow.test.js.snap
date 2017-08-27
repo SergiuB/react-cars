@@ -13,6 +13,11 @@ ShallowWrapper {
     onClick={[Function]}
 >
     <td
+        className="numeric-col"
+    >
+        1
+    </td>
+    <td
         className="text-col"
     >
         Audi
@@ -28,6 +33,11 @@ ShallowWrapper {
       className="car-row "
       onClick={[Function]}
 >
+      <td
+            className="numeric-col"
+      >
+            1
+      </td>
       <td
             className="text-col"
       >
@@ -49,6 +59,7 @@ ShallowWrapper {
       "_currentElement": <CarRow
         acceleration={12}
         editEnabled={false}
+        id={1}
         name="Audi"
         onClick={[Function]}
 />,
@@ -61,6 +72,7 @@ ShallowWrapper {
         "props": Object {
           "acceleration": 12,
           "editEnabled": false,
+          "id": 1,
           "name": "Audi",
           "onClick": [Function],
         },
@@ -89,6 +101,11 @@ ShallowWrapper {
           onClick={[Function]}
 >
           <td
+                    className="numeric-col"
+          >
+                    1
+          </td>
+          <td
                     className="text-col"
           >
                     Audi
@@ -104,6 +121,11 @@ ShallowWrapper {
           className="car-row "
           onClick={[Function]}
 >
+          <td
+                    className="numeric-col"
+          >
+                    1
+          </td>
           <td
                     className="text-col"
           >
@@ -129,6 +151,7 @@ ShallowWrapper {
   "unrendered": <CarRow
     acceleration={12}
     editEnabled={false}
+    id={1}
     name="Audi"
     onClick={[Function]}
 />,
@@ -148,6 +171,11 @@ ShallowWrapper {
     onClick={[Function]}
 >
     <td
+        className="numeric-col"
+    >
+        1
+    </td>
+    <td
         className="text-col"
     >
         Audi
@@ -163,6 +191,11 @@ ShallowWrapper {
       className="car-row  edit-enabled"
       onClick={[Function]}
 >
+      <td
+            className="numeric-col"
+      >
+            1
+      </td>
       <td
             className="text-col"
       >
@@ -184,6 +217,7 @@ ShallowWrapper {
       "_currentElement": <CarRow
         acceleration={12}
         editEnabled={true}
+        id={1}
         name="Audi"
         onClick={[Function]}
 />,
@@ -196,6 +230,7 @@ ShallowWrapper {
         "props": Object {
           "acceleration": 12,
           "editEnabled": true,
+          "id": 1,
           "name": "Audi",
           "onClick": [Function],
         },
@@ -224,6 +259,11 @@ ShallowWrapper {
           onClick={[Function]}
 >
           <td
+                    className="numeric-col"
+          >
+                    1
+          </td>
+          <td
                     className="text-col"
           >
                     Audi
@@ -239,6 +279,11 @@ ShallowWrapper {
           className="car-row  edit-enabled"
           onClick={[Function]}
 >
+          <td
+                    className="numeric-col"
+          >
+                    1
+          </td>
           <td
                     className="text-col"
           >
@@ -264,6 +309,7 @@ ShallowWrapper {
   "unrendered": <CarRow
     acceleration={12}
     editEnabled={true}
+    id={1}
     name="Audi"
     onClick={[Function]}
 />,

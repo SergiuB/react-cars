@@ -7,6 +7,7 @@ describe('CarForm', function () {
   it('renders correctly', function () {
     const wrapper = shallow(
       <CarForm
+        id={1}
         name='Audi'
         acceleration={12}
       />
@@ -17,6 +18,7 @@ describe('CarForm', function () {
   it('updates props in response to change handlers', function () {
     const wrapper = shallow(
       <CarForm
+        id={1}
         name='Audi'
         acceleration={12}
       />
@@ -32,6 +34,7 @@ describe('CarForm', function () {
   it('updates error props in response to setting invalid values', function () {
     const wrapper = shallow(
       <CarForm
+        id={1}
         name='Audi'
         acceleration={12}
       />
@@ -48,6 +51,7 @@ describe('CarForm', function () {
     const onSubmit = jest.fn();
     const wrapper = shallow(
       <CarForm
+        id={1}
         name='Audi'
         acceleration={12}
         onSubmit={onSubmit}
@@ -59,13 +63,14 @@ describe('CarForm', function () {
 
     wrapper.prop('onSubmit')({ preventDefault() {} });
 
-    expect(onSubmit).toBeCalledWith({ acceleration: 10, name: 'VW' });
+    expect(onSubmit).toBeCalledWith({ id: 1, acceleration: 10, name: 'VW' });
   });
 
   it('calls onCancel', function () {
     const onCancel = jest.fn();
     const wrapper = shallow(
       <CarForm
+        id={1}
         name='Audi'
         acceleration={12}
         onCancel={onCancel}

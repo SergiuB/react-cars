@@ -54,7 +54,9 @@ class CarForm extends Component {
       acceleration,
     } = this.state;
 
-    this.props.onSubmit({ name, acceleration });
+    const { id, onSubmit } = this.props;
+
+    onSubmit({ id, name, acceleration });
     event.preventDefault();
   }
 
@@ -72,6 +74,7 @@ class CarForm extends Component {
 }
 
 CarForm.propTypes = {
+  id: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   acceleration: PropTypes.number.isRequired,
   onSubmit: PropTypes.func.isRequired,

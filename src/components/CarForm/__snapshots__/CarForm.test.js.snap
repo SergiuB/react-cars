@@ -38,6 +38,7 @@ ShallowWrapper {
       "_context": Object {},
       "_currentElement": <CarForm
         acceleration={12}
+        id={1}
         name="Audi"
         onCancel={[Function]}
         onSubmit={[Function]}
@@ -52,6 +53,7 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {
           "acceleration": 12,
+          "id": 1,
           "name": "Audi",
           "onCancel": [Function],
           "onSubmit": [Function],
@@ -116,6 +118,7 @@ ShallowWrapper {
   "root": [Circular],
   "unrendered": <CarForm
     acceleration={12}
+    id={1}
     name="Audi"
     onCancel={[Function]}
     onSubmit={[Function]}

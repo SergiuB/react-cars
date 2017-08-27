@@ -7,6 +7,7 @@ describe('CarRow', function () {
   it('renders correctly', function () {
     const wrapper = shallow(
       <CarRow
+        id={1}
         name='Audi'
         acceleration={12}
       />
@@ -17,6 +18,7 @@ describe('CarRow', function () {
   it('renders correctly in edit mode', function () {
     const wrapper = shallow(
       <CarRow
+        id={1}
         name='Audi'
         acceleration={12}
         editEnabled
@@ -29,6 +31,7 @@ describe('CarRow', function () {
     const onClick = jest.fn();
     const wrapper = shallow(
       <CarRow
+        id={1}
         name='Audi'
         acceleration={12}
         onClick={onClick}
