@@ -1,0 +1,1045 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarTablePage renders correctly with first car in edit mode 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <table>
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                acceleration
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <CarRow
+            acceleration={12}
+            editEnabled={true}
+            id={1}
+            name="Audi"
+            onClick={[Function]}
+        />
+        <CarFormRow
+            car={
+                Object {
+                    "acceleration": 12,
+                    "id": 1,
+                    "name": "Audi",
+                  }
+            }
+            onCancel={[Function]}
+            onSubmit={[Function]}
+        />
+        <CarRow
+            acceleration={18}
+            editEnabled={false}
+            id={2}
+            name="VW"
+            onClick={[Function]}
+        />
+    </tbody>
+</table>,
+  "nodes": Array [
+    <table>
+      <thead>
+            <tr>
+                  <th>
+                        Id
+                  </th>
+                  <th>
+                        Name
+                  </th>
+                  <th>
+                        acceleration
+                  </th>
+            </tr>
+      </thead>
+      <tbody>
+            <CarRow
+                  acceleration={12}
+                  editEnabled={true}
+                  id={1}
+                  name="Audi"
+                  onClick={[Function]}
+            />
+            <CarFormRow
+                  car={
+                        Object {
+                              "acceleration": 12,
+                              "id": 1,
+                              "name": "Audi",
+                            }
+                  }
+                  onCancel={[Function]}
+                  onSubmit={[Function]}
+            />
+            <CarRow
+                  acceleration={18}
+                  editEnabled={false}
+                  id={2}
+                  name="VW"
+                  onClick={[Function]}
+            />
+      </tbody>
+</table>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <CarTablePage
+        cars={
+                Array [
+                        Object {
+                          "acceleration": 12,
+                          "id": 1,
+                          "name": "Audi",
+                        },
+                        Object {
+                          "acceleration": 18,
+                          "id": 2,
+                          "name": "VW",
+                        },
+                      ]
+        }
+        editingCarId={1}
+        onCancelCarChanges={[Function]}
+        onRowClick={[Function]}
+        onSaveCarChanges={[Function]}
+/>,
+      "_debugID": 3,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "cars": Array [
+            Object {
+              "acceleration": 12,
+              "id": 1,
+              "name": "Audi",
+            },
+            Object {
+              "acceleration": 18,
+              "id": 2,
+              "name": "VW",
+            },
+          ],
+          "editingCarId": 1,
+          "onCancelCarChanges": [Function],
+          "onRowClick": [Function],
+          "onSaveCarChanges": [Function],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 2,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <table>
+          <thead>
+                    <tr>
+                              <th>
+                                        Id
+                              </th>
+                              <th>
+                                        Name
+                              </th>
+                              <th>
+                                        acceleration
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <CarRow
+                              acceleration={12}
+                              editEnabled={true}
+                              id={1}
+                              name="Audi"
+                              onClick={[Function]}
+                    />
+                    <CarFormRow
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
+                              onCancel={[Function]}
+                              onSubmit={[Function]}
+                    />
+                    <CarRow
+                              acceleration={18}
+                              editEnabled={false}
+                              id={2}
+                              name="VW"
+                              onClick={[Function]}
+                    />
+          </tbody>
+</table>,
+        "_debugID": 4,
+        "_renderedOutput": <table>
+          <thead>
+                    <tr>
+                              <th>
+                                        Id
+                              </th>
+                              <th>
+                                        Name
+                              </th>
+                              <th>
+                                        acceleration
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <CarRow
+                              acceleration={12}
+                              editEnabled={true}
+                              id={1}
+                              name="Audi"
+                              onClick={[Function]}
+                    />
+                    <CarFormRow
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
+                              onCancel={[Function]}
+                              onSubmit={[Function]}
+                    />
+                    <CarRow
+                              acceleration={18}
+                              editEnabled={false}
+                              id={2}
+                              name="VW"
+                              onClick={[Function]}
+                    />
+          </tbody>
+</table>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CarTablePage
+    cars={
+        Array [
+            Object {
+              "acceleration": 12,
+              "id": 1,
+              "name": "Audi",
+            },
+            Object {
+              "acceleration": 18,
+              "id": 2,
+              "name": "VW",
+            },
+          ]
+    }
+    editingCarId={1}
+    onCancelCarChanges={[Function]}
+    onRowClick={[Function]}
+    onSaveCarChanges={[Function]}
+/>,
+}
+`;
+
+exports[`CarTablePage renders correctly with invalid editingCarId 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <table>
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                acceleration
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <CarRow
+            acceleration={12}
+            editEnabled={false}
+            id={1}
+            name="Audi"
+            onClick={[Function]}
+        />
+        <CarRow
+            acceleration={18}
+            editEnabled={false}
+            id={2}
+            name="VW"
+            onClick={[Function]}
+        />
+    </tbody>
+</table>,
+  "nodes": Array [
+    <table>
+      <thead>
+            <tr>
+                  <th>
+                        Id
+                  </th>
+                  <th>
+                        Name
+                  </th>
+                  <th>
+                        acceleration
+                  </th>
+            </tr>
+      </thead>
+      <tbody>
+            <CarRow
+                  acceleration={12}
+                  editEnabled={false}
+                  id={1}
+                  name="Audi"
+                  onClick={[Function]}
+            />
+            <CarRow
+                  acceleration={18}
+                  editEnabled={false}
+                  id={2}
+                  name="VW"
+                  onClick={[Function]}
+            />
+      </tbody>
+</table>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <CarTablePage
+        cars={
+                Array [
+                        Object {
+                          "acceleration": 12,
+                          "id": 1,
+                          "name": "Audi",
+                        },
+                        Object {
+                          "acceleration": 18,
+                          "id": 2,
+                          "name": "VW",
+                        },
+                      ]
+        }
+        editingCarId={100}
+        onCancelCarChanges={[Function]}
+        onRowClick={[Function]}
+        onSaveCarChanges={[Function]}
+/>,
+      "_debugID": 7,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "cars": Array [
+            Object {
+              "acceleration": 12,
+              "id": 1,
+              "name": "Audi",
+            },
+            Object {
+              "acceleration": 18,
+              "id": 2,
+              "name": "VW",
+            },
+          ],
+          "editingCarId": 100,
+          "onCancelCarChanges": [Function],
+          "onRowClick": [Function],
+          "onSaveCarChanges": [Function],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 4,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <table>
+          <thead>
+                    <tr>
+                              <th>
+                                        Id
+                              </th>
+                              <th>
+                                        Name
+                              </th>
+                              <th>
+                                        acceleration
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <CarRow
+                              acceleration={12}
+                              editEnabled={false}
+                              id={1}
+                              name="Audi"
+                              onClick={[Function]}
+                    />
+                    <CarRow
+                              acceleration={18}
+                              editEnabled={false}
+                              id={2}
+                              name="VW"
+                              onClick={[Function]}
+                    />
+          </tbody>
+</table>,
+        "_debugID": 8,
+        "_renderedOutput": <table>
+          <thead>
+                    <tr>
+                              <th>
+                                        Id
+                              </th>
+                              <th>
+                                        Name
+                              </th>
+                              <th>
+                                        acceleration
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <CarRow
+                              acceleration={12}
+                              editEnabled={false}
+                              id={1}
+                              name="Audi"
+                              onClick={[Function]}
+                    />
+                    <CarRow
+                              acceleration={18}
+                              editEnabled={false}
+                              id={2}
+                              name="VW"
+                              onClick={[Function]}
+                    />
+          </tbody>
+</table>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CarTablePage
+    cars={
+        Array [
+            Object {
+              "acceleration": 12,
+              "id": 1,
+              "name": "Audi",
+            },
+            Object {
+              "acceleration": 18,
+              "id": 2,
+              "name": "VW",
+            },
+          ]
+    }
+    editingCarId={100}
+    onCancelCarChanges={[Function]}
+    onRowClick={[Function]}
+    onSaveCarChanges={[Function]}
+/>,
+}
+`;
+
+exports[`CarTablePage renders correctly with last car in edit mode 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <table>
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                acceleration
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <CarRow
+            acceleration={12}
+            editEnabled={false}
+            id={1}
+            name="Audi"
+            onClick={[Function]}
+        />
+        <CarRow
+            acceleration={18}
+            editEnabled={true}
+            id={2}
+            name="VW"
+            onClick={[Function]}
+        />
+        <CarFormRow
+            car={
+                Object {
+                    "acceleration": 18,
+                    "id": 2,
+                    "name": "VW",
+                  }
+            }
+            onCancel={[Function]}
+            onSubmit={[Function]}
+        />
+    </tbody>
+</table>,
+  "nodes": Array [
+    <table>
+      <thead>
+            <tr>
+                  <th>
+                        Id
+                  </th>
+                  <th>
+                        Name
+                  </th>
+                  <th>
+                        acceleration
+                  </th>
+            </tr>
+      </thead>
+      <tbody>
+            <CarRow
+                  acceleration={12}
+                  editEnabled={false}
+                  id={1}
+                  name="Audi"
+                  onClick={[Function]}
+            />
+            <CarRow
+                  acceleration={18}
+                  editEnabled={true}
+                  id={2}
+                  name="VW"
+                  onClick={[Function]}
+            />
+            <CarFormRow
+                  car={
+                        Object {
+                              "acceleration": 18,
+                              "id": 2,
+                              "name": "VW",
+                            }
+                  }
+                  onCancel={[Function]}
+                  onSubmit={[Function]}
+            />
+      </tbody>
+</table>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <CarTablePage
+        cars={
+                Array [
+                        Object {
+                          "acceleration": 12,
+                          "id": 1,
+                          "name": "Audi",
+                        },
+                        Object {
+                          "acceleration": 18,
+                          "id": 2,
+                          "name": "VW",
+                        },
+                      ]
+        }
+        editingCarId={2}
+        onCancelCarChanges={[Function]}
+        onRowClick={[Function]}
+        onSaveCarChanges={[Function]}
+/>,
+      "_debugID": 5,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "cars": Array [
+            Object {
+              "acceleration": 12,
+              "id": 1,
+              "name": "Audi",
+            },
+            Object {
+              "acceleration": 18,
+              "id": 2,
+              "name": "VW",
+            },
+          ],
+          "editingCarId": 2,
+          "onCancelCarChanges": [Function],
+          "onRowClick": [Function],
+          "onSaveCarChanges": [Function],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 3,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <table>
+          <thead>
+                    <tr>
+                              <th>
+                                        Id
+                              </th>
+                              <th>
+                                        Name
+                              </th>
+                              <th>
+                                        acceleration
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <CarRow
+                              acceleration={12}
+                              editEnabled={false}
+                              id={1}
+                              name="Audi"
+                              onClick={[Function]}
+                    />
+                    <CarRow
+                              acceleration={18}
+                              editEnabled={true}
+                              id={2}
+                              name="VW"
+                              onClick={[Function]}
+                    />
+                    <CarFormRow
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
+                              onCancel={[Function]}
+                              onSubmit={[Function]}
+                    />
+          </tbody>
+</table>,
+        "_debugID": 6,
+        "_renderedOutput": <table>
+          <thead>
+                    <tr>
+                              <th>
+                                        Id
+                              </th>
+                              <th>
+                                        Name
+                              </th>
+                              <th>
+                                        acceleration
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <CarRow
+                              acceleration={12}
+                              editEnabled={false}
+                              id={1}
+                              name="Audi"
+                              onClick={[Function]}
+                    />
+                    <CarRow
+                              acceleration={18}
+                              editEnabled={true}
+                              id={2}
+                              name="VW"
+                              onClick={[Function]}
+                    />
+                    <CarFormRow
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
+                              onCancel={[Function]}
+                              onSubmit={[Function]}
+                    />
+          </tbody>
+</table>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CarTablePage
+    cars={
+        Array [
+            Object {
+              "acceleration": 12,
+              "id": 1,
+              "name": "Audi",
+            },
+            Object {
+              "acceleration": 18,
+              "id": 2,
+              "name": "VW",
+            },
+          ]
+    }
+    editingCarId={2}
+    onCancelCarChanges={[Function]}
+    onRowClick={[Function]}
+    onSaveCarChanges={[Function]}
+/>,
+}
+`;
+
+exports[`CarTablePage renders correctly with no edited car 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <table>
+    <thead>
+        <tr>
+            <th>
+                Id
+            </th>
+            <th>
+                Name
+            </th>
+            <th>
+                acceleration
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        <CarRow
+            acceleration={12}
+            editEnabled={false}
+            id={1}
+            name="Audi"
+            onClick={[Function]}
+        />
+        <CarRow
+            acceleration={18}
+            editEnabled={false}
+            id={2}
+            name="VW"
+            onClick={[Function]}
+        />
+    </tbody>
+</table>,
+  "nodes": Array [
+    <table>
+      <thead>
+            <tr>
+                  <th>
+                        Id
+                  </th>
+                  <th>
+                        Name
+                  </th>
+                  <th>
+                        acceleration
+                  </th>
+            </tr>
+      </thead>
+      <tbody>
+            <CarRow
+                  acceleration={12}
+                  editEnabled={false}
+                  id={1}
+                  name="Audi"
+                  onClick={[Function]}
+            />
+            <CarRow
+                  acceleration={18}
+                  editEnabled={false}
+                  id={2}
+                  name="VW"
+                  onClick={[Function]}
+            />
+      </tbody>
+</table>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 2,
+      "_context": Object {},
+      "_currentElement": <CarTablePage
+        cars={
+                Array [
+                        Object {
+                          "acceleration": 12,
+                          "id": 1,
+                          "name": "Audi",
+                        },
+                        Object {
+                          "acceleration": 18,
+                          "id": 2,
+                          "name": "VW",
+                        },
+                      ]
+        }
+        editingCarId={-1}
+        onCancelCarChanges={[Function]}
+        onRowClick={[Function]}
+        onSaveCarChanges={[Function]}
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": StatelessComponent {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "props": Object {
+          "cars": Array [
+            Object {
+              "acceleration": 12,
+              "id": 1,
+              "name": "Audi",
+            },
+            Object {
+              "acceleration": 18,
+              "id": 2,
+              "name": "VW",
+            },
+          ],
+          "editingCarId": -1,
+          "onCancelCarChanges": [Function],
+          "onRowClick": [Function],
+          "onSaveCarChanges": [Function],
+        },
+        "refs": Object {},
+        "state": null,
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <table>
+          <thead>
+                    <tr>
+                              <th>
+                                        Id
+                              </th>
+                              <th>
+                                        Name
+                              </th>
+                              <th>
+                                        acceleration
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <CarRow
+                              acceleration={12}
+                              editEnabled={false}
+                              id={1}
+                              name="Audi"
+                              onClick={[Function]}
+                    />
+                    <CarRow
+                              acceleration={18}
+                              editEnabled={false}
+                              id={2}
+                              name="VW"
+                              onClick={[Function]}
+                    />
+          </tbody>
+</table>,
+        "_debugID": 2,
+        "_renderedOutput": <table>
+          <thead>
+                    <tr>
+                              <th>
+                                        Id
+                              </th>
+                              <th>
+                                        Name
+                              </th>
+                              <th>
+                                        acceleration
+                              </th>
+                    </tr>
+          </thead>
+          <tbody>
+                    <CarRow
+                              acceleration={12}
+                              editEnabled={false}
+                              id={1}
+                              name="Audi"
+                              onClick={[Function]}
+                    />
+                    <CarRow
+                              acceleration={18}
+                              editEnabled={false}
+                              id={2}
+                              name="VW"
+                              onClick={[Function]}
+                    />
+          </tbody>
+</table>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CarTablePage
+    cars={
+        Array [
+            Object {
+              "acceleration": 12,
+              "id": 1,
+              "name": "Audi",
+            },
+            Object {
+              "acceleration": 18,
+              "id": 2,
+              "name": "VW",
+            },
+          ]
+    }
+    editingCarId={-1}
+    onCancelCarChanges={[Function]}
+    onRowClick={[Function]}
+    onSaveCarChanges={[Function]}
+/>,
+}
+`;
