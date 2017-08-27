@@ -1,0 +1,225 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CarTable renders correctly with the first page of cars 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <div
+    className="car-table"
+>
+    <CarTablePage
+        cars={
+            Array [
+                Object {
+                  "acceleration": 12,
+                  "id": 1,
+                  "name": "Car1",
+                },
+                Object {
+                  "acceleration": 15,
+                  "id": 2,
+                  "name": "Car2",
+                },
+              ]
+        }
+        editingCarId={-1}
+        editingCardId={-1}
+        onCancelCarChanges={[Function]}
+        onRowClick={[Function]}
+        onSaveCarChanges={[Function]}
+    />
+    <PageNavigation
+        nextEnabled={true}
+        onNext={[Function]}
+        onPrev={[Function]}
+        prevEnabled={false}
+    />
+</div>,
+  "nodes": Array [
+    <div
+      className="car-table"
+>
+      <CarTablePage
+            cars={
+                  Array [
+                        Object {
+                          "acceleration": 12,
+                          "id": 1,
+                          "name": "Car1",
+                        },
+                        Object {
+                          "acceleration": 15,
+                          "id": 2,
+                          "name": "Car2",
+                        },
+                      ]
+            }
+            editingCarId={-1}
+            editingCardId={-1}
+            onCancelCarChanges={[Function]}
+            onRowClick={[Function]}
+            onSaveCarChanges={[Function]}
+      />
+      <PageNavigation
+            nextEnabled={true}
+            onNext={[Function]}
+            onPrev={[Function]}
+            prevEnabled={false}
+      />
+</div>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <CarTable
+        api={
+                Object {
+                        "getCars": [Function],
+                        "saveCar": [Function],
+                      }
+        }
+/>,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": CarTable {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "getNextCars": [Function],
+        "getPrevCars": [Function],
+        "handleRowClick": [Function],
+        "props": Object {
+          "api": Object {
+            "getCars": [Function],
+            "saveCar": [Function],
+          },
+        },
+        "refs": Object {},
+        "state": Object {
+          "cars": Array [
+            Object {
+              "acceleration": 12,
+              "id": 1,
+              "name": "Car1",
+            },
+            Object {
+              "acceleration": 15,
+              "id": 2,
+              "name": "Car2",
+            },
+          ],
+          "currentCarUrl": null,
+          "editingCardId": -1,
+          "nextCarUrl": "page2",
+          "prevCarUrl": null,
+        },
+        "updateState": [Function],
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <div
+          className="car-table"
+>
+          <CarTablePage
+                    cars={
+                              Array [
+                                        Object {
+                                          "acceleration": 12,
+                                          "id": 1,
+                                          "name": "Car1",
+                                        },
+                                        Object {
+                                          "acceleration": 15,
+                                          "id": 2,
+                                          "name": "Car2",
+                                        },
+                                      ]
+                    }
+                    editingCarId={-1}
+                    editingCardId={-1}
+                    onCancelCarChanges={[Function]}
+                    onRowClick={[Function]}
+                    onSaveCarChanges={[Function]}
+          />
+          <PageNavigation
+                    nextEnabled={true}
+                    onNext={[Function]}
+                    onPrev={[Function]}
+                    prevEnabled={false}
+          />
+</div>,
+        "_debugID": 2,
+        "_renderedOutput": <div
+          className="car-table"
+>
+          <CarTablePage
+                    cars={
+                              Array [
+                                        Object {
+                                          "acceleration": 12,
+                                          "id": 1,
+                                          "name": "Car1",
+                                        },
+                                        Object {
+                                          "acceleration": 15,
+                                          "id": 2,
+                                          "name": "Car2",
+                                        },
+                                      ]
+                    }
+                    editingCarId={-1}
+                    editingCardId={-1}
+                    onCancelCarChanges={[Function]}
+                    onRowClick={[Function]}
+                    onSaveCarChanges={[Function]}
+          />
+          <PageNavigation
+                    nextEnabled={true}
+                    onNext={[Function]}
+                    onPrev={[Function]}
+                    prevEnabled={false}
+          />
+</div>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <CarTable
+    api={
+        Object {
+            "getCars": [Function],
+            "saveCar": [Function],
+          }
+    }
+/>,
+}
+`;

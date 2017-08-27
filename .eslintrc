@@ -6,7 +6,8 @@
         "func-names": 0,
         "comma-dangle": 0,
         "jsx-quotes": 0,
-        "react/jsx-filename-extension": 0
+        "react/jsx-filename-extension": 0,
+        "import/extensions": 0
     },
     "env": {
         "browser": true,
