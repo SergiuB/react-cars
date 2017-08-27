@@ -5,21 +5,32 @@ import CarFormPresentation from './CarFormPresentation';
 class CarForm extends Component {
   constructor(props) {
     super(props);
-    const {
-      name,
-      acceleration
-    } = props;
 
-    this.state = {
-      name,
-      acceleration
-    };
+    this.state = { car: { ...this.props.car } };
   }
+
+  updateFieldAndError = (fieldName, fieldValue, fieldError) =>
+    this.setState({
+      car: {
+        ...this.state.car,
+        [fieldName]: fieldValue,
+      },
+      errors: {
+        ...this.state.errors,
+        [fieldName]: fieldError
+      }
+    })
 
   changeName = (event) => {
     const name = event.target.value;
     const nameError = this.validateName(name);
-    this.setState({ name, nameError });
+    this.updateFieldAndError('name', name, nameError);
+  }
+
+  changeAcceleration = (event) => {
+    const acceleration = parseInt(event.target.value, 10);
+    const accelerationError = this.validateNumber(acceleration, 1, 100);
+    this.updateFieldAndError('acceleration', acceleration, accelerationError);
   }
 
   validateName = (name) => {
@@ -27,12 +38,6 @@ class CarForm extends Component {
       return 'Name is mandatory';
     }
     return '';
-  }
-
-  changeAcceleration = (event) => {
-    const acceleration = parseInt(event.target.value, 10);
-    const accelerationError = this.validateNumber(acceleration, 1, 100);
-    this.setState({ acceleration, accelerationError });
   }
 
   validateNumber = (n, min, max) => {
@@ -49,14 +54,7 @@ class CarForm extends Component {
   }
 
   submit = (event) => {
-    const {
-      name,
-      acceleration,
-    } = this.state;
-
-    const { id, onSubmit } = this.props;
-
-    onSubmit({ id, name, acceleration });
+    this.props.onSubmit(this.state.car);
     event.preventDefault();
   }
 
@@ -64,8 +62,10 @@ class CarForm extends Component {
     return (
       <CarFormPresentation
         {...this.state}
-        onChangeName={this.changeName}
-        onChangeAcceleration={this.changeAcceleration}
+        changeHandlers={{
+          name: this.changeName,
+          acceleration: this.changeAcceleration
+        }}
         onSubmit={this.submit}
         onCancel={this.props.onCancel}
       />
@@ -74,9 +74,7 @@ class CarForm extends Component {
 }
 
 CarForm.propTypes = {
-  id: PropTypes.number.isRequired,
-  name: PropTypes.string.isRequired,
-  acceleration: PropTypes.number.isRequired,
+  car: PropTypes.object.isRequired,
   onSubmit: PropTypes.func.isRequired,
   onCancel: PropTypes.func.isRequired,
 };

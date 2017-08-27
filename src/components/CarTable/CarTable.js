@@ -3,17 +3,16 @@ import PropTypes from 'prop-types';
 
 import CarTablePage from '../CarTablePage';
 import PageNavigation from '../PageNavigation';
-import serverApi from '../../api';
 
 const tapLog = x => { console.log(x); return x; }
 
-export class CarTable extends Component {
+class CarTable extends Component {
   state = {
     cars: [],
     currentCarUrl: null,
     nextCarUrl: null,
     prevCarUrl: null,
-    editingCardId: -1,
+    editingCarId: -1,
   }
 
   componentWillMount() {
@@ -28,12 +27,12 @@ export class CarTable extends Component {
     .then(s => this.setState(s))
 
   handleRowClick = cardId =>
-    this.setState({ editingCardId: (cardId === this.state.editingCardId) ? -1 : cardId })
+    this.setState({ editingCarId: (cardId === this.state.editingCarId) ? -1 : cardId })
 
   render() {
     const {
       cars,
-      editingCardId,
+      editingCarId,
       nextCarUrl,
       prevCarUrl,
     } = this.state;
@@ -42,7 +41,7 @@ export class CarTable extends Component {
       <div className='car-table'>
         <CarTablePage
           cars={cars}
-          editingCardId={editingCardId}
+          editingCarId={editingCarId}
           onRowClick={this.handleRowClick}
         />
         <PageNavigation
@@ -63,7 +62,4 @@ CarTable.propTypes = {
   }).isRequired,
 };
 
-const withApi = (comp, api) => props =>
-  <CarTable {...props} api={api} />;
-
-export default withApi(CarTable, serverApi);
+export default CarTable;

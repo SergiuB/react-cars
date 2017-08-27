@@ -3,63 +3,52 @@ import { shallow } from 'enzyme';
 
 import CarForm from './CarForm';
 
+const carData = {
+  id: 1,
+  name: 'Audi',
+  acceleration: 12,
+};
+
 describe('CarForm', function () {
   it('renders correctly', function () {
     const wrapper = shallow(
-      <CarForm
-        id={1}
-        name='Audi'
-        acceleration={12}
-      />
+      <CarForm car={carData} />
     );
     expect(wrapper).toMatchSnapshot();
   });
 
   it('updates props in response to change handlers', function () {
     const wrapper = shallow(
-      <CarForm
-        id={1}
-        name='Audi'
-        acceleration={12}
-      />
+      <CarForm car={carData} />
     );
 
-    wrapper.prop('onChangeAcceleration')({ target: { value: 3 } });
-    expect(wrapper.prop('acceleration')).toEqual(3);
+    wrapper.prop('changeHandlers').acceleration({ target: { value: 3 } });
+    expect(wrapper.prop('car').acceleration).toEqual(3);
 
-    wrapper.prop('onChangeName')({ target: { value: 'VW' } });
-    expect(wrapper.prop('name')).toEqual('VW');
+    wrapper.prop('changeHandlers').name({ target: { value: 'VW' } });
+    expect(wrapper.prop('car').name).toEqual('VW');
   });
 
   it('updates error props in response to setting invalid values', function () {
     const wrapper = shallow(
-      <CarForm
-        id={1}
-        name='Audi'
-        acceleration={12}
-      />
+      <CarForm car={carData} />
     );
 
-    wrapper.prop('onChangeAcceleration')({ target: { value: NaN } });
-    expect(wrapper.prop('accelerationError')).toEqual('Invalid number');
+    wrapper.prop('changeHandlers').acceleration({ target: { value: NaN } });
+    expect(wrapper.prop('errors').acceleration).toEqual('Invalid number');
 
-    wrapper.prop('onChangeName')({ target: { value: '' } });
-    expect(wrapper.prop('nameError')).toEqual('Name is mandatory');
+    wrapper.prop('changeHandlers').name({ target: { value: '' } });
+    expect(wrapper.prop('errors').name).toEqual('Name is mandatory');
   });
 
   it('calls onSubmit with the changed values', function () {
     const onSubmit = jest.fn();
     const wrapper = shallow(
-      <CarForm
-        id={1}
-        name='Audi'
-        acceleration={12}
-        onSubmit={onSubmit}
-      />
+      <CarForm car={carData} onSubmit={onSubmit} />
     );
 
-    wrapper.prop('onChangeAcceleration')({ target: { value: 10 } });
-    wrapper.prop('onChangeName')({ target: { value: 'VW' } });
+    wrapper.prop('changeHandlers').acceleration({ target: { value: 10 } });
+    wrapper.prop('changeHandlers').name({ target: { value: 'VW' } });
 
     wrapper.prop('onSubmit')({ preventDefault() {} });
 
@@ -69,12 +58,7 @@ describe('CarForm', function () {
   it('calls onCancel', function () {
     const onCancel = jest.fn();
     const wrapper = shallow(
-      <CarForm
-        id={1}
-        name='Audi'
-        acceleration={12}
-        onCancel={onCancel}
-      />
+      <CarForm car={carData} onCancel={onCancel} />
     );
 
     wrapper.prop('onCancel')();

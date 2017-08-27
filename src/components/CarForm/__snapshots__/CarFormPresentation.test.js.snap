@@ -81,13 +81,25 @@ ShallowWrapper {
       "_compositeType": 2,
       "_context": Object {},
       "_currentElement": <CarFormPresentation
-        acceleration={12}
-        accelerationError=""
-        name="Audi"
-        nameError=""
+        car={
+                Object {
+                        "acceleration": 12,
+                        "name": "Audi",
+                      }
+        }
+        changeHandlers={
+                Object {
+                        "acceleration": [Function],
+                        "name": [Function],
+                      }
+        }
+        errors={
+                Object {
+                        "acceleration": "",
+                        "name": "",
+                      }
+        }
         onCancel={[Function]}
-        onChangeAcceleration={[Function]}
-        onChangeName={[Function]}
         onSubmit={[Function]}
 />,
       "_debugID": 1,
@@ -97,13 +109,19 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "acceleration": 12,
-          "accelerationError": "",
-          "name": "Audi",
-          "nameError": "",
+          "car": Object {
+            "acceleration": 12,
+            "name": "Audi",
+          },
+          "changeHandlers": Object {
+            "acceleration": [Function],
+            "name": [Function],
+          },
+          "errors": Object {
+            "acceleration": "",
+            "name": "",
+          },
           "onCancel": [Function],
-          "onChangeAcceleration": [Function],
-          "onChangeName": [Function],
           "onSubmit": [Function],
         },
         "refs": Object {},
@@ -203,13 +221,25 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <CarFormPresentation
-    acceleration={12}
-    accelerationError=""
-    name="Audi"
-    nameError=""
+    car={
+        Object {
+            "acceleration": 12,
+            "name": "Audi",
+          }
+    }
+    changeHandlers={
+        Object {
+            "acceleration": [Function],
+            "name": [Function],
+          }
+    }
+    errors={
+        Object {
+            "acceleration": "",
+            "name": "",
+          }
+    }
     onCancel={[Function]}
-    onChangeAcceleration={[Function]}
-    onChangeName={[Function]}
     onSubmit={[Function]}
 />,
 }
@@ -312,13 +342,25 @@ ShallowWrapper {
       "_compositeType": 2,
       "_context": Object {},
       "_currentElement": <CarFormPresentation
-        acceleration={12}
-        accelerationError="This car sucks"
-        name="Audi"
-        nameError="Not a good name"
+        car={
+                Object {
+                        "acceleration": 12,
+                        "name": "Audi",
+                      }
+        }
+        changeHandlers={
+                Object {
+                        "acceleration": [Function],
+                        "name": [Function],
+                      }
+        }
+        errors={
+                Object {
+                        "acceleration": "This car sucks",
+                        "name": "Not a good name",
+                      }
+        }
         onCancel={[Function]}
-        onChangeAcceleration={[Function]}
-        onChangeName={[Function]}
         onSubmit={[Function]}
 />,
       "_debugID": 3,
@@ -328,13 +370,19 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "acceleration": 12,
-          "accelerationError": "This car sucks",
-          "name": "Audi",
-          "nameError": "Not a good name",
+          "car": Object {
+            "acceleration": 12,
+            "name": "Audi",
+          },
+          "changeHandlers": Object {
+            "acceleration": [Function],
+            "name": [Function],
+          },
+          "errors": Object {
+            "acceleration": "This car sucks",
+            "name": "Not a good name",
+          },
           "onCancel": [Function],
-          "onChangeAcceleration": [Function],
-          "onChangeName": [Function],
           "onSubmit": [Function],
         },
         "refs": Object {},
@@ -450,13 +498,25 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <CarFormPresentation
-    acceleration={12}
-    accelerationError="This car sucks"
-    name="Audi"
-    nameError="Not a good name"
+    car={
+        Object {
+            "acceleration": 12,
+            "name": "Audi",
+          }
+    }
+    changeHandlers={
+        Object {
+            "acceleration": [Function],
+            "name": [Function],
+          }
+    }
+    errors={
+        Object {
+            "acceleration": "This car sucks",
+            "name": "Not a good name",
+          }
+    }
     onCancel={[Function]}
-    onChangeAcceleration={[Function]}
-    onChangeName={[Function]}
     onSubmit={[Function]}
 />,
 }

@@ -27,7 +27,6 @@ ShallowWrapper {
               ]
         }
         editingCarId={-1}
-        editingCardId={-1}
         onCancelCarChanges={[Function]}
         onRowClick={[Function]}
         onSaveCarChanges={[Function]}
@@ -59,7 +58,6 @@ ShallowWrapper {
                       ]
             }
             editingCarId={-1}
-            editingCardId={-1}
             onCancelCarChanges={[Function]}
             onRowClick={[Function]}
             onSaveCarChanges={[Function]}
@@ -116,7 +114,7 @@ ShallowWrapper {
             },
           ],
           "currentCarUrl": null,
-          "editingCardId": -1,
+          "editingCarId": -1,
           "nextCarUrl": "page2",
           "prevCarUrl": null,
         },
@@ -158,7 +156,6 @@ ShallowWrapper {
                                       ]
                     }
                     editingCarId={-1}
-                    editingCardId={-1}
                     onCancelCarChanges={[Function]}
                     onRowClick={[Function]}
                     onSaveCarChanges={[Function]}
@@ -190,7 +187,6 @@ ShallowWrapper {
                                       ]
                     }
                     editingCarId={-1}
-                    editingCardId={-1}
                     onCancelCarChanges={[Function]}
                     onRowClick={[Function]}
                     onSaveCarChanges={[Function]}

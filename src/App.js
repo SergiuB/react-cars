@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        
-      </div>
-    );
-  }
-}
+import CarTable from './components/CarTable';
+import { api } from './components/CarTable/testUtils';
+
+const App = () => (
+  <div className="App">
+    <CarTable api={api} />
+  </div>
+);
 
 export default App;

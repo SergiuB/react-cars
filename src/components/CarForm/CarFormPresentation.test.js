@@ -11,10 +11,14 @@ describe('CarFormPresentation', function () {
     const onCancel = jest.fn();
     const wrapper = shallow(
       <CarFormPresentation
-        name='Audi'
-        acceleration={12}
-        onChangeName={onChangeName}
-        onChangeAcceleration={onChangeAcceleration}
+        car={{
+          name: 'Audi',
+          acceleration: 12,
+        }}
+        changeHandlers={{
+          name: onChangeName,
+          acceleration: onChangeAcceleration,
+        }}
         onSubmit={onSubmit}
         onCancel={onCancel}
       />
@@ -29,12 +33,18 @@ describe('CarFormPresentation', function () {
     const onCancel = jest.fn();
     const wrapper = shallow(
       <CarFormPresentation
-        name='Audi'
-        nameError='Not a good name'
-        acceleration={12}
-        accelerationError='This car sucks'
-        onChangeName={onChangeName}
-        onChangeAcceleration={onChangeAcceleration}
+        car={{
+          name: 'Audi',
+          acceleration: 12,
+        }}
+        errors={{
+          name: 'Not a good name',
+          acceleration: 'This car sucks',
+        }}
+        changeHandlers={{
+          name: onChangeName,
+          acceleration: onChangeAcceleration,
+        }}
         onSubmit={onSubmit}
         onCancel={onCancel}
       />
@@ -55,10 +65,14 @@ describe('CarFormPresentation', function () {
     const onCancel = jest.fn();
     const wrapper = shallow(
       <CarFormPresentation
-        name='Audi'
-        acceleration={12}
-        onChangeName={onChangeName}
-        onChangeAcceleration={onChangeAcceleration}
+        car={{
+          name: 'Audi',
+          acceleration: 12,
+        }}
+        changeHandlers={{
+          name: onChangeName,
+          acceleration: onChangeAcceleration,
+        }}
         onSubmit={onSubmit}
         onCancel={onCancel}
       />
