@@ -24,10 +24,14 @@ ShallowWrapper {
     </thead>
     <tbody>
         <CarRow
-            acceleration={12}
+            car={
+                Object {
+                    "acceleration": 12,
+                    "id": 1,
+                    "name": "Audi",
+                  }
+            }
             editEnabled={true}
-            id={1}
-            name="Audi"
             onClick={[Function]}
         />
         <CarFormRow
@@ -42,10 +46,14 @@ ShallowWrapper {
             onSubmit={[Function]}
         />
         <CarRow
-            acceleration={18}
+            car={
+                Object {
+                    "acceleration": 18,
+                    "id": 2,
+                    "name": "VW",
+                  }
+            }
             editEnabled={false}
-            id={2}
-            name="VW"
             onClick={[Function]}
         />
     </tbody>
@@ -67,10 +75,14 @@ ShallowWrapper {
       </thead>
       <tbody>
             <CarRow
-                  acceleration={12}
+                  car={
+                        Object {
+                              "acceleration": 12,
+                              "id": 1,
+                              "name": "Audi",
+                            }
+                  }
                   editEnabled={true}
-                  id={1}
-                  name="Audi"
                   onClick={[Function]}
             />
             <CarFormRow
@@ -85,10 +97,14 @@ ShallowWrapper {
                   onSubmit={[Function]}
             />
             <CarRow
-                  acceleration={18}
+                  car={
+                        Object {
+                              "acceleration": 18,
+                              "id": 2,
+                              "name": "VW",
+                            }
+                  }
                   editEnabled={false}
-                  id={2}
-                  name="VW"
                   onClick={[Function]}
             />
       </tbody>
@@ -180,10 +196,14 @@ ShallowWrapper {
           </thead>
           <tbody>
                     <CarRow
-                              acceleration={12}
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
                               editEnabled={true}
-                              id={1}
-                              name="Audi"
                               onClick={[Function]}
                     />
                     <CarFormRow
@@ -198,10 +218,14 @@ ShallowWrapper {
                               onSubmit={[Function]}
                     />
                     <CarRow
-                              acceleration={18}
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
                               editEnabled={false}
-                              id={2}
-                              name="VW"
                               onClick={[Function]}
                     />
           </tbody>
@@ -223,10 +247,14 @@ ShallowWrapper {
           </thead>
           <tbody>
                     <CarRow
-                              acceleration={12}
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
                               editEnabled={true}
-                              id={1}
-                              name="Audi"
                               onClick={[Function]}
                     />
                     <CarFormRow
@@ -241,10 +269,14 @@ ShallowWrapper {
                               onSubmit={[Function]}
                     />
                     <CarRow
-                              acceleration={18}
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
                               editEnabled={false}
-                              id={2}
-                              name="VW"
                               onClick={[Function]}
                     />
           </tbody>
@@ -307,17 +339,25 @@ ShallowWrapper {
     </thead>
     <tbody>
         <CarRow
-            acceleration={12}
+            car={
+                Object {
+                    "acceleration": 12,
+                    "id": 1,
+                    "name": "Audi",
+                  }
+            }
             editEnabled={false}
-            id={1}
-            name="Audi"
             onClick={[Function]}
         />
         <CarRow
-            acceleration={18}
+            car={
+                Object {
+                    "acceleration": 18,
+                    "id": 2,
+                    "name": "VW",
+                  }
+            }
             editEnabled={false}
-            id={2}
-            name="VW"
             onClick={[Function]}
         />
     </tbody>
@@ -339,17 +379,25 @@ ShallowWrapper {
       </thead>
       <tbody>
             <CarRow
-                  acceleration={12}
+                  car={
+                        Object {
+                              "acceleration": 12,
+                              "id": 1,
+                              "name": "Audi",
+                            }
+                  }
                   editEnabled={false}
-                  id={1}
-                  name="Audi"
                   onClick={[Function]}
             />
             <CarRow
-                  acceleration={18}
+                  car={
+                        Object {
+                              "acceleration": 18,
+                              "id": 2,
+                              "name": "VW",
+                            }
+                  }
                   editEnabled={false}
-                  id={2}
-                  name="VW"
                   onClick={[Function]}
             />
       </tbody>
@@ -441,17 +489,25 @@ ShallowWrapper {
           </thead>
           <tbody>
                     <CarRow
-                              acceleration={12}
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
                               editEnabled={false}
-                              id={1}
-                              name="Audi"
                               onClick={[Function]}
                     />
                     <CarRow
-                              acceleration={18}
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
                               editEnabled={false}
-                              id={2}
-                              name="VW"
                               onClick={[Function]}
                     />
           </tbody>
@@ -473,17 +529,25 @@ ShallowWrapper {
           </thead>
           <tbody>
                     <CarRow
-                              acceleration={12}
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
                               editEnabled={false}
-                              id={1}
-                              name="Audi"
                               onClick={[Function]}
                     />
                     <CarRow
-                              acceleration={18}
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
                               editEnabled={false}
-                              id={2}
-                              name="VW"
                               onClick={[Function]}
                     />
           </tbody>
@@ -546,17 +610,25 @@ ShallowWrapper {
     </thead>
     <tbody>
         <CarRow
-            acceleration={12}
+            car={
+                Object {
+                    "acceleration": 12,
+                    "id": 1,
+                    "name": "Audi",
+                  }
+            }
             editEnabled={false}
-            id={1}
-            name="Audi"
             onClick={[Function]}
         />
         <CarRow
-            acceleration={18}
+            car={
+                Object {
+                    "acceleration": 18,
+                    "id": 2,
+                    "name": "VW",
+                  }
+            }
             editEnabled={true}
-            id={2}
-            name="VW"
             onClick={[Function]}
         />
         <CarFormRow
@@ -589,17 +661,25 @@ ShallowWrapper {
       </thead>
       <tbody>
             <CarRow
-                  acceleration={12}
+                  car={
+                        Object {
+                              "acceleration": 12,
+                              "id": 1,
+                              "name": "Audi",
+                            }
+                  }
                   editEnabled={false}
-                  id={1}
-                  name="Audi"
                   onClick={[Function]}
             />
             <CarRow
-                  acceleration={18}
+                  car={
+                        Object {
+                              "acceleration": 18,
+                              "id": 2,
+                              "name": "VW",
+                            }
+                  }
                   editEnabled={true}
-                  id={2}
-                  name="VW"
                   onClick={[Function]}
             />
             <CarFormRow
@@ -702,17 +782,25 @@ ShallowWrapper {
           </thead>
           <tbody>
                     <CarRow
-                              acceleration={12}
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
                               editEnabled={false}
-                              id={1}
-                              name="Audi"
                               onClick={[Function]}
                     />
                     <CarRow
-                              acceleration={18}
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
                               editEnabled={true}
-                              id={2}
-                              name="VW"
                               onClick={[Function]}
                     />
                     <CarFormRow
@@ -745,17 +833,25 @@ ShallowWrapper {
           </thead>
           <tbody>
                     <CarRow
-                              acceleration={12}
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
                               editEnabled={false}
-                              id={1}
-                              name="Audi"
                               onClick={[Function]}
                     />
                     <CarRow
-                              acceleration={18}
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
                               editEnabled={true}
-                              id={2}
-                              name="VW"
                               onClick={[Function]}
                     />
                     <CarFormRow
@@ -829,17 +925,25 @@ ShallowWrapper {
     </thead>
     <tbody>
         <CarRow
-            acceleration={12}
+            car={
+                Object {
+                    "acceleration": 12,
+                    "id": 1,
+                    "name": "Audi",
+                  }
+            }
             editEnabled={false}
-            id={1}
-            name="Audi"
             onClick={[Function]}
         />
         <CarRow
-            acceleration={18}
+            car={
+                Object {
+                    "acceleration": 18,
+                    "id": 2,
+                    "name": "VW",
+                  }
+            }
             editEnabled={false}
-            id={2}
-            name="VW"
             onClick={[Function]}
         />
     </tbody>
@@ -861,17 +965,25 @@ ShallowWrapper {
       </thead>
       <tbody>
             <CarRow
-                  acceleration={12}
+                  car={
+                        Object {
+                              "acceleration": 12,
+                              "id": 1,
+                              "name": "Audi",
+                            }
+                  }
                   editEnabled={false}
-                  id={1}
-                  name="Audi"
                   onClick={[Function]}
             />
             <CarRow
-                  acceleration={18}
+                  car={
+                        Object {
+                              "acceleration": 18,
+                              "id": 2,
+                              "name": "VW",
+                            }
+                  }
                   editEnabled={false}
-                  id={2}
-                  name="VW"
                   onClick={[Function]}
             />
       </tbody>
@@ -963,17 +1075,25 @@ ShallowWrapper {
           </thead>
           <tbody>
                     <CarRow
-                              acceleration={12}
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
                               editEnabled={false}
-                              id={1}
-                              name="Audi"
                               onClick={[Function]}
                     />
                     <CarRow
-                              acceleration={18}
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
                               editEnabled={false}
-                              id={2}
-                              name="VW"
                               onClick={[Function]}
                     />
           </tbody>
@@ -995,17 +1115,25 @@ ShallowWrapper {
           </thead>
           <tbody>
                     <CarRow
-                              acceleration={12}
+                              car={
+                                        Object {
+                                                  "acceleration": 12,
+                                                  "id": 1,
+                                                  "name": "Audi",
+                                                }
+                              }
                               editEnabled={false}
-                              id={1}
-                              name="Audi"
                               onClick={[Function]}
                     />
                     <CarRow
-                              acceleration={18}
+                              car={
+                                        Object {
+                                                  "acceleration": 18,
+                                                  "id": 2,
+                                                  "name": "VW",
+                                                }
+                              }
                               editEnabled={false}
-                              id={2}
-                              name="VW"
                               onClick={[Function]}
                     />
           </tbody>

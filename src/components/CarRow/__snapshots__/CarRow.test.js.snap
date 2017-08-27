@@ -57,10 +57,14 @@ ShallowWrapper {
       "_compositeType": 2,
       "_context": Object {},
       "_currentElement": <CarRow
-        acceleration={12}
+        car={
+                Object {
+                        "acceleration": 12,
+                        "id": 1,
+                        "name": "Audi",
+                      }
+        }
         editEnabled={false}
-        id={1}
-        name="Audi"
         onClick={[Function]}
 />,
       "_debugID": 1,
@@ -70,10 +74,12 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "acceleration": 12,
+          "car": Object {
+            "acceleration": 12,
+            "id": 1,
+            "name": "Audi",
+          },
           "editEnabled": false,
-          "id": 1,
-          "name": "Audi",
           "onClick": [Function],
         },
         "refs": Object {},
@@ -149,10 +155,14 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <CarRow
-    acceleration={12}
+    car={
+        Object {
+            "acceleration": 12,
+            "id": 1,
+            "name": "Audi",
+          }
+    }
     editEnabled={false}
-    id={1}
-    name="Audi"
     onClick={[Function]}
 />,
 }
@@ -215,10 +225,14 @@ ShallowWrapper {
       "_compositeType": 2,
       "_context": Object {},
       "_currentElement": <CarRow
-        acceleration={12}
+        car={
+                Object {
+                        "acceleration": 12,
+                        "id": 1,
+                        "name": "Audi",
+                      }
+        }
         editEnabled={true}
-        id={1}
-        name="Audi"
         onClick={[Function]}
 />,
       "_debugID": 3,
@@ -228,10 +242,12 @@ ShallowWrapper {
         "_reactInternalInstance": [Circular],
         "context": Object {},
         "props": Object {
-          "acceleration": 12,
+          "car": Object {
+            "acceleration": 12,
+            "id": 1,
+            "name": "Audi",
+          },
           "editEnabled": true,
-          "id": 1,
-          "name": "Audi",
           "onClick": [Function],
         },
         "refs": Object {},
@@ -307,10 +323,14 @@ ShallowWrapper {
   },
   "root": [Circular],
   "unrendered": <CarRow
-    acceleration={12}
+    car={
+        Object {
+            "acceleration": 12,
+            "id": 1,
+            "name": "Audi",
+          }
+    }
     editEnabled={true}
-    id={1}
-    name="Audi"
     onClick={[Function]}
 />,
 }

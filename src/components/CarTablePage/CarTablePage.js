@@ -3,12 +3,12 @@ import PropTypes from 'prop-types';
 
 import CarRow from '../CarRow';
 import CarFormRow from './CarFormRow';
-import carShape from './carShape';
+import carShape from '../../carShape';
 
 const getCarRows = (cars, editingCarId, onRowClick) => cars.map(car => (
   <CarRow
     key={car.id}
-    {...car}
+    car={car}
     editEnabled={car.id === editingCarId}
     onClick={() => onRowClick(car.id)}
   />
