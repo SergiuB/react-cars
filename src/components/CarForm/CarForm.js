@@ -28,7 +28,7 @@ class CarForm extends Component {
   }
 
   changeAcceleration = (event) => {
-    const acceleration = parseInt(event.target.value, 10);
+    const acceleration = parseFloat(event.target.value);
     const accelerationError = this.validateNumber(acceleration, 1, 100);
     this.updateFieldAndError('acceleration', acceleration, accelerationError);
   }

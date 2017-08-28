@@ -14,7 +14,7 @@ const CarFormPresentation = ({
     <form onSubmit={onSubmit}>
       <input type="text" name="name" onChange={changeHandlers.name} value={car.name} />
       { errors.name && <span className="error">{ errors.name }</span> }
-      <input type="number" name="acceleration" onChange={changeHandlers.acceleration} value={car.acceleration} />
+      <input type="number" name="acceleration" step="0.1" onChange={changeHandlers.acceleration} value={car.acceleration} />
       { errors.acceleration && <span className="error">{ errors.acceleration }</span> }
       <button type="submit" name="submit" disabled={hasError}>Save</button>
       <button type="button" name="cancel" onClick={onCancel}>Cancel</button>
