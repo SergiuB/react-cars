@@ -14,7 +14,7 @@ UI/UX aspect is minimal.
 * React
 * Bootstrap (just to make it a little better looking)
 
-The development stack (dev deps) includes create-react-app, jest, enzyme.
+The development stack (dev deps) includes create-react-app, eslint jest, enzyme.
 
 ### Scripts
 
@@ -57,6 +57,8 @@ Cell headers are dynamically generated based on the car fields defined in model.
 Presentational component, no state.
 Cells are dynamically generated based on the car fields defined in model.js.
 
+Clicking a row toggles the associated CarForm.
+
 #### CarForm
 
 This is split into 2 components.
@@ -82,3 +84,8 @@ Bootstrap helps make things nicer with minimal intervention and without bloating
 ### TBD
 
 * server error handling
+* table keyboard navigation
+* spinners for server operations
+* navigate to any page directly
+* use React Router to reflect the page in the URL
+* some nice transitions
