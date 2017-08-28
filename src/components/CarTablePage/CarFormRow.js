@@ -4,7 +4,7 @@ import CarForm from '../CarForm';
 
 const CarFormRow = props => (
   <tr>
-    <td>
+    <td colSpan={3}>
       <CarForm {...props} />
     </td>
   </tr>

@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 
 import CarTable from './components/CarTable';
 import api from './api';

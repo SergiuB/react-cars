@@ -5,6 +5,8 @@ import CarRow from '../CarRow';
 import CarFormRow from './CarFormRow';
 import { NONE, carShape } from '../../constants';
 
+import './CarTablePage.css';
+
 const getCarRows = (cars, editingCarId, onRowClick) => cars.map(car => (
   <CarRow
     key={car.id}
