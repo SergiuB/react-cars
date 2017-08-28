@@ -36,6 +36,26 @@ ShallowWrapper {
             />
         </label>
         
+        <label>
+            Horsepower 
+            <input
+                name="horsepower"
+                onChange={undefined}
+                type="number"
+                value={undefined}
+            />
+        </label>
+        
+        <label>
+            Year 
+            <input
+                name="year"
+                onChange={undefined}
+                type="number"
+                value={undefined}
+            />
+        </label>
+        
     </div>
     <div
         className="car-form-buttons"
@@ -86,6 +106,26 @@ ShallowWrapper {
                   />
             </label>
             
+            <label>
+                  Horsepower 
+                  <input
+                        name="horsepower"
+                        onChange={undefined}
+                        type="number"
+                        value={undefined}
+                  />
+            </label>
+            
+            <label>
+                  Year 
+                  <input
+                        name="year"
+                        onChange={undefined}
+                        type="number"
+                        value={undefined}
+                  />
+            </label>
+            
       </div>
       <div
             className="car-form-buttons"
@@ -130,7 +170,9 @@ ShallowWrapper {
         errors={
                 Object {
                         "acceleration": "",
+                        "horsepower": "",
                         "name": "",
+                        "year": "",
                       }
         }
         onCancel={[Function]}
@@ -153,7 +195,9 @@ ShallowWrapper {
           },
           "errors": Object {
             "acceleration": "",
+            "horsepower": "",
             "name": "",
+            "year": "",
           },
           "onCancel": [Function],
           "onSubmit": [Function],
@@ -203,6 +247,26 @@ ShallowWrapper {
                                         step="0.1"
                                         type="number"
                                         value={12}
+                              />
+                    </label>
+                    
+                    <label>
+                              Horsepower 
+                              <input
+                                        name="horsepower"
+                                        onChange={undefined}
+                                        type="number"
+                                        value={undefined}
+                              />
+                    </label>
+                    
+                    <label>
+                              Year 
+                              <input
+                                        name="year"
+                                        onChange={undefined}
+                                        type="number"
+                                        value={undefined}
                               />
                     </label>
                     
@@ -256,6 +320,26 @@ ShallowWrapper {
                               />
                     </label>
                     
+                    <label>
+                              Horsepower 
+                              <input
+                                        name="horsepower"
+                                        onChange={undefined}
+                                        type="number"
+                                        value={undefined}
+                              />
+                    </label>
+                    
+                    <label>
+                              Year 
+                              <input
+                                        name="year"
+                                        onChange={undefined}
+                                        type="number"
+                                        value={undefined}
+                              />
+                    </label>
+                    
           </div>
           <div
                     className="car-form-buttons"
@@ -304,7 +388,9 @@ ShallowWrapper {
     errors={
         Object {
             "acceleration": "",
+            "horsepower": "",
             "name": "",
+            "year": "",
           }
     }
     onCancel={[Function]}
@@ -361,6 +447,24 @@ ShallowWrapper {
                 This car sucks
             </small>
         </span>
+        <label>
+            Horsepower 
+            <input
+                name="horsepower"
+                onChange={undefined}
+                type="number"
+                value={undefined}
+            />
+        </label>
+        <label>
+            Year 
+            <input
+                name="year"
+                onChange={undefined}
+                type="number"
+                value={undefined}
+            />
+        </label>
     </div>
     <div
         className="car-form-buttons"
@@ -423,6 +527,24 @@ ShallowWrapper {
                         This car sucks
                   </small>
             </span>
+            <label>
+                  Horsepower 
+                  <input
+                        name="horsepower"
+                        onChange={undefined}
+                        type="number"
+                        value={undefined}
+                  />
+            </label>
+            <label>
+                  Year 
+                  <input
+                        name="year"
+                        onChange={undefined}
+                        type="number"
+                        value={undefined}
+                  />
+            </label>
       </div>
       <div
             className="car-form-buttons"
@@ -555,6 +677,24 @@ ShallowWrapper {
                                         This car sucks
                               </small>
                     </span>
+                    <label>
+                              Horsepower 
+                              <input
+                                        name="horsepower"
+                                        onChange={undefined}
+                                        type="number"
+                                        value={undefined}
+                              />
+                    </label>
+                    <label>
+                              Year 
+                              <input
+                                        name="year"
+                                        onChange={undefined}
+                                        type="number"
+                                        value={undefined}
+                              />
+                    </label>
           </div>
           <div
                     className="car-form-buttons"
@@ -617,6 +757,24 @@ ShallowWrapper {
                                         This car sucks
                               </small>
                     </span>
+                    <label>
+                              Horsepower 
+                              <input
+                                        name="horsepower"
+                                        onChange={undefined}
+                                        type="number"
+                                        value={undefined}
+                              />
+                    </label>
+                    <label>
+                              Year 
+                              <input
+                                        name="year"
+                                        onChange={undefined}
+                                        type="number"
+                                        value={undefined}
+                              />
+                    </label>
           </div>
           <div
                     className="car-form-buttons"

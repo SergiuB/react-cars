@@ -33,6 +33,18 @@ class CarForm extends Component {
     this.updateFieldAndError('acceleration', acceleration, accelerationError);
   }
 
+  changeHorsepower = (event) => {
+    const horsepower = parseFloat(event.target.value);
+    const horsepowerError = this.validateNumber(horsepower, 30, 800);
+    this.updateFieldAndError('horsepower', horsepower, horsepowerError);
+  }
+
+  changeYear = (event) => {
+    const year = parseFloat(event.target.value);
+    const yearError = this.validateNumber(year, 0, 99);
+    this.updateFieldAndError('year', year, yearError);
+  }
+
   validateName = (name) => {
     if (!name.length) {
       return 'Name is mandatory';
@@ -64,7 +76,9 @@ class CarForm extends Component {
         {...this.state}
         changeHandlers={{
           name: this.changeName,
-          acceleration: this.changeAcceleration
+          acceleration: this.changeAcceleration,
+          horsepower: this.changeHorsepower,
+          year: this.changeYear,
         }}
         onSubmit={this.submit}
         onCancel={this.props.onCancel}

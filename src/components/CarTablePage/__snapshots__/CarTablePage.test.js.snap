@@ -24,9 +24,19 @@ ShallowWrapper {
                 Name
             </th>
             <th
-                className="text-right"
+                className="large-col text-right"
             >
                 Acceleration
+            </th>
+            <th
+                className="large-col text-right"
+            >
+                Horse Power
+            </th>
+            <th
+                className="small-col text-right"
+            >
+                Year
             </th>
         </tr>
     </thead>
@@ -83,9 +93,19 @@ ShallowWrapper {
                         Name
                   </th>
                   <th
-                        className="text-right"
+                        className="large-col text-right"
                   >
                         Acceleration
+                  </th>
+                  <th
+                        className="large-col text-right"
+                  >
+                        Horse Power
+                  </th>
+                  <th
+                        className="small-col text-right"
+                  >
+                        Year
                   </th>
             </tr>
       </thead>
@@ -212,9 +232,19 @@ ShallowWrapper {
                                         Name
                               </th>
                               <th
-                                        className="text-right"
+                                        className="large-col text-right"
                               >
                                         Acceleration
+                              </th>
+                              <th
+                                        className="large-col text-right"
+                              >
+                                        Horse Power
+                              </th>
+                              <th
+                                        className="small-col text-right"
+                              >
+                                        Year
                               </th>
                     </tr>
           </thead>
@@ -271,9 +301,19 @@ ShallowWrapper {
                                         Name
                               </th>
                               <th
-                                        className="text-right"
+                                        className="large-col text-right"
                               >
                                         Acceleration
+                              </th>
+                              <th
+                                        className="large-col text-right"
+                              >
+                                        Horse Power
+                              </th>
+                              <th
+                                        className="small-col text-right"
+                              >
+                                        Year
                               </th>
                     </tr>
           </thead>
@@ -371,9 +411,19 @@ ShallowWrapper {
                 Name
             </th>
             <th
-                className="text-right"
+                className="large-col text-right"
             >
                 Acceleration
+            </th>
+            <th
+                className="large-col text-right"
+            >
+                Horse Power
+            </th>
+            <th
+                className="small-col text-right"
+            >
+                Year
             </th>
         </tr>
     </thead>
@@ -419,9 +469,19 @@ ShallowWrapper {
                         Name
                   </th>
                   <th
-                        className="text-right"
+                        className="large-col text-right"
                   >
                         Acceleration
+                  </th>
+                  <th
+                        className="large-col text-right"
+                  >
+                        Horse Power
+                  </th>
+                  <th
+                        className="small-col text-right"
+                  >
+                        Year
                   </th>
             </tr>
       </thead>
@@ -537,9 +597,19 @@ ShallowWrapper {
                                         Name
                               </th>
                               <th
-                                        className="text-right"
+                                        className="large-col text-right"
                               >
                                         Acceleration
+                              </th>
+                              <th
+                                        className="large-col text-right"
+                              >
+                                        Horse Power
+                              </th>
+                              <th
+                                        className="small-col text-right"
+                              >
+                                        Year
                               </th>
                     </tr>
           </thead>
@@ -585,9 +655,19 @@ ShallowWrapper {
                                         Name
                               </th>
                               <th
-                                        className="text-right"
+                                        className="large-col text-right"
                               >
                                         Acceleration
+                              </th>
+                              <th
+                                        className="large-col text-right"
+                              >
+                                        Horse Power
+                              </th>
+                              <th
+                                        className="small-col text-right"
+                              >
+                                        Year
                               </th>
                     </tr>
           </thead>
@@ -674,9 +754,19 @@ ShallowWrapper {
                 Name
             </th>
             <th
-                className="text-right"
+                className="large-col text-right"
             >
                 Acceleration
+            </th>
+            <th
+                className="large-col text-right"
+            >
+                Horse Power
+            </th>
+            <th
+                className="small-col text-right"
+            >
+                Year
             </th>
         </tr>
     </thead>
@@ -733,9 +823,19 @@ ShallowWrapper {
                         Name
                   </th>
                   <th
-                        className="text-right"
+                        className="large-col text-right"
                   >
                         Acceleration
+                  </th>
+                  <th
+                        className="large-col text-right"
+                  >
+                        Horse Power
+                  </th>
+                  <th
+                        className="small-col text-right"
+                  >
+                        Year
                   </th>
             </tr>
       </thead>
@@ -862,9 +962,19 @@ ShallowWrapper {
                                         Name
                               </th>
                               <th
-                                        className="text-right"
+                                        className="large-col text-right"
                               >
                                         Acceleration
+                              </th>
+                              <th
+                                        className="large-col text-right"
+                              >
+                                        Horse Power
+                              </th>
+                              <th
+                                        className="small-col text-right"
+                              >
+                                        Year
                               </th>
                     </tr>
           </thead>
@@ -921,9 +1031,19 @@ ShallowWrapper {
                                         Name
                               </th>
                               <th
-                                        className="text-right"
+                                        className="large-col text-right"
                               >
                                         Acceleration
+                              </th>
+                              <th
+                                        className="large-col text-right"
+                              >
+                                        Horse Power
+                              </th>
+                              <th
+                                        className="small-col text-right"
+                              >
+                                        Year
                               </th>
                     </tr>
           </thead>
@@ -1021,9 +1141,19 @@ ShallowWrapper {
                 Name
             </th>
             <th
-                className="text-right"
+                className="large-col text-right"
             >
                 Acceleration
+            </th>
+            <th
+                className="large-col text-right"
+            >
+                Horse Power
+            </th>
+            <th
+                className="small-col text-right"
+            >
+                Year
             </th>
         </tr>
     </thead>
@@ -1069,9 +1199,19 @@ ShallowWrapper {
                         Name
                   </th>
                   <th
-                        className="text-right"
+                        className="large-col text-right"
                   >
                         Acceleration
+                  </th>
+                  <th
+                        className="large-col text-right"
+                  >
+                        Horse Power
+                  </th>
+                  <th
+                        className="small-col text-right"
+                  >
+                        Year
                   </th>
             </tr>
       </thead>
@@ -1187,9 +1327,19 @@ ShallowWrapper {
                                         Name
                               </th>
                               <th
-                                        className="text-right"
+                                        className="large-col text-right"
                               >
                                         Acceleration
+                              </th>
+                              <th
+                                        className="large-col text-right"
+                              >
+                                        Horse Power
+                              </th>
+                              <th
+                                        className="small-col text-right"
+                              >
+                                        Year
                               </th>
                     </tr>
           </thead>
@@ -1235,9 +1385,19 @@ ShallowWrapper {
                                         Name
                               </th>
                               <th
-                                        className="text-right"
+                                        className="large-col text-right"
                               >
                                         Acceleration
+                              </th>
+                              <th
+                                        className="large-col text-right"
+                              >
+                                        Horse Power
+                              </th>
+                              <th
+                                        className="small-col text-right"
+                              >
+                                        Year
                               </th>
                     </tr>
           </thead>

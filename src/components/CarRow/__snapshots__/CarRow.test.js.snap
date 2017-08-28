@@ -27,6 +27,12 @@ ShallowWrapper {
     >
         12
     </td>
+    <td
+        className="numeric-col text-right"
+    />
+    <td
+        className="numeric-col text-right"
+    />
 </tr>,
   "nodes": Array [
     <tr
@@ -48,6 +54,12 @@ ShallowWrapper {
       >
             12
       </td>
+      <td
+            className="numeric-col text-right"
+      />
+      <td
+            className="numeric-col text-right"
+      />
 </tr>,
   ],
   "options": Object {},
@@ -121,6 +133,12 @@ ShallowWrapper {
           >
                     12
           </td>
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
 </tr>,
         "_debugID": 2,
         "_renderedOutput": <tr
@@ -142,6 +160,12 @@ ShallowWrapper {
           >
                     12
           </td>
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
 </tr>,
       },
       "_renderedNodeType": 0,
@@ -195,6 +219,12 @@ ShallowWrapper {
     >
         12
     </td>
+    <td
+        className="numeric-col text-right"
+    />
+    <td
+        className="numeric-col text-right"
+    />
 </tr>,
   "nodes": Array [
     <tr
@@ -216,6 +246,12 @@ ShallowWrapper {
       >
             12
       </td>
+      <td
+            className="numeric-col text-right"
+      />
+      <td
+            className="numeric-col text-right"
+      />
 </tr>,
   ],
   "options": Object {},
@@ -289,6 +325,12 @@ ShallowWrapper {
           >
                     12
           </td>
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
 </tr>,
         "_debugID": 4,
         "_renderedOutput": <tr
@@ -310,6 +352,12 @@ ShallowWrapper {
           >
                     12
           </td>
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
 </tr>,
       },
       "_renderedNodeType": 0,

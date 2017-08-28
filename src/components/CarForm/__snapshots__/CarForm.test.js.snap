@@ -19,13 +19,17 @@ ShallowWrapper {
     changeHandlers={
         Object {
             "acceleration": [Function],
+            "horsepower": [Function],
             "name": [Function],
+            "year": [Function],
           }
     }
     errors={
         Object {
             "acceleration": "",
+            "horsepower": "",
             "name": "",
+            "year": "",
           }
     }
     onCancel={[Function]}
@@ -43,13 +47,17 @@ ShallowWrapper {
       changeHandlers={
             Object {
                   "acceleration": [Function],
+                  "horsepower": [Function],
                   "name": [Function],
+                  "year": [Function],
                 }
       }
       errors={
             Object {
                   "acceleration": "",
+                  "horsepower": "",
                   "name": "",
+                  "year": "",
                 }
       }
       onCancel={[Function]}
@@ -79,7 +87,9 @@ ShallowWrapper {
       "_instance": CarForm {
         "_reactInternalInstance": [Circular],
         "changeAcceleration": [Function],
+        "changeHorsepower": [Function],
         "changeName": [Function],
+        "changeYear": [Function],
         "context": Object {},
         "props": Object {
           "car": Object {
@@ -131,13 +141,17 @@ ShallowWrapper {
           changeHandlers={
                     Object {
                               "acceleration": [Function],
+                              "horsepower": [Function],
                               "name": [Function],
+                              "year": [Function],
                             }
           }
           errors={
                     Object {
                               "acceleration": "",
+                              "horsepower": "",
                               "name": "",
+                              "year": "",
                             }
           }
           onCancel={[Function]}
@@ -155,13 +169,17 @@ ShallowWrapper {
           changeHandlers={
                     Object {
                               "acceleration": [Function],
+                              "horsepower": [Function],
                               "name": [Function],
+                              "year": [Function],
                             }
           }
           errors={
                     Object {
                               "acceleration": "",
+                              "horsepower": "",
                               "name": "",
+                              "year": "",
                             }
           }
           onCancel={[Function]}

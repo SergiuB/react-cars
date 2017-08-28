@@ -49,7 +49,9 @@ const CarTablePage = ({
         <tr>
           <th className='id-col'>Id</th>
           <th>Name</th>
-          <th className='text-right'>Acceleration</th>
+          <th className='large-col text-right'>Acceleration</th>
+          <th className='large-col text-right'>Horse Power</th>
+          <th className='small-col text-right'>Year</th>
         </tr>
       </thead>
       <tbody>

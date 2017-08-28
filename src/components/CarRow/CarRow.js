@@ -14,6 +14,8 @@ const CarRow = ({
     <td className='numeric-col'>{car.id}</td>
     <td className='text-col'>{car.name}</td>
     <td className='numeric-col text-right'>{car.acceleration}</td>
+    <td className='numeric-col text-right'>{car.horsepower}</td>
+    <td className='numeric-col text-right'>{car.year}</td>
   </tr>
 );
 
