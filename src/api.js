@@ -1,9 +1,8 @@
-const SERVER_URL = 'http://localhost';
-const FIRST_PAGE = '/api/v1/car/?format=json';
+import { serverUrl, carsPage } from './config';
 
-const fullUrl = pathToResource => `${SERVER_URL}${pathToResource}`;
+const fullUrl = pathToResource => `${serverUrl}${pathToResource}`;
 
-const getCars = (url = fullUrl(FIRST_PAGE)) =>
+const getCars = (url = fullUrl(carsPage)) =>
   fetch(url)
     .then(r => r.json())
     .then(({ meta, objects }) => ({
