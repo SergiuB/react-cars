@@ -15,10 +15,15 @@ ShallowWrapper {
     <div
         className="car-form-fields"
     >
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                name
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    name
+                </span>
                 <input
                     name="name"
                     onChange={[Function]}
@@ -27,10 +32,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                acceleration
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    acceleration
+                </span>
                 <input
                     name="acceleration"
                     onChange={[Function]}
@@ -39,10 +49,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                cylinders
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    cylinders
+                </span>
                 <input
                     name="cylinders"
                     onChange={[Function]}
@@ -51,10 +66,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                displacement
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    displacement
+                </span>
                 <input
                     name="displacement"
                     onChange={[Function]}
@@ -63,10 +83,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                horsepower
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    horsepower
+                </span>
                 <input
                     name="horsepower"
                     onChange={[Function]}
@@ -75,10 +100,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                mpg
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    mpg
+                </span>
                 <input
                     name="mpg"
                     onChange={[Function]}
@@ -87,10 +117,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                weight
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    weight
+                </span>
                 <input
                     name="weight"
                     onChange={[Function]}
@@ -99,10 +134,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                year
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    year
+                </span>
                 <input
                     name="year"
                     onChange={[Function]}
@@ -140,10 +180,15 @@ ShallowWrapper {
       <div
             className="car-form-fields"
       >
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        name
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              name
+                        </span>
                         <input
                               name="name"
                               onChange={[Function]}
@@ -152,10 +197,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        acceleration
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              acceleration
+                        </span>
                         <input
                               name="acceleration"
                               onChange={[Function]}
@@ -164,10 +214,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        cylinders
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              cylinders
+                        </span>
                         <input
                               name="cylinders"
                               onChange={[Function]}
@@ -176,10 +231,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        displacement
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              displacement
+                        </span>
                         <input
                               name="displacement"
                               onChange={[Function]}
@@ -188,10 +248,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        horsepower
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              horsepower
+                        </span>
                         <input
                               name="horsepower"
                               onChange={[Function]}
@@ -200,10 +265,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        mpg
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              mpg
+                        </span>
                         <input
                               name="mpg"
                               onChange={[Function]}
@@ -212,10 +282,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        weight
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              weight
+                        </span>
                         <input
                               name="weight"
                               onChange={[Function]}
@@ -224,10 +299,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        year
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              year
+                        </span>
                         <input
                               name="year"
                               onChange={[Function]}
@@ -293,14 +373,14 @@ ShallowWrapper {
                           "type": "number",
                         },
                         "horsepower": Object {
-                          "max": 100,
+                          "max": 1000,
                           "min": 40,
                           "step": 1,
                           "type": "number",
                         },
                         "mpg": Object {
                           "max": 100,
-                          "min": 1,
+                          "min": 0,
                           "step": 1,
                           "type": "number",
                         },
@@ -357,14 +437,14 @@ ShallowWrapper {
               "type": "number",
             },
             "horsepower": Object {
-              "max": 100,
+              "max": 1000,
               "min": 40,
               "step": 1,
               "type": "number",
             },
             "mpg": Object {
               "max": 100,
-              "min": 1,
+              "min": 0,
               "step": 1,
               "type": "number",
             },
@@ -415,10 +495,15 @@ ShallowWrapper {
           <div
                     className="car-form-fields"
           >
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        name
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  name
+                                        </span>
                                         <input
                                                   name="name"
                                                   onChange={[Function]}
@@ -427,10 +512,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        acceleration
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  acceleration
+                                        </span>
                                         <input
                                                   name="acceleration"
                                                   onChange={[Function]}
@@ -439,10 +529,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        cylinders
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  cylinders
+                                        </span>
                                         <input
                                                   name="cylinders"
                                                   onChange={[Function]}
@@ -451,10 +546,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        displacement
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  displacement
+                                        </span>
                                         <input
                                                   name="displacement"
                                                   onChange={[Function]}
@@ -463,10 +563,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        horsepower
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  horsepower
+                                        </span>
                                         <input
                                                   name="horsepower"
                                                   onChange={[Function]}
@@ -475,10 +580,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        mpg
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  mpg
+                                        </span>
                                         <input
                                                   name="mpg"
                                                   onChange={[Function]}
@@ -487,10 +597,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        weight
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  weight
+                                        </span>
                                         <input
                                                   name="weight"
                                                   onChange={[Function]}
@@ -499,10 +614,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        year
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  year
+                                        </span>
                                         <input
                                                   name="year"
                                                   onChange={[Function]}
@@ -540,10 +660,15 @@ ShallowWrapper {
           <div
                     className="car-form-fields"
           >
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        name
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  name
+                                        </span>
                                         <input
                                                   name="name"
                                                   onChange={[Function]}
@@ -552,10 +677,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        acceleration
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  acceleration
+                                        </span>
                                         <input
                                                   name="acceleration"
                                                   onChange={[Function]}
@@ -564,10 +694,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        cylinders
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  cylinders
+                                        </span>
                                         <input
                                                   name="cylinders"
                                                   onChange={[Function]}
@@ -576,10 +711,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        displacement
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  displacement
+                                        </span>
                                         <input
                                                   name="displacement"
                                                   onChange={[Function]}
@@ -588,10 +728,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        horsepower
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  horsepower
+                                        </span>
                                         <input
                                                   name="horsepower"
                                                   onChange={[Function]}
@@ -600,10 +745,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        mpg
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  mpg
+                                        </span>
                                         <input
                                                   name="mpg"
                                                   onChange={[Function]}
@@ -612,10 +762,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        weight
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  weight
+                                        </span>
                                         <input
                                                   name="weight"
                                                   onChange={[Function]}
@@ -624,10 +779,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        year
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  year
+                                        </span>
                                         <input
                                                   name="year"
                                                   onChange={[Function]}
@@ -697,14 +857,14 @@ ShallowWrapper {
               "type": "number",
             },
             "horsepower": Object {
-              "max": 100,
+              "max": 1000,
               "min": 40,
               "step": 1,
               "type": "number",
             },
             "mpg": Object {
               "max": 100,
-              "min": 1,
+              "min": 0,
               "step": 1,
               "type": "number",
             },
@@ -747,10 +907,15 @@ ShallowWrapper {
     <div
         className="car-form-fields"
     >
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                name
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    name
+                </span>
                 <input
                     name="name"
                     onChange={[Function]}
@@ -766,10 +931,15 @@ ShallowWrapper {
                 </small>
             </span>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                acceleration
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    acceleration
+                </span>
                 <input
                     name="acceleration"
                     onChange={[Function]}
@@ -785,10 +955,15 @@ ShallowWrapper {
                 </small>
             </span>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                cylinders
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    cylinders
+                </span>
                 <input
                     name="cylinders"
                     onChange={[Function]}
@@ -797,10 +972,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                displacement
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    displacement
+                </span>
                 <input
                     name="displacement"
                     onChange={[Function]}
@@ -809,10 +989,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                horsepower
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    horsepower
+                </span>
                 <input
                     name="horsepower"
                     onChange={[Function]}
@@ -821,10 +1006,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                mpg
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    mpg
+                </span>
                 <input
                     name="mpg"
                     onChange={[Function]}
@@ -833,10 +1023,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                weight
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    weight
+                </span>
                 <input
                     name="weight"
                     onChange={[Function]}
@@ -845,10 +1040,15 @@ ShallowWrapper {
                 />
             </label>
         </div>
-        <div>
+        <div
+            className="car-form-field"
+        >
             <label>
-                year
-                 
+                <span
+                    className="text-capitalize label-text"
+                >
+                    year
+                </span>
                 <input
                     name="year"
                     onChange={[Function]}
@@ -886,10 +1086,15 @@ ShallowWrapper {
       <div
             className="car-form-fields"
       >
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        name
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              name
+                        </span>
                         <input
                               name="name"
                               onChange={[Function]}
@@ -905,10 +1110,15 @@ ShallowWrapper {
                         </small>
                   </span>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        acceleration
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              acceleration
+                        </span>
                         <input
                               name="acceleration"
                               onChange={[Function]}
@@ -924,10 +1134,15 @@ ShallowWrapper {
                         </small>
                   </span>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        cylinders
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              cylinders
+                        </span>
                         <input
                               name="cylinders"
                               onChange={[Function]}
@@ -936,10 +1151,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        displacement
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              displacement
+                        </span>
                         <input
                               name="displacement"
                               onChange={[Function]}
@@ -948,10 +1168,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        horsepower
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              horsepower
+                        </span>
                         <input
                               name="horsepower"
                               onChange={[Function]}
@@ -960,10 +1185,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        mpg
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              mpg
+                        </span>
                         <input
                               name="mpg"
                               onChange={[Function]}
@@ -972,10 +1202,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        weight
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              weight
+                        </span>
                         <input
                               name="weight"
                               onChange={[Function]}
@@ -984,10 +1219,15 @@ ShallowWrapper {
                         />
                   </label>
             </div>
-            <div>
+            <div
+                  className="car-form-field"
+            >
                   <label>
-                        year
-                         
+                        <span
+                              className="text-capitalize label-text"
+                        >
+                              year
+                        </span>
                         <input
                               name="year"
                               onChange={[Function]}
@@ -1058,14 +1298,14 @@ ShallowWrapper {
                           "type": "number",
                         },
                         "horsepower": Object {
-                          "max": 100,
+                          "max": 1000,
                           "min": 40,
                           "step": 1,
                           "type": "number",
                         },
                         "mpg": Object {
                           "max": 100,
-                          "min": 1,
+                          "min": 0,
                           "step": 1,
                           "type": "number",
                         },
@@ -1125,14 +1365,14 @@ ShallowWrapper {
               "type": "number",
             },
             "horsepower": Object {
-              "max": 100,
+              "max": 1000,
               "min": 40,
               "step": 1,
               "type": "number",
             },
             "mpg": Object {
               "max": 100,
-              "min": 1,
+              "min": 0,
               "step": 1,
               "type": "number",
             },
@@ -1183,10 +1423,15 @@ ShallowWrapper {
           <div
                     className="car-form-fields"
           >
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        name
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  name
+                                        </span>
                                         <input
                                                   name="name"
                                                   onChange={[Function]}
@@ -1202,10 +1447,15 @@ ShallowWrapper {
                                         </small>
                               </span>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        acceleration
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  acceleration
+                                        </span>
                                         <input
                                                   name="acceleration"
                                                   onChange={[Function]}
@@ -1221,10 +1471,15 @@ ShallowWrapper {
                                         </small>
                               </span>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        cylinders
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  cylinders
+                                        </span>
                                         <input
                                                   name="cylinders"
                                                   onChange={[Function]}
@@ -1233,10 +1488,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        displacement
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  displacement
+                                        </span>
                                         <input
                                                   name="displacement"
                                                   onChange={[Function]}
@@ -1245,10 +1505,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        horsepower
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  horsepower
+                                        </span>
                                         <input
                                                   name="horsepower"
                                                   onChange={[Function]}
@@ -1257,10 +1522,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        mpg
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  mpg
+                                        </span>
                                         <input
                                                   name="mpg"
                                                   onChange={[Function]}
@@ -1269,10 +1539,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        weight
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  weight
+                                        </span>
                                         <input
                                                   name="weight"
                                                   onChange={[Function]}
@@ -1281,10 +1556,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        year
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  year
+                                        </span>
                                         <input
                                                   name="year"
                                                   onChange={[Function]}
@@ -1322,10 +1602,15 @@ ShallowWrapper {
           <div
                     className="car-form-fields"
           >
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        name
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  name
+                                        </span>
                                         <input
                                                   name="name"
                                                   onChange={[Function]}
@@ -1341,10 +1626,15 @@ ShallowWrapper {
                                         </small>
                               </span>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        acceleration
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  acceleration
+                                        </span>
                                         <input
                                                   name="acceleration"
                                                   onChange={[Function]}
@@ -1360,10 +1650,15 @@ ShallowWrapper {
                                         </small>
                               </span>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        cylinders
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  cylinders
+                                        </span>
                                         <input
                                                   name="cylinders"
                                                   onChange={[Function]}
@@ -1372,10 +1667,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        displacement
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  displacement
+                                        </span>
                                         <input
                                                   name="displacement"
                                                   onChange={[Function]}
@@ -1384,10 +1684,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        horsepower
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  horsepower
+                                        </span>
                                         <input
                                                   name="horsepower"
                                                   onChange={[Function]}
@@ -1396,10 +1701,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        mpg
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  mpg
+                                        </span>
                                         <input
                                                   name="mpg"
                                                   onChange={[Function]}
@@ -1408,10 +1718,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        weight
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  weight
+                                        </span>
                                         <input
                                                   name="weight"
                                                   onChange={[Function]}
@@ -1420,10 +1735,15 @@ ShallowWrapper {
                                         />
                               </label>
                     </div>
-                    <div>
+                    <div
+                              className="car-form-field"
+                    >
                               <label>
-                                        year
-                                         
+                                        <span
+                                                  className="text-capitalize label-text"
+                                        >
+                                                  year
+                                        </span>
                                         <input
                                                   name="year"
                                                   onChange={[Function]}
@@ -1498,14 +1818,14 @@ ShallowWrapper {
               "type": "number",
             },
             "horsepower": Object {
-              "max": 100,
+              "max": 1000,
               "min": 40,
               "step": 1,
               "type": "number",
             },
             "mpg": Object {
               "max": 100,
-              "min": 1,
+              "min": 0,
               "step": 1,
               "type": "number",
             },

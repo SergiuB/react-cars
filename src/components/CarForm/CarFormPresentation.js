@@ -5,9 +5,9 @@ import './CarFormPresentation.css';
 const getInputType = fieldType => (fieldType === 'string' ? 'text' : fieldType);
 
 const getFieldEl = (fieldDef, fieldName, fieldValue, fieldError, changeHandler) => (
-  <div key={fieldName}>
+  <div key={fieldName} className='car-form-field'>
     <label>
-      {fieldName}
+      <span className='text-capitalize label-text'>{fieldName}</span>
       <input
         type={getInputType(fieldDef.type)}
         name={fieldName}

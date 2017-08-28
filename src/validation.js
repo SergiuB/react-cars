@@ -13,7 +13,7 @@ const validateNumber = (n, min, max) => {
     return `Value must be greater than ${min}`;
   }
   if (n > max) {
-    return `Value must be lower than ${max + 1}`;
+    return `Value must be lower than or equal to ${max}`;
   }
   return '';
 };

@@ -5,7 +5,6 @@ import CarFormPresentation from './CarFormPresentation';
 class CarForm extends Component {
   constructor(props) {
     super(props);
-
     this.state = { car: { ...this.props.car } };
   }
 

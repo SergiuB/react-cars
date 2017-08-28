@@ -40,10 +40,10 @@ describe('CarForm', function () {
     expect(wrapper.prop('errors').acceleration).toEqual('Invalid number');
 
     wrapper.prop('onChangeField')('mpg', -100);
-    expect(wrapper.prop('errors').mpg).toEqual('Value must be greater than 1');
+    expect(wrapper.prop('errors').mpg).toEqual('Value must be greater than 0');
 
     wrapper.prop('onChangeField')('horsepower', 100000);
-    expect(wrapper.prop('errors').horsepower).toEqual('Value must be lower than 101');
+    expect(wrapper.prop('errors').horsepower).toEqual('Value must be lower than or equal to 1000');
 
     wrapper.prop('onChangeField')('name', '');
     expect(wrapper.prop('errors').name).toEqual('Value is mandatory');

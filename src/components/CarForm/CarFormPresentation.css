@@ -12,6 +12,16 @@
   margin: 10px;
 }
 
+.car-form-field {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.car-form-field .label-text {
+  margin-right: 5px;
+}
+
 .car-form-buttons button {
   margin: 5px;
 }

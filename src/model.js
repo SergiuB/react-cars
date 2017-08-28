@@ -23,12 +23,12 @@ const model = {
   horsepower: {
     type: 'number',
     min: 40,
-    max: 100,
+    max: 1000,
     step: 1,
   },
   mpg: {
     type: 'number',
-    min: 1,
+    min: 0,
     max: 100,
     step: 1,
   },
