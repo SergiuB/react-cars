@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 import CarRow from '../CarRow';
 import CarFormRow from './CarFormRow';
-import { NONE, carShape } from '../../constants';
-import model from '../../model';
+import { NONE } from '../../constants';
+import model, { carShape } from '../../model';
 import validateField from '../../validation';
 
 import './CarTablePage.css';

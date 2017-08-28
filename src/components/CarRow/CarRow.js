@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { carShape } from '../../constants';
+import { carShape, modelShape } from '../../model';
 
 import './CarRow.css';
 
@@ -33,7 +33,7 @@ const CarRow = ({
 
 CarRow.propTypes = {
   car: carShape.isRequired,
-  model: PropTypes.object.isRequired,
+  model: modelShape.isRequired,
   editEnabled: PropTypes.bool.isRequired,
   onClick: PropTypes.func.isRequired,
 };
