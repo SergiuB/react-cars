@@ -183,6 +183,7 @@ ShallowWrapper {
             }
             onCancel={[Function]}
             onSubmit={[Function]}
+            validateField={[Function]}
         />
         <CarRow
             car={
@@ -422,6 +423,7 @@ ShallowWrapper {
                   }
                   onCancel={[Function]}
                   onSubmit={[Function]}
+                  validateField={[Function]}
             />
             <CarRow
                   car={
@@ -731,6 +733,7 @@ ShallowWrapper {
                               }
                               onCancel={[Function]}
                               onSubmit={[Function]}
+                              validateField={[Function]}
                     />
                     <CarRow
                               car={
@@ -970,6 +973,7 @@ ShallowWrapper {
                               }
                               onCancel={[Function]}
                               onSubmit={[Function]}
+                              validateField={[Function]}
                     />
                     <CarRow
                               car={
@@ -2133,6 +2137,7 @@ ShallowWrapper {
             }
             onCancel={[Function]}
             onSubmit={[Function]}
+            validateField={[Function]}
         />
     </tbody>
 </table>,
@@ -2372,6 +2377,7 @@ ShallowWrapper {
                   }
                   onCancel={[Function]}
                   onSubmit={[Function]}
+                  validateField={[Function]}
             />
       </tbody>
 </table>,
@@ -2681,6 +2687,7 @@ ShallowWrapper {
                               }
                               onCancel={[Function]}
                               onSubmit={[Function]}
+                              validateField={[Function]}
                     />
           </tbody>
 </table>,
@@ -2920,6 +2927,7 @@ ShallowWrapper {
                               }
                               onCancel={[Function]}
                               onSubmit={[Function]}
+                              validateField={[Function]}
                     />
           </tbody>
 </table>,

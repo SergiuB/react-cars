@@ -3,6 +3,7 @@ import { shallow } from 'enzyme';
 
 import CarForm from './CarForm';
 import model from '../../model';
+import validateField from '../../validation';
 
 const carData = {
   id: 1,
@@ -13,14 +14,14 @@ const carData = {
 describe('CarForm', function () {
   it('renders correctly', function () {
     const wrapper = shallow(
-      <CarForm car={carData} model={model} />
+      <CarForm car={carData} model={model} validateField={validateField} />
     );
     expect(wrapper).toMatchSnapshot();
   });
 
   it('updates props in response to change handlers', function () {
     const wrapper = shallow(
-      <CarForm car={carData} model={model} />
+      <CarForm car={carData} model={model} validateField={validateField} />
     );
 
     wrapper.prop('onChangeField')('acceleration', 3);
@@ -32,7 +33,7 @@ describe('CarForm', function () {
 
   it('updates error props in response to setting invalid values', function () {
     const wrapper = shallow(
-      <CarForm car={carData} model={model} />
+      <CarForm car={carData} model={model} validateField={validateField} />
     );
 
     wrapper.prop('onChangeField')('acceleration', NaN);
@@ -51,7 +52,7 @@ describe('CarForm', function () {
   it('calls onSubmit with the changed values', function () {
     const onSubmit = jest.fn();
     const wrapper = shallow(
-      <CarForm car={carData} model={model} onSubmit={onSubmit} />
+      <CarForm car={carData} model={model} validateField={validateField} onSubmit={onSubmit} />
     );
 
     wrapper.prop('onChangeField')('acceleration', 10);
@@ -65,7 +66,7 @@ describe('CarForm', function () {
   it('calls onCancel', function () {
     const onCancel = jest.fn();
     const wrapper = shallow(
-      <CarForm car={carData} model={model} onCancel={onCancel} />
+      <CarForm car={carData} model={model} validateField={validateField} onCancel={onCancel} />
     );
 
     wrapper.prop('onCancel')();

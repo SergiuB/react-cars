@@ -6,7 +6,15 @@ const getInputType = fieldType => (fieldType === 'string' ? 'text' : fieldType);
 
 const getFieldEl = (fieldDef, fieldName, fieldValue, fieldError, changeHandler) => (
   <div key={fieldName}>
-    <label>{fieldName} <input type={getInputType(fieldDef.type)} name={fieldName} onChange={changeHandler} value={fieldValue} /></label>
+    <label>
+      {fieldName}
+      <input
+        type={getInputType(fieldDef.type)}
+        name={fieldName}
+        onChange={changeHandler}
+        value={fieldValue}
+      />
+    </label>
     { fieldError && <span className="text-danger"><small>{fieldError}</small></span> }
   </div>
 );
@@ -51,12 +59,3 @@ CarFormPresentation.defaultProps = {
 };
 
 export default CarFormPresentation;
-
-// <label>Name <input type="text" name="name" onChange={changeHandlers.name} value={car.name} /></label>
-//         { errors.name && <span className="text-danger"><small>{ errors.name }</small></span> }
-//         <label>Acceleration <input type="number" name="acceleration" step="0.1" onChange={changeHandlers.acceleration} value={car.acceleration} /></label>
-//         { errors.acceleration && <span className="text-danger"><small>{ errors.acceleration }</small></span> }
-//         <label>Horsepower <input type="number" name="horsepower" onChange={changeHandlers.horsepower} value={car.horsepower} /></label>
-//         { errors.horsepower && <span className="text-danger"><small>{ errors.horsepower }</small></span> }
-//         <label>Year <input type="number" name="year" onChange={changeHandlers.year} value={car.year} /></label>
-//         { errors.year && <span className="text-danger"><small>{ errors.year }</small></span> }

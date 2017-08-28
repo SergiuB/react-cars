@@ -11,7 +11,7 @@ class CarForm extends Component {
 
   handleFieldChange = (fieldName, fieldValue) => {
     const fieldDef = this.props.model[fieldName];
-    const fieldError = this.validateField(fieldValue, fieldDef);
+    const fieldError = this.props.validateField(fieldValue, fieldDef);
     this.setState({
       car: {
         ...this.state.car,
@@ -22,37 +22,6 @@ class CarForm extends Component {
         [fieldName]: fieldError
       }
     });
-  }
-
-  validateField = (fieldValue, fieldDef) => {
-    switch (fieldDef.type) {
-      case 'string':
-        return this.validateString(fieldValue);
-      case 'number':
-        return this.validateNumber(fieldValue, fieldDef.min, fieldDef.max);
-      default:
-        throw new Error('unsupported');
-    }
-  }
-
-  validateString = (str) => {
-    if (!str.length) {
-      return 'Value is mandatory';
-    }
-    return '';
-  }
-
-  validateNumber = (n, min, max) => {
-    if (isNaN(n) || !isFinite(n)) {
-      return 'Invalid number';
-    }
-    if (n < min) {
-      return `Value must be greater than ${min}`;
-    }
-    if (n > max) {
-      return `Value must be lower than ${max + 1}`;
-    }
-    return '';
   }
 
   submit = (event) => {
@@ -77,12 +46,14 @@ class CarForm extends Component {
 CarForm.propTypes = {
   car: PropTypes.object.isRequired,
   model: PropTypes.object.isRequired,
+  validateField: PropTypes.func.isRequired,
   onChangeField: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
   onCancel: PropTypes.func.isRequired,
 };
 
 CarForm.defaultProps = {
+  validateField: () => '',
   onChangeField: () => {},
   onSubmit: () => {},
   onCancel: () => {}

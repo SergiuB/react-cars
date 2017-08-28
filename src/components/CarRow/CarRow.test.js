@@ -14,7 +14,7 @@ const carData = {
 describe('CarRow', function () {
   it('renders correctly', function () {
     const wrapper = shallow(
-      <CarRow car={carData} model={model}/>
+      <CarRow car={carData} model={model} />
     );
     expect(wrapper).toMatchSnapshot();
   });

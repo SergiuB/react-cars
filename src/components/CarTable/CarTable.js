@@ -7,8 +7,6 @@ import { NONE } from '../../constants';
 
 import './CarTable.css';
 
-const tapLog = x => { console.log(x); return x; }
-
 class CarTable extends Component {
   state = {
     cars: [],

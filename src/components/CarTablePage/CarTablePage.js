@@ -5,6 +5,7 @@ import CarRow from '../CarRow';
 import CarFormRow from './CarFormRow';
 import { NONE, carShape } from '../../constants';
 import model from '../../model';
+import validateField from '../../validation';
 
 import './CarTablePage.css';
 
@@ -50,6 +51,7 @@ const CarTablePage = ({
           key={`${car.id}-form`}
           car={car}
           model={model}
+          validateField={validateField}
           onSubmit={onSaveCarChanges}
           onCancel={onCancelCarChanges}
           colSpan={1 + Object.keys(model).length}
