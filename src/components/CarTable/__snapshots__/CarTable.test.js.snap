@@ -113,7 +113,6 @@ ShallowWrapper {
               "name": "Car2",
             },
           ],
-          "currentCarUrl": null,
           "editingCarId": -1,
           "nextCarUrl": "page2",
           "prevCarUrl": null,

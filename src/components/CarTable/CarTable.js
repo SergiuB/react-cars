@@ -9,14 +9,13 @@ const tapLog = x => { console.log(x); return x; }
 class CarTable extends Component {
   state = {
     cars: [],
-    currentCarUrl: null,
     nextCarUrl: null,
     prevCarUrl: null,
     editingCarId: -1,
   }
 
   componentWillMount() {
-    this.updateState(this.state.currentCarUrl);
+    this.updateState();
   }
 
   getNextCars = () => this.updateState(this.state.nextCarUrl);
