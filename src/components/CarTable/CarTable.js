@@ -19,9 +19,9 @@ class CarTable extends Component {
     this.updateState();
   }
 
-  getNextCars = () => this.updateState(this.state.nextCarUrl);
+  getNextCars = () => this.updateState(this.state.nextCarUrl, { editingCarId: -1 });
 
-  getPrevCars = () => this.updateState(this.state.prevCarUrl);
+  getPrevCars = () => this.updateState(this.state.prevCarUrl, { editingCarId: -1 });
 
   updateState = (carUrl, stateToMerge) => this.props.api.getCars(carUrl)
     .then(s => this.setState({ ...s, ...stateToMerge }))
