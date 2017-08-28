@@ -83,4 +83,21 @@ describe('CarTable', function () {
     wrapper.find(CarTablePage).prop('onRowClick')(1);
     expect(wrapper.find(CarTablePage).prop('editingCarId')).toEqual(1);
   });
+
+  it('saves the car changes and updates the list when a car is edited', function () {
+    const updatedCar = { id: 2, name: 'Faster VW', acceleration: 5 };
+    const wrapper = shallow(
+      <CarTable
+        api={api}
+      />
+    );
+
+    wrapper.find(CarTablePage).prop('onRowClick')(2);
+    wrapper.find(CarTablePage).prop('onSaveCarChanges')(updatedCar);
+
+    // edit form is closed
+    expect(wrapper.find(CarTablePage).prop('editingCarId')).toEqual(-1);
+    // second car in page is updated
+    expect(wrapper.find(CarTablePage).prop('cars')[1]).toEqual(updatedCar);
+  });
 });

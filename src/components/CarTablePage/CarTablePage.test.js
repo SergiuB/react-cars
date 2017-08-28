@@ -73,4 +73,18 @@ describe('CarTablePage', function () {
     wrapper.find('CarRow').at(1).prop('onClick')();
     expect(onRowClick).toBeCalledWith(2);
   });
+
+  it('fires onSaveCarChanges with updated car if inner form is submitted', function () {
+    const updatedCar = { id: 2, name: 'Faster VW', acceleration: 5 };
+    const onSaveCarChanges = jest.fn();
+    const wrapper = shallow(
+      <CarTablePage
+        cars={cars}
+        editingCarId={2}
+        onSaveCarChanges={onSaveCarChanges}
+      />
+    );
+    wrapper.find('CarFormRow').prop('onSubmit')(updatedCar);
+    expect(onSaveCarChanges).toBeCalledWith(updatedCar);
+  });
 });

@@ -9,6 +9,7 @@ const tapLog = x => { console.log(x); return x; }
 class CarTable extends Component {
   state = {
     cars: [],
+    currentCarUrl: null,
     nextCarUrl: null,
     prevCarUrl: null,
     editingCarId: -1,
@@ -22,11 +23,15 @@ class CarTable extends Component {
 
   getPrevCars = () => this.updateState(this.state.prevCarUrl);
 
-  updateState = carUrl => this.props.api.getCars(carUrl)
-    .then(s => this.setState(s))
+  updateState = (carUrl, stateToMerge) => this.props.api.getCars(carUrl)
+    .then(s => this.setState({ ...s, ...stateToMerge }))
 
   handleRowClick = cardId =>
     this.setState({ editingCarId: (cardId === this.state.editingCarId) ? -1 : cardId })
+
+  saveCarChanges = car =>
+    this.props.api.saveCar(car)
+      .then(() => this.updateState(this.state.currentCarUrl, { editingCarId: -1 }))
 
   render() {
     const {
@@ -42,6 +47,7 @@ class CarTable extends Component {
           cars={cars}
           editingCarId={editingCarId}
           onRowClick={this.handleRowClick}
+          onSaveCarChanges={this.saveCarChanges}
         />
         <PageNavigation
           nextEnabled={!!nextCarUrl}

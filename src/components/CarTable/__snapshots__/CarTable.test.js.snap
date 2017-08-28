@@ -100,6 +100,7 @@ ShallowWrapper {
           },
         },
         "refs": Object {},
+        "saveCarChanges": [Function],
         "state": Object {
           "cars": Array [
             Object {
@@ -113,6 +114,7 @@ ShallowWrapper {
               "name": "Car2",
             },
           ],
+          "currentCarUrl": "page1",
           "editingCarId": -1,
           "nextCarUrl": "page2",
           "prevCarUrl": null,
