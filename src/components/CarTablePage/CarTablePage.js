@@ -25,10 +25,10 @@ const CarTablePage = ({
 }) => {
   const allRows = getCarRows(cars, editingCarId, onRowClick);
 
+  // insert a CarFormRow for the car to be edited
   if (editingCarId !== NONE) {
     const editingCarIndex = findCarIndexById(cars, editingCarId);
     if (editingCarIndex !== NONE) {
-      // insert a CarFormRow for the car to be edited
       const car = cars[editingCarIndex];
       allRows.splice(editingCarIndex + 1, 0, (
         <CarFormRow
