@@ -76,7 +76,7 @@ Enzyme shallow rendering is used to test each component as a unit, to avoid asse
 
 ### Styling
 
-Since styling is minimal, no fancy CSS preprocessor was used, it's just css.  
+Since styling is minimal, no fancy CSS preprocessor was used, it's just css, each component has it's own stylesheet.
 Bootstrap helps make things nicer with minimal intervention and without bloating.
 
 ### TBD
