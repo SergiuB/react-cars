@@ -9,7 +9,7 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <tr
-    className="car-row "
+    className="border car-row "
     onClick={[Function]}
 >
     <td
@@ -23,14 +23,14 @@ ShallowWrapper {
         Audi
     </td>
     <td
-        className="numeric-col"
+        className="numeric-col text-right"
     >
         12
     </td>
 </tr>,
   "nodes": Array [
     <tr
-      className="car-row "
+      className="border car-row "
       onClick={[Function]}
 >
       <td
@@ -44,7 +44,7 @@ ShallowWrapper {
             Audi
       </td>
       <td
-            className="numeric-col"
+            className="numeric-col text-right"
       >
             12
       </td>
@@ -103,7 +103,7 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <tr
-          className="car-row "
+          className="border car-row "
           onClick={[Function]}
 >
           <td
@@ -117,14 +117,14 @@ ShallowWrapper {
                     Audi
           </td>
           <td
-                    className="numeric-col"
+                    className="numeric-col text-right"
           >
                     12
           </td>
 </tr>,
         "_debugID": 2,
         "_renderedOutput": <tr
-          className="car-row "
+          className="border car-row "
           onClick={[Function]}
 >
           <td
@@ -138,7 +138,7 @@ ShallowWrapper {
                     Audi
           </td>
           <td
-                    className="numeric-col"
+                    className="numeric-col text-right"
           >
                     12
           </td>
@@ -177,7 +177,7 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <tr
-    className="car-row  edit-enabled"
+    className="border car-row  edit-enabled bg-primary text-light"
     onClick={[Function]}
 >
     <td
@@ -191,14 +191,14 @@ ShallowWrapper {
         Audi
     </td>
     <td
-        className="numeric-col"
+        className="numeric-col text-right"
     >
         12
     </td>
 </tr>,
   "nodes": Array [
     <tr
-      className="car-row  edit-enabled"
+      className="border car-row  edit-enabled bg-primary text-light"
       onClick={[Function]}
 >
       <td
@@ -212,7 +212,7 @@ ShallowWrapper {
             Audi
       </td>
       <td
-            className="numeric-col"
+            className="numeric-col text-right"
       >
             12
       </td>
@@ -271,7 +271,7 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <tr
-          className="car-row  edit-enabled"
+          className="border car-row  edit-enabled bg-primary text-light"
           onClick={[Function]}
 >
           <td
@@ -285,14 +285,14 @@ ShallowWrapper {
                     Audi
           </td>
           <td
-                    className="numeric-col"
+                    className="numeric-col text-right"
           >
                     12
           </td>
 </tr>,
         "_debugID": 4,
         "_renderedOutput": <tr
-          className="car-row  edit-enabled"
+          className="border car-row  edit-enabled bg-primary text-light"
           onClick={[Function]}
 >
           <td
@@ -306,7 +306,7 @@ ShallowWrapper {
                     Audi
           </td>
           <td
-                    className="numeric-col"
+                    className="numeric-col text-right"
           >
                     12
           </td>

@@ -44,12 +44,12 @@ const CarTablePage = ({
   }
 
   return (
-    <table>
-      <thead>
+    <table className='car-table-page'>
+      <thead className='bg-dark text-light'>
         <tr>
-          <th>Id</th>
+          <th className='id-col'>Id</th>
           <th>Name</th>
-          <th>acceleration</th>
+          <th className='text-right'>Acceleration</th>
         </tr>
       </thead>
       <tbody>

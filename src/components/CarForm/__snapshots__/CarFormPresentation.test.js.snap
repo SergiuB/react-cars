@@ -9,69 +9,103 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <form
+    className="car-form border border-primary"
     onSubmit={[Function]}
 >
-    <input
-        name="name"
-        onChange={[Function]}
-        type="text"
-        value="Audi"
-    />
-    
-    <input
-        name="acceleration"
-        onChange={[Function]}
-        type="number"
-        value={12}
-    />
-    
-    <button
-        disabled={false}
-        name="submit"
-        type="submit"
+    <div
+        className="car-form-fields"
     >
-        Save
-    </button>
-    <button
-        name="cancel"
-        onClick={[Function]}
-        type="button"
+        <label>
+            Name 
+            <input
+                name="name"
+                onChange={[Function]}
+                type="text"
+                value="Audi"
+            />
+        </label>
+        
+        <label>
+            Acceleration 
+            <input
+                name="acceleration"
+                onChange={[Function]}
+                step="0.1"
+                type="number"
+                value={12}
+            />
+        </label>
+        
+    </div>
+    <div
+        className="car-form-buttons"
     >
-        Cancel
-    </button>
-</form>,
-  "nodes": Array [
-    <form
-      onSubmit={[Function]}
->
-      <input
-            name="name"
-            onChange={[Function]}
-            type="text"
-            value="Audi"
-      />
-      
-      <input
-            name="acceleration"
-            onChange={[Function]}
-            type="number"
-            value={12}
-      />
-      
-      <button
+        <button
+            className="text-primary"
             disabled={false}
             name="submit"
             type="submit"
-      >
+        >
             Save
-      </button>
-      <button
+        </button>
+        <button
             name="cancel"
             onClick={[Function]}
             type="button"
-      >
+        >
             Cancel
-      </button>
+        </button>
+    </div>
+</form>,
+  "nodes": Array [
+    <form
+      className="car-form border border-primary"
+      onSubmit={[Function]}
+>
+      <div
+            className="car-form-fields"
+      >
+            <label>
+                  Name 
+                  <input
+                        name="name"
+                        onChange={[Function]}
+                        type="text"
+                        value="Audi"
+                  />
+            </label>
+            
+            <label>
+                  Acceleration 
+                  <input
+                        name="acceleration"
+                        onChange={[Function]}
+                        step="0.1"
+                        type="number"
+                        value={12}
+                  />
+            </label>
+            
+      </div>
+      <div
+            className="car-form-buttons"
+      >
+            <button
+                  className="text-primary"
+                  disabled={false}
+                  name="submit"
+                  type="submit"
+            >
+                  Save
+            </button>
+            <button
+                  name="cancel"
+                  onClick={[Function]}
+                  type="button"
+            >
+                  Cancel
+            </button>
+      </div>
 </form>,
   ],
   "options": Object {},
@@ -145,69 +179,103 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <form
+          className="car-form border border-primary"
           onSubmit={[Function]}
 >
-          <input
-                    name="name"
-                    onChange={[Function]}
-                    type="text"
-                    value="Audi"
-          />
-          
-          <input
-                    name="acceleration"
-                    onChange={[Function]}
-                    type="number"
-                    value={12}
-          />
-          
-          <button
-                    disabled={false}
-                    name="submit"
-                    type="submit"
+          <div
+                    className="car-form-fields"
           >
-                    Save
-          </button>
-          <button
-                    name="cancel"
-                    onClick={[Function]}
-                    type="button"
+                    <label>
+                              Name 
+                              <input
+                                        name="name"
+                                        onChange={[Function]}
+                                        type="text"
+                                        value="Audi"
+                              />
+                    </label>
+                    
+                    <label>
+                              Acceleration 
+                              <input
+                                        name="acceleration"
+                                        onChange={[Function]}
+                                        step="0.1"
+                                        type="number"
+                                        value={12}
+                              />
+                    </label>
+                    
+          </div>
+          <div
+                    className="car-form-buttons"
           >
-                    Cancel
-          </button>
+                    <button
+                              className="text-primary"
+                              disabled={false}
+                              name="submit"
+                              type="submit"
+                    >
+                              Save
+                    </button>
+                    <button
+                              name="cancel"
+                              onClick={[Function]}
+                              type="button"
+                    >
+                              Cancel
+                    </button>
+          </div>
 </form>,
         "_debugID": 2,
         "_renderedOutput": <form
+          className="car-form border border-primary"
           onSubmit={[Function]}
 >
-          <input
-                    name="name"
-                    onChange={[Function]}
-                    type="text"
-                    value="Audi"
-          />
-          
-          <input
-                    name="acceleration"
-                    onChange={[Function]}
-                    type="number"
-                    value={12}
-          />
-          
-          <button
-                    disabled={false}
-                    name="submit"
-                    type="submit"
+          <div
+                    className="car-form-fields"
           >
-                    Save
-          </button>
-          <button
-                    name="cancel"
-                    onClick={[Function]}
-                    type="button"
+                    <label>
+                              Name 
+                              <input
+                                        name="name"
+                                        onChange={[Function]}
+                                        type="text"
+                                        value="Audi"
+                              />
+                    </label>
+                    
+                    <label>
+                              Acceleration 
+                              <input
+                                        name="acceleration"
+                                        onChange={[Function]}
+                                        step="0.1"
+                                        type="number"
+                                        value={12}
+                              />
+                    </label>
+                    
+          </div>
+          <div
+                    className="car-form-buttons"
           >
-                    Cancel
-          </button>
+                    <button
+                              className="text-primary"
+                              disabled={false}
+                              name="submit"
+                              type="submit"
+                    >
+                              Save
+                    </button>
+                    <button
+                              name="cancel"
+                              onClick={[Function]}
+                              type="button"
+                    >
+                              Cancel
+                    </button>
+          </div>
 </form>,
       },
       "_renderedNodeType": 0,
@@ -254,85 +322,127 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <form
+    className="car-form border border-primary"
     onSubmit={[Function]}
 >
-    <input
-        name="name"
-        onChange={[Function]}
-        type="text"
-        value="Audi"
-    />
-    <span
-        className="error"
+    <div
+        className="car-form-fields"
     >
-        Not a good name
-    </span>
-    <input
-        name="acceleration"
-        onChange={[Function]}
-        type="number"
-        value={12}
-    />
-    <span
-        className="error"
+        <label>
+            Name 
+            <input
+                name="name"
+                onChange={[Function]}
+                type="text"
+                value="Audi"
+            />
+        </label>
+        <span
+            className="text-danger"
+        >
+            <small>
+                Not a good name
+            </small>
+        </span>
+        <label>
+            Acceleration 
+            <input
+                name="acceleration"
+                onChange={[Function]}
+                step="0.1"
+                type="number"
+                value={12}
+            />
+        </label>
+        <span
+            className="text-danger"
+        >
+            <small>
+                This car sucks
+            </small>
+        </span>
+    </div>
+    <div
+        className="car-form-buttons"
     >
-        This car sucks
-    </span>
-    <button
-        disabled={true}
-        name="submit"
-        type="submit"
-    >
-        Save
-    </button>
-    <button
-        name="cancel"
-        onClick={[Function]}
-        type="button"
-    >
-        Cancel
-    </button>
-</form>,
-  "nodes": Array [
-    <form
-      onSubmit={[Function]}
->
-      <input
-            name="name"
-            onChange={[Function]}
-            type="text"
-            value="Audi"
-      />
-      <span
-            className="error"
-      >
-            Not a good name
-      </span>
-      <input
-            name="acceleration"
-            onChange={[Function]}
-            type="number"
-            value={12}
-      />
-      <span
-            className="error"
-      >
-            This car sucks
-      </span>
-      <button
+        <button
+            className="text-primary"
             disabled={true}
             name="submit"
             type="submit"
-      >
+        >
             Save
-      </button>
-      <button
+        </button>
+        <button
             name="cancel"
             onClick={[Function]}
             type="button"
-      >
+        >
             Cancel
-      </button>
+        </button>
+    </div>
+</form>,
+  "nodes": Array [
+    <form
+      className="car-form border border-primary"
+      onSubmit={[Function]}
+>
+      <div
+            className="car-form-fields"
+      >
+            <label>
+                  Name 
+                  <input
+                        name="name"
+                        onChange={[Function]}
+                        type="text"
+                        value="Audi"
+                  />
+            </label>
+            <span
+                  className="text-danger"
+            >
+                  <small>
+                        Not a good name
+                  </small>
+            </span>
+            <label>
+                  Acceleration 
+                  <input
+                        name="acceleration"
+                        onChange={[Function]}
+                        step="0.1"
+                        type="number"
+                        value={12}
+                  />
+            </label>
+            <span
+                  className="text-danger"
+            >
+                  <small>
+                        This car sucks
+                  </small>
+            </span>
+      </div>
+      <div
+            className="car-form-buttons"
+      >
+            <button
+                  className="text-primary"
+                  disabled={true}
+                  name="submit"
+                  type="submit"
+            >
+                  Save
+            </button>
+            <button
+                  name="cancel"
+                  onClick={[Function]}
+                  type="button"
+            >
+                  Cancel
+            </button>
+      </div>
 </form>,
   ],
   "options": Object {},
@@ -406,85 +516,127 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <form
+          className="car-form border border-primary"
           onSubmit={[Function]}
 >
-          <input
-                    name="name"
-                    onChange={[Function]}
-                    type="text"
-                    value="Audi"
-          />
-          <span
-                    className="error"
+          <div
+                    className="car-form-fields"
           >
-                    Not a good name
-          </span>
-          <input
-                    name="acceleration"
-                    onChange={[Function]}
-                    type="number"
-                    value={12}
-          />
-          <span
-                    className="error"
+                    <label>
+                              Name 
+                              <input
+                                        name="name"
+                                        onChange={[Function]}
+                                        type="text"
+                                        value="Audi"
+                              />
+                    </label>
+                    <span
+                              className="text-danger"
+                    >
+                              <small>
+                                        Not a good name
+                              </small>
+                    </span>
+                    <label>
+                              Acceleration 
+                              <input
+                                        name="acceleration"
+                                        onChange={[Function]}
+                                        step="0.1"
+                                        type="number"
+                                        value={12}
+                              />
+                    </label>
+                    <span
+                              className="text-danger"
+                    >
+                              <small>
+                                        This car sucks
+                              </small>
+                    </span>
+          </div>
+          <div
+                    className="car-form-buttons"
           >
-                    This car sucks
-          </span>
-          <button
-                    disabled={true}
-                    name="submit"
-                    type="submit"
-          >
-                    Save
-          </button>
-          <button
-                    name="cancel"
-                    onClick={[Function]}
-                    type="button"
-          >
-                    Cancel
-          </button>
+                    <button
+                              className="text-primary"
+                              disabled={true}
+                              name="submit"
+                              type="submit"
+                    >
+                              Save
+                    </button>
+                    <button
+                              name="cancel"
+                              onClick={[Function]}
+                              type="button"
+                    >
+                              Cancel
+                    </button>
+          </div>
 </form>,
         "_debugID": 4,
         "_renderedOutput": <form
+          className="car-form border border-primary"
           onSubmit={[Function]}
 >
-          <input
-                    name="name"
-                    onChange={[Function]}
-                    type="text"
-                    value="Audi"
-          />
-          <span
-                    className="error"
+          <div
+                    className="car-form-fields"
           >
-                    Not a good name
-          </span>
-          <input
-                    name="acceleration"
-                    onChange={[Function]}
-                    type="number"
-                    value={12}
-          />
-          <span
-                    className="error"
+                    <label>
+                              Name 
+                              <input
+                                        name="name"
+                                        onChange={[Function]}
+                                        type="text"
+                                        value="Audi"
+                              />
+                    </label>
+                    <span
+                              className="text-danger"
+                    >
+                              <small>
+                                        Not a good name
+                              </small>
+                    </span>
+                    <label>
+                              Acceleration 
+                              <input
+                                        name="acceleration"
+                                        onChange={[Function]}
+                                        step="0.1"
+                                        type="number"
+                                        value={12}
+                              />
+                    </label>
+                    <span
+                              className="text-danger"
+                    >
+                              <small>
+                                        This car sucks
+                              </small>
+                    </span>
+          </div>
+          <div
+                    className="car-form-buttons"
           >
-                    This car sucks
-          </span>
-          <button
-                    disabled={true}
-                    name="submit"
-                    type="submit"
-          >
-                    Save
-          </button>
-          <button
-                    name="cancel"
-                    onClick={[Function]}
-                    type="button"
-          >
-                    Cancel
-          </button>
+                    <button
+                              className="text-primary"
+                              disabled={true}
+                              name="submit"
+                              type="submit"
+                    >
+                              Save
+                    </button>
+                    <button
+                              name="cancel"
+                              onClick={[Function]}
+                              type="button"
+                    >
+                              Cancel
+                    </button>
+          </div>
 </form>,
       },
       "_renderedNodeType": 0,

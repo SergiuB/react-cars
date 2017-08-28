@@ -8,17 +8,25 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <table>
-    <thead>
+  "node": <table
+    className="car-table-page"
+>
+    <thead
+        className="bg-dark text-light"
+    >
         <tr>
-            <th>
+            <th
+                className="id-col"
+            >
                 Id
             </th>
             <th>
                 Name
             </th>
-            <th>
-                acceleration
+            <th
+                className="text-right"
+            >
+                Acceleration
             </th>
         </tr>
     </thead>
@@ -59,17 +67,25 @@ ShallowWrapper {
     </tbody>
 </table>,
   "nodes": Array [
-    <table>
-      <thead>
+    <table
+      className="car-table-page"
+>
+      <thead
+            className="bg-dark text-light"
+      >
             <tr>
-                  <th>
+                  <th
+                        className="id-col"
+                  >
                         Id
                   </th>
                   <th>
                         Name
                   </th>
-                  <th>
-                        acceleration
+                  <th
+                        className="text-right"
+                  >
+                        Acceleration
                   </th>
             </tr>
       </thead>
@@ -180,17 +196,25 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <table>
-          <thead>
+        "_currentElement": <table
+          className="car-table-page"
+>
+          <thead
+                    className="bg-dark text-light"
+          >
                     <tr>
-                              <th>
+                              <th
+                                        className="id-col"
+                              >
                                         Id
                               </th>
                               <th>
                                         Name
                               </th>
-                              <th>
-                                        acceleration
+                              <th
+                                        className="text-right"
+                              >
+                                        Acceleration
                               </th>
                     </tr>
           </thead>
@@ -231,17 +255,25 @@ ShallowWrapper {
           </tbody>
 </table>,
         "_debugID": 4,
-        "_renderedOutput": <table>
-          <thead>
+        "_renderedOutput": <table
+          className="car-table-page"
+>
+          <thead
+                    className="bg-dark text-light"
+          >
                     <tr>
-                              <th>
+                              <th
+                                        className="id-col"
+                              >
                                         Id
                               </th>
                               <th>
                                         Name
                               </th>
-                              <th>
-                                        acceleration
+                              <th
+                                        className="text-right"
+                              >
+                                        Acceleration
                               </th>
                     </tr>
           </thead>
@@ -323,17 +355,25 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <table>
-    <thead>
+  "node": <table
+    className="car-table-page"
+>
+    <thead
+        className="bg-dark text-light"
+    >
         <tr>
-            <th>
+            <th
+                className="id-col"
+            >
                 Id
             </th>
             <th>
                 Name
             </th>
-            <th>
-                acceleration
+            <th
+                className="text-right"
+            >
+                Acceleration
             </th>
         </tr>
     </thead>
@@ -363,17 +403,25 @@ ShallowWrapper {
     </tbody>
 </table>,
   "nodes": Array [
-    <table>
-      <thead>
+    <table
+      className="car-table-page"
+>
+      <thead
+            className="bg-dark text-light"
+      >
             <tr>
-                  <th>
+                  <th
+                        className="id-col"
+                  >
                         Id
                   </th>
                   <th>
                         Name
                   </th>
-                  <th>
-                        acceleration
+                  <th
+                        className="text-right"
+                  >
+                        Acceleration
                   </th>
             </tr>
       </thead>
@@ -473,17 +521,25 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <table>
-          <thead>
+        "_currentElement": <table
+          className="car-table-page"
+>
+          <thead
+                    className="bg-dark text-light"
+          >
                     <tr>
-                              <th>
+                              <th
+                                        className="id-col"
+                              >
                                         Id
                               </th>
                               <th>
                                         Name
                               </th>
-                              <th>
-                                        acceleration
+                              <th
+                                        className="text-right"
+                              >
+                                        Acceleration
                               </th>
                     </tr>
           </thead>
@@ -513,17 +569,25 @@ ShallowWrapper {
           </tbody>
 </table>,
         "_debugID": 8,
-        "_renderedOutput": <table>
-          <thead>
+        "_renderedOutput": <table
+          className="car-table-page"
+>
+          <thead
+                    className="bg-dark text-light"
+          >
                     <tr>
-                              <th>
+                              <th
+                                        className="id-col"
+                              >
                                         Id
                               </th>
                               <th>
                                         Name
                               </th>
-                              <th>
-                                        acceleration
+                              <th
+                                        className="text-right"
+                              >
+                                        Acceleration
                               </th>
                     </tr>
           </thead>
@@ -594,17 +658,25 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <table>
-    <thead>
+  "node": <table
+    className="car-table-page"
+>
+    <thead
+        className="bg-dark text-light"
+    >
         <tr>
-            <th>
+            <th
+                className="id-col"
+            >
                 Id
             </th>
             <th>
                 Name
             </th>
-            <th>
-                acceleration
+            <th
+                className="text-right"
+            >
+                Acceleration
             </th>
         </tr>
     </thead>
@@ -645,17 +717,25 @@ ShallowWrapper {
     </tbody>
 </table>,
   "nodes": Array [
-    <table>
-      <thead>
+    <table
+      className="car-table-page"
+>
+      <thead
+            className="bg-dark text-light"
+      >
             <tr>
-                  <th>
+                  <th
+                        className="id-col"
+                  >
                         Id
                   </th>
                   <th>
                         Name
                   </th>
-                  <th>
-                        acceleration
+                  <th
+                        className="text-right"
+                  >
+                        Acceleration
                   </th>
             </tr>
       </thead>
@@ -766,17 +846,25 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <table>
-          <thead>
+        "_currentElement": <table
+          className="car-table-page"
+>
+          <thead
+                    className="bg-dark text-light"
+          >
                     <tr>
-                              <th>
+                              <th
+                                        className="id-col"
+                              >
                                         Id
                               </th>
                               <th>
                                         Name
                               </th>
-                              <th>
-                                        acceleration
+                              <th
+                                        className="text-right"
+                              >
+                                        Acceleration
                               </th>
                     </tr>
           </thead>
@@ -817,17 +905,25 @@ ShallowWrapper {
           </tbody>
 </table>,
         "_debugID": 6,
-        "_renderedOutput": <table>
-          <thead>
+        "_renderedOutput": <table
+          className="car-table-page"
+>
+          <thead
+                    className="bg-dark text-light"
+          >
                     <tr>
-                              <th>
+                              <th
+                                        className="id-col"
+                              >
                                         Id
                               </th>
                               <th>
                                         Name
                               </th>
-                              <th>
-                                        acceleration
+                              <th
+                                        className="text-right"
+                              >
+                                        Acceleration
                               </th>
                     </tr>
           </thead>
@@ -909,17 +1005,25 @@ ShallowWrapper {
     "findWhereUnwrapped": [Function],
   },
   "length": 1,
-  "node": <table>
-    <thead>
+  "node": <table
+    className="car-table-page"
+>
+    <thead
+        className="bg-dark text-light"
+    >
         <tr>
-            <th>
+            <th
+                className="id-col"
+            >
                 Id
             </th>
             <th>
                 Name
             </th>
-            <th>
-                acceleration
+            <th
+                className="text-right"
+            >
+                Acceleration
             </th>
         </tr>
     </thead>
@@ -949,17 +1053,25 @@ ShallowWrapper {
     </tbody>
 </table>,
   "nodes": Array [
-    <table>
-      <thead>
+    <table
+      className="car-table-page"
+>
+      <thead
+            className="bg-dark text-light"
+      >
             <tr>
-                  <th>
+                  <th
+                        className="id-col"
+                  >
                         Id
                   </th>
                   <th>
                         Name
                   </th>
-                  <th>
-                        acceleration
+                  <th
+                        className="text-right"
+                  >
+                        Acceleration
                   </th>
             </tr>
       </thead>
@@ -1059,17 +1171,25 @@ ShallowWrapper {
       "_pendingReplaceState": false,
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <table>
-          <thead>
+        "_currentElement": <table
+          className="car-table-page"
+>
+          <thead
+                    className="bg-dark text-light"
+          >
                     <tr>
-                              <th>
+                              <th
+                                        className="id-col"
+                              >
                                         Id
                               </th>
                               <th>
                                         Name
                               </th>
-                              <th>
-                                        acceleration
+                              <th
+                                        className="text-right"
+                              >
+                                        Acceleration
                               </th>
                     </tr>
           </thead>
@@ -1099,17 +1219,25 @@ ShallowWrapper {
           </tbody>
 </table>,
         "_debugID": 2,
-        "_renderedOutput": <table>
-          <thead>
+        "_renderedOutput": <table
+          className="car-table-page"
+>
+          <thead
+                    className="bg-dark text-light"
+          >
                     <tr>
-                              <th>
+                              <th
+                                        className="id-col"
+                              >
                                         Id
                               </th>
                               <th>
                                         Name
                               </th>
-                              <th>
-                                        acceleration
+                              <th
+                                        className="text-right"
+                              >
+                                        Acceleration
                               </th>
                     </tr>
           </thead>

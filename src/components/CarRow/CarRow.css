@@ -1,0 +1,7 @@
+.car-row {
+  cursor: pointer;
+}
+
+.car-row:hover {
+  background-color: gray;
+}
