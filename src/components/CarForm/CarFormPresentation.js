@@ -2,6 +2,8 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import './CarFormPresentation.css';
 
+import { carShape, modelShape, errorsShape } from '../../constants';
+
 const getInputType = fieldType => (fieldType === 'string' ? 'text' : fieldType);
 
 const getFieldEl = (fieldDef, fieldName, fieldValue, fieldError, changeHandler) => (
@@ -46,9 +48,9 @@ const CarFormPresentation = ({
 };
 
 CarFormPresentation.propTypes = {
-  car: PropTypes.object.isRequired,
-  model: PropTypes.object.isRequired,
-  errors: PropTypes.object.isRequired,
+  car: carShape.isRequired,
+  model: modelShape.isRequired,
+  errors: errorsShape.isRequired,
   onChangeField: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
   onCancel: PropTypes.func.isRequired,

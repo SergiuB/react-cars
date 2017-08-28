@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 const model = {
   name: {
     type: 'string',
@@ -46,42 +44,6 @@ const model = {
     max: 99,
     step: 1,
   },
-};
-
-
-const carShape = PropTypes.shape({
-  id: PropTypes.number.isRequired,
-  name: PropTypes.string.isRequired,
-  acceleration: PropTypes.number,
-  cylinders: PropTypes.number,
-  displacement: PropTypes.number,
-  horsepower: PropTypes.number,
-  mpg: PropTypes.number,
-  weight: PropTypes.number,
-  year: PropTypes.number,
-});
-
-const fieldShape = PropTypes.shape({
-  type: PropTypes.string.isRequired,
-  min: PropTypes.number,
-  max: PropTypes.number,
-  step: PropTypes.number,
-});
-
-const modelShape = PropTypes.shape({
-  name: fieldShape,
-  acceleration: fieldShape,
-  cylinders: fieldShape,
-  displacement: fieldShape,
-  horsepower: fieldShape,
-  mpg: fieldShape,
-  weight: fieldShape,
-  year: fieldShape,
-});
-
-export {
-  carShape,
-  modelShape,
 };
 
 export default model;

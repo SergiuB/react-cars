@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import { carShape, modelShape } from '../../model';
+import { carShape, modelShape } from '../../constants';
 
 import './CarRow.css';
 

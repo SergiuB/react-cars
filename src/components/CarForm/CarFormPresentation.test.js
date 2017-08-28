@@ -13,6 +13,7 @@ describe('CarFormPresentation', function () {
     const wrapper = shallow(
       <CarFormPresentation
         car={{
+          id: 1,
           name: 'Audi',
           acceleration: 12,
         }}
@@ -32,6 +33,7 @@ describe('CarFormPresentation', function () {
     const wrapper = shallow(
       <CarFormPresentation
         car={{
+          id: 1,
           name: 'Audi',
           acceleration: 12,
         }}
@@ -61,6 +63,7 @@ describe('CarFormPresentation', function () {
     const wrapper = shallow(
       <CarFormPresentation
         car={{
+          id: 1,
           name: 'Audi',
           acceleration: 12,
         }}

@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import CarFormPresentation from './CarFormPresentation';
 
+import { carShape, modelShape } from '../../constants';
+
 class CarForm extends Component {
   constructor(props) {
     super(props);
@@ -43,8 +45,8 @@ class CarForm extends Component {
 }
 
 CarForm.propTypes = {
-  car: PropTypes.object.isRequired,
-  model: PropTypes.object.isRequired,
+  car: carShape.isRequired,
+  model: modelShape.isRequired,
   validateField: PropTypes.func.isRequired,
   onChangeField: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,

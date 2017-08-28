@@ -348,6 +348,7 @@ ShallowWrapper {
         car={
                 Object {
                         "acceleration": 12,
+                        "id": 1,
                         "name": "Audi",
                       }
         }
@@ -414,6 +415,7 @@ ShallowWrapper {
         "props": Object {
           "car": Object {
             "acceleration": 12,
+            "id": 1,
             "name": "Audi",
           },
           "errors": Object {},
@@ -832,6 +834,7 @@ ShallowWrapper {
     car={
         Object {
             "acceleration": 12,
+            "id": 1,
             "name": "Audi",
           }
     }
@@ -1268,6 +1271,7 @@ ShallowWrapper {
         car={
                 Object {
                         "acceleration": 12,
+                        "id": 1,
                         "name": "Audi",
                       }
         }
@@ -1339,6 +1343,7 @@ ShallowWrapper {
         "props": Object {
           "car": Object {
             "acceleration": 12,
+            "id": 1,
             "name": "Audi",
           },
           "errors": Object {
@@ -1788,6 +1793,7 @@ ShallowWrapper {
     car={
         Object {
             "acceleration": 12,
+            "id": 1,
             "name": "Audi",
           }
     }
