@@ -100,4 +100,18 @@ describe('CarTable', function () {
     // second car in page is updated
     expect(wrapper.find(CarTablePage).prop('cars')[1]).toEqual(updatedCar);
   });
+
+  it('sets editingCarId to none when onCancelCarChanges is called', function () {
+    const wrapper = shallow(
+      <CarTable
+        api={api}
+      />
+    );
+
+    wrapper.find(CarTablePage).prop('onRowClick')(2);
+    wrapper.find(CarTablePage).prop('onCancelCarChanges')();
+
+    // edit form is closed
+    expect(wrapper.find(CarTablePage).prop('editingCarId')).toEqual(-1);
+  });
 });

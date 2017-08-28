@@ -89,6 +89,7 @@ ShallowWrapper {
       "_hostParent": null,
       "_instance": CarTable {
         "_reactInternalInstance": [Circular],
+        "cancelCarChanges": [Function],
         "context": Object {},
         "getNextCars": [Function],
         "getPrevCars": [Function],

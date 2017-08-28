@@ -33,6 +33,8 @@ class CarTable extends Component {
     this.props.api.saveCar(car)
       .then(() => this.updateState(this.state.currentCarUrl, { editingCarId: -1 }))
 
+  cancelCarChanges = () => this.setState({ editingCarId: -1 })
+
   render() {
     const {
       cars,
@@ -48,6 +50,7 @@ class CarTable extends Component {
           editingCarId={editingCarId}
           onRowClick={this.handleRowClick}
           onSaveCarChanges={this.saveCarChanges}
+          onCancelCarChanges={this.cancelCarChanges}
         />
         <PageNavigation
           nextEnabled={!!nextCarUrl}

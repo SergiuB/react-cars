@@ -87,4 +87,17 @@ describe('CarTablePage', function () {
     wrapper.find('CarFormRow').prop('onSubmit')(updatedCar);
     expect(onSaveCarChanges).toBeCalledWith(updatedCar);
   });
+
+  it('fires onCancelCarChanges if inner form is cancelled', function () {
+    const onCancelCarChanges = jest.fn();
+    const wrapper = shallow(
+      <CarTablePage
+        cars={cars}
+        editingCarId={2}
+        onCancelCarChanges={onCancelCarChanges}
+      />
+    );
+    wrapper.find('CarFormRow').prop('onCancel')();
+    expect(onCancelCarChanges).toBeCalled();
+  });
 });
