@@ -16,23 +16,58 @@ ShallowWrapper {
             "name": "Audi",
           }
     }
-    changeHandlers={
+    errors={Object {}}
+    model={
         Object {
-            "acceleration": [Function],
-            "horsepower": [Function],
-            "name": [Function],
-            "year": [Function],
-          }
-    }
-    errors={
-        Object {
-            "acceleration": "",
-            "horsepower": "",
-            "name": "",
-            "year": "",
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
           }
     }
     onCancel={[Function]}
+    onChangeField={[Function]}
     onSubmit={[Function]}
 />,
   "nodes": Array [
@@ -44,23 +79,58 @@ ShallowWrapper {
                   "name": "Audi",
                 }
       }
-      changeHandlers={
+      errors={Object {}}
+      model={
             Object {
-                  "acceleration": [Function],
-                  "horsepower": [Function],
-                  "name": [Function],
-                  "year": [Function],
-                }
-      }
-      errors={
-            Object {
-                  "acceleration": "",
-                  "horsepower": "",
-                  "name": "",
-                  "year": "",
+                  "acceleration": Object {
+                    "max": 100,
+                    "min": 1,
+                    "step": 0.1,
+                    "type": "number",
+                  },
+                  "cylinders": Object {
+                    "max": 16,
+                    "min": 2,
+                    "step": 1,
+                    "type": "number",
+                  },
+                  "displacement": Object {
+                    "max": 1000,
+                    "min": 1,
+                    "step": 1,
+                    "type": "number",
+                  },
+                  "horsepower": Object {
+                    "max": 100,
+                    "min": 40,
+                    "step": 1,
+                    "type": "number",
+                  },
+                  "mpg": Object {
+                    "max": 100,
+                    "min": 1,
+                    "step": 1,
+                    "type": "number",
+                  },
+                  "name": Object {
+                    "type": "string",
+                  },
+                  "weight": Object {
+                    "max": 10000,
+                    "min": 500,
+                    "step": 1,
+                    "type": "number",
+                  },
+                  "year": Object {
+                    "max": 99,
+                    "min": 0,
+                    "step": 1,
+                    "type": "number",
+                  },
                 }
       }
       onCancel={[Function]}
+      onChangeField={[Function]}
       onSubmit={[Function]}
 />,
   ],
@@ -78,7 +148,57 @@ ShallowWrapper {
                         "name": "Audi",
                       }
         }
+        model={
+                Object {
+                        "acceleration": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 0.1,
+                          "type": "number",
+                        },
+                        "cylinders": Object {
+                          "max": 16,
+                          "min": 2,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "displacement": Object {
+                          "max": 1000,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "horsepower": Object {
+                          "max": 100,
+                          "min": 40,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "mpg": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "name": Object {
+                          "type": "string",
+                        },
+                        "weight": Object {
+                          "max": 10000,
+                          "min": 500,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "year": Object {
+                          "max": 99,
+                          "min": 0,
+                          "step": 1,
+                          "type": "number",
+                        },
+                      }
+        }
         onCancel={[Function]}
+        onChangeField={[Function]}
         onSubmit={[Function]}
 />,
       "_debugID": 1,
@@ -86,18 +206,63 @@ ShallowWrapper {
       "_hostParent": null,
       "_instance": CarForm {
         "_reactInternalInstance": [Circular],
-        "changeAcceleration": [Function],
-        "changeHorsepower": [Function],
-        "changeName": [Function],
-        "changeYear": [Function],
         "context": Object {},
+        "handleFieldChange": [Function],
         "props": Object {
           "car": Object {
             "acceleration": 12,
             "id": 1,
             "name": "Audi",
           },
+          "model": Object {
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
+          },
           "onCancel": [Function],
+          "onChangeField": [Function],
           "onSubmit": [Function],
         },
         "refs": Object {},
@@ -109,7 +274,6 @@ ShallowWrapper {
           },
         },
         "submit": [Function],
-        "updateFieldAndError": [Function],
         "updater": Object {
           "enqueueCallback": [Function],
           "enqueueCallbackInternal": [Function],
@@ -120,8 +284,9 @@ ShallowWrapper {
           "isMounted": [Function],
           "validateCallback": [Function],
         },
-        "validateName": [Function],
+        "validateField": [Function],
         "validateNumber": [Function],
+        "validateString": [Function],
       },
       "_mountOrder": 1,
       "_pendingCallbacks": null,
@@ -138,23 +303,58 @@ ShallowWrapper {
                               "name": "Audi",
                             }
           }
-          changeHandlers={
+          errors={Object {}}
+          model={
                     Object {
-                              "acceleration": [Function],
-                              "horsepower": [Function],
-                              "name": [Function],
-                              "year": [Function],
-                            }
-          }
-          errors={
-                    Object {
-                              "acceleration": "",
-                              "horsepower": "",
-                              "name": "",
-                              "year": "",
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
                             }
           }
           onCancel={[Function]}
+          onChangeField={[Function]}
           onSubmit={[Function]}
 />,
         "_debugID": 2,
@@ -166,23 +366,58 @@ ShallowWrapper {
                               "name": "Audi",
                             }
           }
-          changeHandlers={
+          errors={Object {}}
+          model={
                     Object {
-                              "acceleration": [Function],
-                              "horsepower": [Function],
-                              "name": [Function],
-                              "year": [Function],
-                            }
-          }
-          errors={
-                    Object {
-                              "acceleration": "",
-                              "horsepower": "",
-                              "name": "",
-                              "year": "",
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
                             }
           }
           onCancel={[Function]}
+          onChangeField={[Function]}
           onSubmit={[Function]}
 />,
       },
@@ -204,7 +439,57 @@ ShallowWrapper {
             "name": "Audi",
           }
     }
+    model={
+        Object {
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
+          }
+    }
     onCancel={[Function]}
+    onChangeField={[Function]}
     onSubmit={[Function]}
 />,
 }

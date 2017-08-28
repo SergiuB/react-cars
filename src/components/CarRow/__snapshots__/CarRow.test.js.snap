@@ -18,7 +18,7 @@ ShallowWrapper {
         1
     </td>
     <td
-        className="text-col"
+        className="text-col text-capitalize"
     >
         Audi
     </td>
@@ -27,6 +27,18 @@ ShallowWrapper {
     >
         12
     </td>
+    <td
+        className="numeric-col text-right"
+    />
+    <td
+        className="numeric-col text-right"
+    />
+    <td
+        className="numeric-col text-right"
+    />
+    <td
+        className="numeric-col text-right"
+    />
     <td
         className="numeric-col text-right"
     />
@@ -45,7 +57,7 @@ ShallowWrapper {
             1
       </td>
       <td
-            className="text-col"
+            className="text-col text-capitalize"
       >
             Audi
       </td>
@@ -54,6 +66,18 @@ ShallowWrapper {
       >
             12
       </td>
+      <td
+            className="numeric-col text-right"
+      />
+      <td
+            className="numeric-col text-right"
+      />
+      <td
+            className="numeric-col text-right"
+      />
+      <td
+            className="numeric-col text-right"
+      />
       <td
             className="numeric-col text-right"
       />
@@ -77,6 +101,55 @@ ShallowWrapper {
                       }
         }
         editEnabled={false}
+        model={
+                Object {
+                        "acceleration": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 0.1,
+                          "type": "number",
+                        },
+                        "cylinders": Object {
+                          "max": 16,
+                          "min": 2,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "displacement": Object {
+                          "max": 1000,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "horsepower": Object {
+                          "max": 100,
+                          "min": 40,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "mpg": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "name": Object {
+                          "type": "string",
+                        },
+                        "weight": Object {
+                          "max": 10000,
+                          "min": 500,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "year": Object {
+                          "max": 99,
+                          "min": 0,
+                          "step": 1,
+                          "type": "number",
+                        },
+                      }
+        }
         onClick={[Function]}
 />,
       "_debugID": 1,
@@ -92,6 +165,53 @@ ShallowWrapper {
             "name": "Audi",
           },
           "editEnabled": false,
+          "model": Object {
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
+          },
           "onClick": [Function],
         },
         "refs": Object {},
@@ -124,7 +244,7 @@ ShallowWrapper {
                     1
           </td>
           <td
-                    className="text-col"
+                    className="text-col text-capitalize"
           >
                     Audi
           </td>
@@ -133,6 +253,18 @@ ShallowWrapper {
           >
                     12
           </td>
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
           <td
                     className="numeric-col text-right"
           />
@@ -151,7 +283,7 @@ ShallowWrapper {
                     1
           </td>
           <td
-                    className="text-col"
+                    className="text-col text-capitalize"
           >
                     Audi
           </td>
@@ -160,6 +292,18 @@ ShallowWrapper {
           >
                     12
           </td>
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
           <td
                     className="numeric-col text-right"
           />
@@ -187,6 +331,55 @@ ShallowWrapper {
           }
     }
     editEnabled={false}
+    model={
+        Object {
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
+          }
+    }
     onClick={[Function]}
 />,
 }
@@ -210,7 +403,7 @@ ShallowWrapper {
         1
     </td>
     <td
-        className="text-col"
+        className="text-col text-capitalize"
     >
         Audi
     </td>
@@ -219,6 +412,18 @@ ShallowWrapper {
     >
         12
     </td>
+    <td
+        className="numeric-col text-right"
+    />
+    <td
+        className="numeric-col text-right"
+    />
+    <td
+        className="numeric-col text-right"
+    />
+    <td
+        className="numeric-col text-right"
+    />
     <td
         className="numeric-col text-right"
     />
@@ -237,7 +442,7 @@ ShallowWrapper {
             1
       </td>
       <td
-            className="text-col"
+            className="text-col text-capitalize"
       >
             Audi
       </td>
@@ -246,6 +451,18 @@ ShallowWrapper {
       >
             12
       </td>
+      <td
+            className="numeric-col text-right"
+      />
+      <td
+            className="numeric-col text-right"
+      />
+      <td
+            className="numeric-col text-right"
+      />
+      <td
+            className="numeric-col text-right"
+      />
       <td
             className="numeric-col text-right"
       />
@@ -269,6 +486,55 @@ ShallowWrapper {
                       }
         }
         editEnabled={true}
+        model={
+                Object {
+                        "acceleration": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 0.1,
+                          "type": "number",
+                        },
+                        "cylinders": Object {
+                          "max": 16,
+                          "min": 2,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "displacement": Object {
+                          "max": 1000,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "horsepower": Object {
+                          "max": 100,
+                          "min": 40,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "mpg": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "name": Object {
+                          "type": "string",
+                        },
+                        "weight": Object {
+                          "max": 10000,
+                          "min": 500,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "year": Object {
+                          "max": 99,
+                          "min": 0,
+                          "step": 1,
+                          "type": "number",
+                        },
+                      }
+        }
         onClick={[Function]}
 />,
       "_debugID": 3,
@@ -284,6 +550,53 @@ ShallowWrapper {
             "name": "Audi",
           },
           "editEnabled": true,
+          "model": Object {
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
+          },
           "onClick": [Function],
         },
         "refs": Object {},
@@ -316,7 +629,7 @@ ShallowWrapper {
                     1
           </td>
           <td
-                    className="text-col"
+                    className="text-col text-capitalize"
           >
                     Audi
           </td>
@@ -325,6 +638,18 @@ ShallowWrapper {
           >
                     12
           </td>
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
           <td
                     className="numeric-col text-right"
           />
@@ -343,7 +668,7 @@ ShallowWrapper {
                     1
           </td>
           <td
-                    className="text-col"
+                    className="text-col text-capitalize"
           >
                     Audi
           </td>
@@ -352,6 +677,18 @@ ShallowWrapper {
           >
                     12
           </td>
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
+          <td
+                    className="numeric-col text-right"
+          />
           <td
                     className="numeric-col text-right"
           />
@@ -379,6 +716,55 @@ ShallowWrapper {
           }
     }
     editEnabled={true}
+    model={
+        Object {
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
+          }
+    }
     onClick={[Function]}
 />,
 }

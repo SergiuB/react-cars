@@ -3,6 +3,8 @@ import { shallow } from 'enzyme';
 
 import CarRow from './CarRow';
 
+import model from '../../model';
+
 const carData = {
   id: 1,
   name: 'Audi',
@@ -12,14 +14,14 @@ const carData = {
 describe('CarRow', function () {
   it('renders correctly', function () {
     const wrapper = shallow(
-      <CarRow car={carData} />
+      <CarRow car={carData} model={model}/>
     );
     expect(wrapper).toMatchSnapshot();
   });
 
   it('renders correctly in edit mode', function () {
     const wrapper = shallow(
-      <CarRow car={carData} editEnabled />
+      <CarRow car={carData} model={model}editEnabled />
     );
     expect(wrapper).toMatchSnapshot();
   });
@@ -27,7 +29,7 @@ describe('CarRow', function () {
   it('fires onClick when row is clicked', function () {
     const onClick = jest.fn();
     const wrapper = shallow(
-      <CarRow car={carData} onClick={onClick} />
+      <CarRow car={carData} model={model}onClick={onClick} />
     );
     wrapper.find('tr').simulate('click');
     expect(onClick).toBeCalled();

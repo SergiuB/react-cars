@@ -15,54 +15,109 @@ ShallowWrapper {
     <div
         className="car-form-fields"
     >
-        <label>
-            Name 
-            <input
-                name="name"
-                onChange={[Function]}
-                type="text"
-                value="Audi"
-            />
-        </label>
-        
-        <label>
-            Acceleration 
-            <input
-                name="acceleration"
-                onChange={[Function]}
-                step="0.1"
-                type="number"
-                value={12}
-            />
-        </label>
-        
-        <label>
-            Horsepower 
-            <input
-                name="horsepower"
-                onChange={undefined}
-                type="number"
-                value={undefined}
-            />
-        </label>
-        
-        <label>
-            Year 
-            <input
-                name="year"
-                onChange={undefined}
-                type="number"
-                value={undefined}
-            />
-        </label>
-        
+        <div>
+            <label>
+                name
+                 
+                <input
+                    name="name"
+                    onChange={[Function]}
+                    type="text"
+                    value="Audi"
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                acceleration
+                 
+                <input
+                    name="acceleration"
+                    onChange={[Function]}
+                    type="number"
+                    value={12}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                cylinders
+                 
+                <input
+                    name="cylinders"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                displacement
+                 
+                <input
+                    name="displacement"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                horsepower
+                 
+                <input
+                    name="horsepower"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                mpg
+                 
+                <input
+                    name="mpg"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                weight
+                 
+                <input
+                    name="weight"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                year
+                 
+                <input
+                    name="year"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
     </div>
     <div
         className="car-form-buttons"
     >
         <button
             className="text-primary"
-            disabled={false}
+            disabled={undefined}
             name="submit"
             type="submit"
         >
@@ -85,54 +140,109 @@ ShallowWrapper {
       <div
             className="car-form-fields"
       >
-            <label>
-                  Name 
-                  <input
-                        name="name"
-                        onChange={[Function]}
-                        type="text"
-                        value="Audi"
-                  />
-            </label>
-            
-            <label>
-                  Acceleration 
-                  <input
-                        name="acceleration"
-                        onChange={[Function]}
-                        step="0.1"
-                        type="number"
-                        value={12}
-                  />
-            </label>
-            
-            <label>
-                  Horsepower 
-                  <input
-                        name="horsepower"
-                        onChange={undefined}
-                        type="number"
-                        value={undefined}
-                  />
-            </label>
-            
-            <label>
-                  Year 
-                  <input
-                        name="year"
-                        onChange={undefined}
-                        type="number"
-                        value={undefined}
-                  />
-            </label>
-            
+            <div>
+                  <label>
+                        name
+                         
+                        <input
+                              name="name"
+                              onChange={[Function]}
+                              type="text"
+                              value="Audi"
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        acceleration
+                         
+                        <input
+                              name="acceleration"
+                              onChange={[Function]}
+                              type="number"
+                              value={12}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        cylinders
+                         
+                        <input
+                              name="cylinders"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        displacement
+                         
+                        <input
+                              name="displacement"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        horsepower
+                         
+                        <input
+                              name="horsepower"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        mpg
+                         
+                        <input
+                              name="mpg"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        weight
+                         
+                        <input
+                              name="weight"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        year
+                         
+                        <input
+                              name="year"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
       </div>
       <div
             className="car-form-buttons"
       >
             <button
                   className="text-primary"
-                  disabled={false}
+                  disabled={undefined}
                   name="submit"
                   type="submit"
             >
@@ -161,21 +271,58 @@ ShallowWrapper {
                         "name": "Audi",
                       }
         }
-        changeHandlers={
+        errors={Object {}}
+        model={
                 Object {
-                        "acceleration": [Function],
-                        "name": [Function],
-                      }
-        }
-        errors={
-                Object {
-                        "acceleration": "",
-                        "horsepower": "",
-                        "name": "",
-                        "year": "",
+                        "acceleration": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 0.1,
+                          "type": "number",
+                        },
+                        "cylinders": Object {
+                          "max": 16,
+                          "min": 2,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "displacement": Object {
+                          "max": 1000,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "horsepower": Object {
+                          "max": 100,
+                          "min": 40,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "mpg": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "name": Object {
+                          "type": "string",
+                        },
+                        "weight": Object {
+                          "max": 10000,
+                          "min": 500,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "year": Object {
+                          "max": 99,
+                          "min": 0,
+                          "step": 1,
+                          "type": "number",
+                        },
                       }
         }
         onCancel={[Function]}
+        onChangeField={[Function]}
         onSubmit={[Function]}
 />,
       "_debugID": 1,
@@ -189,17 +336,56 @@ ShallowWrapper {
             "acceleration": 12,
             "name": "Audi",
           },
-          "changeHandlers": Object {
-            "acceleration": [Function],
-            "name": [Function],
-          },
-          "errors": Object {
-            "acceleration": "",
-            "horsepower": "",
-            "name": "",
-            "year": "",
+          "errors": Object {},
+          "model": Object {
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
           },
           "onCancel": [Function],
+          "onChangeField": [Function],
           "onSubmit": [Function],
         },
         "refs": Object {},
@@ -229,54 +415,109 @@ ShallowWrapper {
           <div
                     className="car-form-fields"
           >
-                    <label>
-                              Name 
-                              <input
-                                        name="name"
-                                        onChange={[Function]}
-                                        type="text"
-                                        value="Audi"
-                              />
-                    </label>
-                    
-                    <label>
-                              Acceleration 
-                              <input
-                                        name="acceleration"
-                                        onChange={[Function]}
-                                        step="0.1"
-                                        type="number"
-                                        value={12}
-                              />
-                    </label>
-                    
-                    <label>
-                              Horsepower 
-                              <input
-                                        name="horsepower"
-                                        onChange={undefined}
-                                        type="number"
-                                        value={undefined}
-                              />
-                    </label>
-                    
-                    <label>
-                              Year 
-                              <input
-                                        name="year"
-                                        onChange={undefined}
-                                        type="number"
-                                        value={undefined}
-                              />
-                    </label>
-                    
+                    <div>
+                              <label>
+                                        name
+                                         
+                                        <input
+                                                  name="name"
+                                                  onChange={[Function]}
+                                                  type="text"
+                                                  value="Audi"
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        acceleration
+                                         
+                                        <input
+                                                  name="acceleration"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={12}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        cylinders
+                                         
+                                        <input
+                                                  name="cylinders"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        displacement
+                                         
+                                        <input
+                                                  name="displacement"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        horsepower
+                                         
+                                        <input
+                                                  name="horsepower"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        mpg
+                                         
+                                        <input
+                                                  name="mpg"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        weight
+                                         
+                                        <input
+                                                  name="weight"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        year
+                                         
+                                        <input
+                                                  name="year"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
           </div>
           <div
                     className="car-form-buttons"
           >
                     <button
                               className="text-primary"
-                              disabled={false}
+                              disabled={undefined}
                               name="submit"
                               type="submit"
                     >
@@ -299,54 +540,109 @@ ShallowWrapper {
           <div
                     className="car-form-fields"
           >
-                    <label>
-                              Name 
-                              <input
-                                        name="name"
-                                        onChange={[Function]}
-                                        type="text"
-                                        value="Audi"
-                              />
-                    </label>
-                    
-                    <label>
-                              Acceleration 
-                              <input
-                                        name="acceleration"
-                                        onChange={[Function]}
-                                        step="0.1"
-                                        type="number"
-                                        value={12}
-                              />
-                    </label>
-                    
-                    <label>
-                              Horsepower 
-                              <input
-                                        name="horsepower"
-                                        onChange={undefined}
-                                        type="number"
-                                        value={undefined}
-                              />
-                    </label>
-                    
-                    <label>
-                              Year 
-                              <input
-                                        name="year"
-                                        onChange={undefined}
-                                        type="number"
-                                        value={undefined}
-                              />
-                    </label>
-                    
+                    <div>
+                              <label>
+                                        name
+                                         
+                                        <input
+                                                  name="name"
+                                                  onChange={[Function]}
+                                                  type="text"
+                                                  value="Audi"
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        acceleration
+                                         
+                                        <input
+                                                  name="acceleration"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={12}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        cylinders
+                                         
+                                        <input
+                                                  name="cylinders"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        displacement
+                                         
+                                        <input
+                                                  name="displacement"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        horsepower
+                                         
+                                        <input
+                                                  name="horsepower"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        mpg
+                                         
+                                        <input
+                                                  name="mpg"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        weight
+                                         
+                                        <input
+                                                  name="weight"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        year
+                                         
+                                        <input
+                                                  name="year"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
           </div>
           <div
                     className="car-form-buttons"
           >
                     <button
                               className="text-primary"
-                              disabled={false}
+                              disabled={undefined}
                               name="submit"
                               type="submit"
                     >
@@ -379,21 +675,58 @@ ShallowWrapper {
             "name": "Audi",
           }
     }
-    changeHandlers={
+    errors={Object {}}
+    model={
         Object {
-            "acceleration": [Function],
-            "name": [Function],
-          }
-    }
-    errors={
-        Object {
-            "acceleration": "",
-            "horsepower": "",
-            "name": "",
-            "year": "",
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
           }
     }
     onCancel={[Function]}
+    onChangeField={[Function]}
     onSubmit={[Function]}
 />,
 }
@@ -414,64 +747,123 @@ ShallowWrapper {
     <div
         className="car-form-fields"
     >
-        <label>
-            Name 
-            <input
-                name="name"
-                onChange={[Function]}
-                type="text"
-                value="Audi"
-            />
-        </label>
-        <span
-            className="text-danger"
-        >
-            <small>
-                Not a good name
-            </small>
-        </span>
-        <label>
-            Acceleration 
-            <input
-                name="acceleration"
-                onChange={[Function]}
-                step="0.1"
-                type="number"
-                value={12}
-            />
-        </label>
-        <span
-            className="text-danger"
-        >
-            <small>
-                This car sucks
-            </small>
-        </span>
-        <label>
-            Horsepower 
-            <input
-                name="horsepower"
-                onChange={undefined}
-                type="number"
-                value={undefined}
-            />
-        </label>
-        <label>
-            Year 
-            <input
-                name="year"
-                onChange={undefined}
-                type="number"
-                value={undefined}
-            />
-        </label>
+        <div>
+            <label>
+                name
+                 
+                <input
+                    name="name"
+                    onChange={[Function]}
+                    type="text"
+                    value="Audi"
+                />
+            </label>
+            <span
+                className="text-danger"
+            >
+                <small>
+                    Not a good name
+                </small>
+            </span>
+        </div>
+        <div>
+            <label>
+                acceleration
+                 
+                <input
+                    name="acceleration"
+                    onChange={[Function]}
+                    type="number"
+                    value={12}
+                />
+            </label>
+            <span
+                className="text-danger"
+            >
+                <small>
+                    This car sucks
+                </small>
+            </span>
+        </div>
+        <div>
+            <label>
+                cylinders
+                 
+                <input
+                    name="cylinders"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                displacement
+                 
+                <input
+                    name="displacement"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                horsepower
+                 
+                <input
+                    name="horsepower"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                mpg
+                 
+                <input
+                    name="mpg"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                weight
+                 
+                <input
+                    name="weight"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
+        <div>
+            <label>
+                year
+                 
+                <input
+                    name="year"
+                    onChange={[Function]}
+                    type="number"
+                    value={undefined}
+                />
+            </label>
+        </div>
     </div>
     <div
         className="car-form-buttons"
     >
         <button
             className="text-primary"
-            disabled={true}
+            disabled="name"
             name="submit"
             type="submit"
         >
@@ -494,64 +886,123 @@ ShallowWrapper {
       <div
             className="car-form-fields"
       >
-            <label>
-                  Name 
-                  <input
-                        name="name"
-                        onChange={[Function]}
-                        type="text"
-                        value="Audi"
-                  />
-            </label>
-            <span
-                  className="text-danger"
-            >
-                  <small>
-                        Not a good name
-                  </small>
-            </span>
-            <label>
-                  Acceleration 
-                  <input
-                        name="acceleration"
-                        onChange={[Function]}
-                        step="0.1"
-                        type="number"
-                        value={12}
-                  />
-            </label>
-            <span
-                  className="text-danger"
-            >
-                  <small>
-                        This car sucks
-                  </small>
-            </span>
-            <label>
-                  Horsepower 
-                  <input
-                        name="horsepower"
-                        onChange={undefined}
-                        type="number"
-                        value={undefined}
-                  />
-            </label>
-            <label>
-                  Year 
-                  <input
-                        name="year"
-                        onChange={undefined}
-                        type="number"
-                        value={undefined}
-                  />
-            </label>
+            <div>
+                  <label>
+                        name
+                         
+                        <input
+                              name="name"
+                              onChange={[Function]}
+                              type="text"
+                              value="Audi"
+                        />
+                  </label>
+                  <span
+                        className="text-danger"
+                  >
+                        <small>
+                              Not a good name
+                        </small>
+                  </span>
+            </div>
+            <div>
+                  <label>
+                        acceleration
+                         
+                        <input
+                              name="acceleration"
+                              onChange={[Function]}
+                              type="number"
+                              value={12}
+                        />
+                  </label>
+                  <span
+                        className="text-danger"
+                  >
+                        <small>
+                              This car sucks
+                        </small>
+                  </span>
+            </div>
+            <div>
+                  <label>
+                        cylinders
+                         
+                        <input
+                              name="cylinders"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        displacement
+                         
+                        <input
+                              name="displacement"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        horsepower
+                         
+                        <input
+                              name="horsepower"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        mpg
+                         
+                        <input
+                              name="mpg"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        weight
+                         
+                        <input
+                              name="weight"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
+            <div>
+                  <label>
+                        year
+                         
+                        <input
+                              name="year"
+                              onChange={[Function]}
+                              type="number"
+                              value={undefined}
+                        />
+                  </label>
+            </div>
       </div>
       <div
             className="car-form-buttons"
       >
             <button
                   className="text-primary"
-                  disabled={true}
+                  disabled="name"
                   name="submit"
                   type="submit"
             >
@@ -580,19 +1031,63 @@ ShallowWrapper {
                         "name": "Audi",
                       }
         }
-        changeHandlers={
-                Object {
-                        "acceleration": [Function],
-                        "name": [Function],
-                      }
-        }
         errors={
                 Object {
                         "acceleration": "This car sucks",
                         "name": "Not a good name",
                       }
         }
+        model={
+                Object {
+                        "acceleration": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 0.1,
+                          "type": "number",
+                        },
+                        "cylinders": Object {
+                          "max": 16,
+                          "min": 2,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "displacement": Object {
+                          "max": 1000,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "horsepower": Object {
+                          "max": 100,
+                          "min": 40,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "mpg": Object {
+                          "max": 100,
+                          "min": 1,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "name": Object {
+                          "type": "string",
+                        },
+                        "weight": Object {
+                          "max": 10000,
+                          "min": 500,
+                          "step": 1,
+                          "type": "number",
+                        },
+                        "year": Object {
+                          "max": 99,
+                          "min": 0,
+                          "step": 1,
+                          "type": "number",
+                        },
+                      }
+        }
         onCancel={[Function]}
+        onChangeField={[Function]}
         onSubmit={[Function]}
 />,
       "_debugID": 3,
@@ -606,15 +1101,59 @@ ShallowWrapper {
             "acceleration": 12,
             "name": "Audi",
           },
-          "changeHandlers": Object {
-            "acceleration": [Function],
-            "name": [Function],
-          },
           "errors": Object {
             "acceleration": "This car sucks",
             "name": "Not a good name",
           },
+          "model": Object {
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
+          },
           "onCancel": [Function],
+          "onChangeField": [Function],
           "onSubmit": [Function],
         },
         "refs": Object {},
@@ -644,64 +1183,123 @@ ShallowWrapper {
           <div
                     className="car-form-fields"
           >
-                    <label>
-                              Name 
-                              <input
-                                        name="name"
-                                        onChange={[Function]}
-                                        type="text"
-                                        value="Audi"
-                              />
-                    </label>
-                    <span
-                              className="text-danger"
-                    >
-                              <small>
-                                        Not a good name
-                              </small>
-                    </span>
-                    <label>
-                              Acceleration 
-                              <input
-                                        name="acceleration"
-                                        onChange={[Function]}
-                                        step="0.1"
-                                        type="number"
-                                        value={12}
-                              />
-                    </label>
-                    <span
-                              className="text-danger"
-                    >
-                              <small>
-                                        This car sucks
-                              </small>
-                    </span>
-                    <label>
-                              Horsepower 
-                              <input
-                                        name="horsepower"
-                                        onChange={undefined}
-                                        type="number"
-                                        value={undefined}
-                              />
-                    </label>
-                    <label>
-                              Year 
-                              <input
-                                        name="year"
-                                        onChange={undefined}
-                                        type="number"
-                                        value={undefined}
-                              />
-                    </label>
+                    <div>
+                              <label>
+                                        name
+                                         
+                                        <input
+                                                  name="name"
+                                                  onChange={[Function]}
+                                                  type="text"
+                                                  value="Audi"
+                                        />
+                              </label>
+                              <span
+                                        className="text-danger"
+                              >
+                                        <small>
+                                                  Not a good name
+                                        </small>
+                              </span>
+                    </div>
+                    <div>
+                              <label>
+                                        acceleration
+                                         
+                                        <input
+                                                  name="acceleration"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={12}
+                                        />
+                              </label>
+                              <span
+                                        className="text-danger"
+                              >
+                                        <small>
+                                                  This car sucks
+                                        </small>
+                              </span>
+                    </div>
+                    <div>
+                              <label>
+                                        cylinders
+                                         
+                                        <input
+                                                  name="cylinders"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        displacement
+                                         
+                                        <input
+                                                  name="displacement"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        horsepower
+                                         
+                                        <input
+                                                  name="horsepower"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        mpg
+                                         
+                                        <input
+                                                  name="mpg"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        weight
+                                         
+                                        <input
+                                                  name="weight"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        year
+                                         
+                                        <input
+                                                  name="year"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
           </div>
           <div
                     className="car-form-buttons"
           >
                     <button
                               className="text-primary"
-                              disabled={true}
+                              disabled="name"
                               name="submit"
                               type="submit"
                     >
@@ -724,64 +1322,123 @@ ShallowWrapper {
           <div
                     className="car-form-fields"
           >
-                    <label>
-                              Name 
-                              <input
-                                        name="name"
-                                        onChange={[Function]}
-                                        type="text"
-                                        value="Audi"
-                              />
-                    </label>
-                    <span
-                              className="text-danger"
-                    >
-                              <small>
-                                        Not a good name
-                              </small>
-                    </span>
-                    <label>
-                              Acceleration 
-                              <input
-                                        name="acceleration"
-                                        onChange={[Function]}
-                                        step="0.1"
-                                        type="number"
-                                        value={12}
-                              />
-                    </label>
-                    <span
-                              className="text-danger"
-                    >
-                              <small>
-                                        This car sucks
-                              </small>
-                    </span>
-                    <label>
-                              Horsepower 
-                              <input
-                                        name="horsepower"
-                                        onChange={undefined}
-                                        type="number"
-                                        value={undefined}
-                              />
-                    </label>
-                    <label>
-                              Year 
-                              <input
-                                        name="year"
-                                        onChange={undefined}
-                                        type="number"
-                                        value={undefined}
-                              />
-                    </label>
+                    <div>
+                              <label>
+                                        name
+                                         
+                                        <input
+                                                  name="name"
+                                                  onChange={[Function]}
+                                                  type="text"
+                                                  value="Audi"
+                                        />
+                              </label>
+                              <span
+                                        className="text-danger"
+                              >
+                                        <small>
+                                                  Not a good name
+                                        </small>
+                              </span>
+                    </div>
+                    <div>
+                              <label>
+                                        acceleration
+                                         
+                                        <input
+                                                  name="acceleration"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={12}
+                                        />
+                              </label>
+                              <span
+                                        className="text-danger"
+                              >
+                                        <small>
+                                                  This car sucks
+                                        </small>
+                              </span>
+                    </div>
+                    <div>
+                              <label>
+                                        cylinders
+                                         
+                                        <input
+                                                  name="cylinders"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        displacement
+                                         
+                                        <input
+                                                  name="displacement"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        horsepower
+                                         
+                                        <input
+                                                  name="horsepower"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        mpg
+                                         
+                                        <input
+                                                  name="mpg"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        weight
+                                         
+                                        <input
+                                                  name="weight"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
+                    <div>
+                              <label>
+                                        year
+                                         
+                                        <input
+                                                  name="year"
+                                                  onChange={[Function]}
+                                                  type="number"
+                                                  value={undefined}
+                                        />
+                              </label>
+                    </div>
           </div>
           <div
                     className="car-form-buttons"
           >
                     <button
                               className="text-primary"
-                              disabled={true}
+                              disabled="name"
                               name="submit"
                               type="submit"
                     >
@@ -814,19 +1471,63 @@ ShallowWrapper {
             "name": "Audi",
           }
     }
-    changeHandlers={
-        Object {
-            "acceleration": [Function],
-            "name": [Function],
-          }
-    }
     errors={
         Object {
             "acceleration": "This car sucks",
             "name": "Not a good name",
           }
     }
+    model={
+        Object {
+            "acceleration": Object {
+              "max": 100,
+              "min": 1,
+              "step": 0.1,
+              "type": "number",
+            },
+            "cylinders": Object {
+              "max": 16,
+              "min": 2,
+              "step": 1,
+              "type": "number",
+            },
+            "displacement": Object {
+              "max": 1000,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "horsepower": Object {
+              "max": 100,
+              "min": 40,
+              "step": 1,
+              "type": "number",
+            },
+            "mpg": Object {
+              "max": 100,
+              "min": 1,
+              "step": 1,
+              "type": "number",
+            },
+            "name": Object {
+              "type": "string",
+            },
+            "weight": Object {
+              "max": 10000,
+              "min": 500,
+              "step": 1,
+              "type": "number",
+            },
+            "year": Object {
+              "max": 99,
+              "min": 0,
+              "step": 1,
+              "type": "number",
+            },
+          }
+    }
     onCancel={[Function]}
+    onChangeField={[Function]}
     onSubmit={[Function]}
 />,
 }

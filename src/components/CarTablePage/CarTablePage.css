@@ -2,10 +2,6 @@
   width: 40px;
 }
 
-.car-table-page .large-col {
-  width: 120px;
-}
-
-.car-table-page .small-col {
-  width: 60px;
+.car-table-page th.text-right {
+  padding-left: 10px;
 }

@@ -20,23 +20,45 @@ ShallowWrapper {
             >
                 Id
             </th>
-            <th>
-                Name
+            <th
+                className="text-capitalize"
+            >
+                name
             </th>
             <th
-                className="large-col text-right"
+                className="text-right text-capitalize"
             >
-                Acceleration
+                acceleration
             </th>
             <th
-                className="large-col text-right"
+                className="text-right text-capitalize"
             >
-                Horse Power
+                cylinders
             </th>
             <th
-                className="small-col text-right"
+                className="text-right text-capitalize"
             >
-                Year
+                displacement
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                horsepower
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                mpg
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                weight
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                year
             </th>
         </tr>
     </thead>
@@ -50,6 +72,55 @@ ShallowWrapper {
                   }
             }
             editEnabled={true}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
+                  }
+            }
             onClick={[Function]}
         />
         <CarFormRow
@@ -58,6 +129,56 @@ ShallowWrapper {
                     "acceleration": 12,
                     "id": 1,
                     "name": "Audi",
+                  }
+            }
+            colSpan={9}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
                   }
             }
             onCancel={[Function]}
@@ -72,6 +193,55 @@ ShallowWrapper {
                   }
             }
             editEnabled={false}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
+                  }
+            }
             onClick={[Function]}
         />
     </tbody>
@@ -89,23 +259,45 @@ ShallowWrapper {
                   >
                         Id
                   </th>
-                  <th>
-                        Name
+                  <th
+                        className="text-capitalize"
+                  >
+                        name
                   </th>
                   <th
-                        className="large-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Acceleration
+                        acceleration
                   </th>
                   <th
-                        className="large-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Horse Power
+                        cylinders
                   </th>
                   <th
-                        className="small-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Year
+                        displacement
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        horsepower
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        mpg
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        weight
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        year
                   </th>
             </tr>
       </thead>
@@ -119,6 +311,55 @@ ShallowWrapper {
                             }
                   }
                   editEnabled={true}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
+                            }
+                  }
                   onClick={[Function]}
             />
             <CarFormRow
@@ -127,6 +368,56 @@ ShallowWrapper {
                               "acceleration": 12,
                               "id": 1,
                               "name": "Audi",
+                            }
+                  }
+                  colSpan={9}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
                             }
                   }
                   onCancel={[Function]}
@@ -141,6 +432,55 @@ ShallowWrapper {
                             }
                   }
                   editEnabled={false}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
+                            }
+                  }
                   onClick={[Function]}
             />
       </tbody>
@@ -228,23 +568,45 @@ ShallowWrapper {
                               >
                                         Id
                               </th>
-                              <th>
-                                        Name
+                              <th
+                                        className="text-capitalize"
+                              >
+                                        name
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Acceleration
+                                        acceleration
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Horse Power
+                                        cylinders
                               </th>
                               <th
-                                        className="small-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Year
+                                        displacement
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        horsepower
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        mpg
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        weight
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        year
                               </th>
                     </tr>
           </thead>
@@ -258,6 +620,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={true}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarFormRow
@@ -266,6 +677,56 @@ ShallowWrapper {
                                                   "acceleration": 12,
                                                   "id": 1,
                                                   "name": "Audi",
+                                                }
+                              }
+                              colSpan={9}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
                                                 }
                               }
                               onCancel={[Function]}
@@ -280,6 +741,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
           </tbody>
@@ -297,23 +807,45 @@ ShallowWrapper {
                               >
                                         Id
                               </th>
-                              <th>
-                                        Name
+                              <th
+                                        className="text-capitalize"
+                              >
+                                        name
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Acceleration
+                                        acceleration
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Horse Power
+                                        cylinders
                               </th>
                               <th
-                                        className="small-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Year
+                                        displacement
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        horsepower
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        mpg
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        weight
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        year
                               </th>
                     </tr>
           </thead>
@@ -327,6 +859,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={true}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarFormRow
@@ -335,6 +916,56 @@ ShallowWrapper {
                                                   "acceleration": 12,
                                                   "id": 1,
                                                   "name": "Audi",
+                                                }
+                              }
+                              colSpan={9}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
                                                 }
                               }
                               onCancel={[Function]}
@@ -349,6 +980,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
           </tbody>
@@ -407,23 +1087,45 @@ ShallowWrapper {
             >
                 Id
             </th>
-            <th>
-                Name
+            <th
+                className="text-capitalize"
+            >
+                name
             </th>
             <th
-                className="large-col text-right"
+                className="text-right text-capitalize"
             >
-                Acceleration
+                acceleration
             </th>
             <th
-                className="large-col text-right"
+                className="text-right text-capitalize"
             >
-                Horse Power
+                cylinders
             </th>
             <th
-                className="small-col text-right"
+                className="text-right text-capitalize"
             >
-                Year
+                displacement
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                horsepower
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                mpg
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                weight
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                year
             </th>
         </tr>
     </thead>
@@ -437,6 +1139,55 @@ ShallowWrapper {
                   }
             }
             editEnabled={false}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
+                  }
+            }
             onClick={[Function]}
         />
         <CarRow
@@ -448,6 +1199,55 @@ ShallowWrapper {
                   }
             }
             editEnabled={false}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
+                  }
+            }
             onClick={[Function]}
         />
     </tbody>
@@ -465,23 +1265,45 @@ ShallowWrapper {
                   >
                         Id
                   </th>
-                  <th>
-                        Name
+                  <th
+                        className="text-capitalize"
+                  >
+                        name
                   </th>
                   <th
-                        className="large-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Acceleration
+                        acceleration
                   </th>
                   <th
-                        className="large-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Horse Power
+                        cylinders
                   </th>
                   <th
-                        className="small-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Year
+                        displacement
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        horsepower
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        mpg
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        weight
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        year
                   </th>
             </tr>
       </thead>
@@ -495,6 +1317,55 @@ ShallowWrapper {
                             }
                   }
                   editEnabled={false}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
+                            }
+                  }
                   onClick={[Function]}
             />
             <CarRow
@@ -506,6 +1377,55 @@ ShallowWrapper {
                             }
                   }
                   editEnabled={false}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
+                            }
+                  }
                   onClick={[Function]}
             />
       </tbody>
@@ -593,23 +1513,45 @@ ShallowWrapper {
                               >
                                         Id
                               </th>
-                              <th>
-                                        Name
+                              <th
+                                        className="text-capitalize"
+                              >
+                                        name
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Acceleration
+                                        acceleration
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Horse Power
+                                        cylinders
                               </th>
                               <th
-                                        className="small-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Year
+                                        displacement
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        horsepower
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        mpg
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        weight
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        year
                               </th>
                     </tr>
           </thead>
@@ -623,6 +1565,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarRow
@@ -634,6 +1625,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
           </tbody>
@@ -651,23 +1691,45 @@ ShallowWrapper {
                               >
                                         Id
                               </th>
-                              <th>
-                                        Name
+                              <th
+                                        className="text-capitalize"
+                              >
+                                        name
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Acceleration
+                                        acceleration
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Horse Power
+                                        cylinders
                               </th>
                               <th
-                                        className="small-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Year
+                                        displacement
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        horsepower
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        mpg
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        weight
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        year
                               </th>
                     </tr>
           </thead>
@@ -681,6 +1743,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarRow
@@ -692,6 +1803,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
           </tbody>
@@ -750,23 +1910,45 @@ ShallowWrapper {
             >
                 Id
             </th>
-            <th>
-                Name
+            <th
+                className="text-capitalize"
+            >
+                name
             </th>
             <th
-                className="large-col text-right"
+                className="text-right text-capitalize"
             >
-                Acceleration
+                acceleration
             </th>
             <th
-                className="large-col text-right"
+                className="text-right text-capitalize"
             >
-                Horse Power
+                cylinders
             </th>
             <th
-                className="small-col text-right"
+                className="text-right text-capitalize"
             >
-                Year
+                displacement
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                horsepower
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                mpg
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                weight
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                year
             </th>
         </tr>
     </thead>
@@ -780,6 +1962,55 @@ ShallowWrapper {
                   }
             }
             editEnabled={false}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
+                  }
+            }
             onClick={[Function]}
         />
         <CarRow
@@ -791,6 +2022,55 @@ ShallowWrapper {
                   }
             }
             editEnabled={true}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
+                  }
+            }
             onClick={[Function]}
         />
         <CarFormRow
@@ -799,6 +2079,56 @@ ShallowWrapper {
                     "acceleration": 18,
                     "id": 2,
                     "name": "VW",
+                  }
+            }
+            colSpan={9}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
                   }
             }
             onCancel={[Function]}
@@ -819,23 +2149,45 @@ ShallowWrapper {
                   >
                         Id
                   </th>
-                  <th>
-                        Name
+                  <th
+                        className="text-capitalize"
+                  >
+                        name
                   </th>
                   <th
-                        className="large-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Acceleration
+                        acceleration
                   </th>
                   <th
-                        className="large-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Horse Power
+                        cylinders
                   </th>
                   <th
-                        className="small-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Year
+                        displacement
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        horsepower
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        mpg
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        weight
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        year
                   </th>
             </tr>
       </thead>
@@ -849,6 +2201,55 @@ ShallowWrapper {
                             }
                   }
                   editEnabled={false}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
+                            }
+                  }
                   onClick={[Function]}
             />
             <CarRow
@@ -860,6 +2261,55 @@ ShallowWrapper {
                             }
                   }
                   editEnabled={true}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
+                            }
+                  }
                   onClick={[Function]}
             />
             <CarFormRow
@@ -868,6 +2318,56 @@ ShallowWrapper {
                               "acceleration": 18,
                               "id": 2,
                               "name": "VW",
+                            }
+                  }
+                  colSpan={9}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
                             }
                   }
                   onCancel={[Function]}
@@ -958,23 +2458,45 @@ ShallowWrapper {
                               >
                                         Id
                               </th>
-                              <th>
-                                        Name
+                              <th
+                                        className="text-capitalize"
+                              >
+                                        name
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Acceleration
+                                        acceleration
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Horse Power
+                                        cylinders
                               </th>
                               <th
-                                        className="small-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Year
+                                        displacement
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        horsepower
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        mpg
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        weight
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        year
                               </th>
                     </tr>
           </thead>
@@ -988,6 +2510,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarRow
@@ -999,6 +2570,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={true}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarFormRow
@@ -1007,6 +2627,56 @@ ShallowWrapper {
                                                   "acceleration": 18,
                                                   "id": 2,
                                                   "name": "VW",
+                                                }
+                              }
+                              colSpan={9}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
                                                 }
                               }
                               onCancel={[Function]}
@@ -1027,23 +2697,45 @@ ShallowWrapper {
                               >
                                         Id
                               </th>
-                              <th>
-                                        Name
+                              <th
+                                        className="text-capitalize"
+                              >
+                                        name
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Acceleration
+                                        acceleration
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Horse Power
+                                        cylinders
                               </th>
                               <th
-                                        className="small-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Year
+                                        displacement
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        horsepower
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        mpg
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        weight
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        year
                               </th>
                     </tr>
           </thead>
@@ -1057,6 +2749,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarRow
@@ -1068,6 +2809,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={true}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarFormRow
@@ -1076,6 +2866,56 @@ ShallowWrapper {
                                                   "acceleration": 18,
                                                   "id": 2,
                                                   "name": "VW",
+                                                }
+                              }
+                              colSpan={9}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
                                                 }
                               }
                               onCancel={[Function]}
@@ -1137,23 +2977,45 @@ ShallowWrapper {
             >
                 Id
             </th>
-            <th>
-                Name
+            <th
+                className="text-capitalize"
+            >
+                name
             </th>
             <th
-                className="large-col text-right"
+                className="text-right text-capitalize"
             >
-                Acceleration
+                acceleration
             </th>
             <th
-                className="large-col text-right"
+                className="text-right text-capitalize"
             >
-                Horse Power
+                cylinders
             </th>
             <th
-                className="small-col text-right"
+                className="text-right text-capitalize"
             >
-                Year
+                displacement
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                horsepower
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                mpg
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                weight
+            </th>
+            <th
+                className="text-right text-capitalize"
+            >
+                year
             </th>
         </tr>
     </thead>
@@ -1167,6 +3029,55 @@ ShallowWrapper {
                   }
             }
             editEnabled={false}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
+                  }
+            }
             onClick={[Function]}
         />
         <CarRow
@@ -1178,6 +3089,55 @@ ShallowWrapper {
                   }
             }
             editEnabled={false}
+            model={
+                Object {
+                    "acceleration": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 0.1,
+                      "type": "number",
+                    },
+                    "cylinders": Object {
+                      "max": 16,
+                      "min": 2,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "displacement": Object {
+                      "max": 1000,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "horsepower": Object {
+                      "max": 100,
+                      "min": 40,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "mpg": Object {
+                      "max": 100,
+                      "min": 1,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "name": Object {
+                      "type": "string",
+                    },
+                    "weight": Object {
+                      "max": 10000,
+                      "min": 500,
+                      "step": 1,
+                      "type": "number",
+                    },
+                    "year": Object {
+                      "max": 99,
+                      "min": 0,
+                      "step": 1,
+                      "type": "number",
+                    },
+                  }
+            }
             onClick={[Function]}
         />
     </tbody>
@@ -1195,23 +3155,45 @@ ShallowWrapper {
                   >
                         Id
                   </th>
-                  <th>
-                        Name
+                  <th
+                        className="text-capitalize"
+                  >
+                        name
                   </th>
                   <th
-                        className="large-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Acceleration
+                        acceleration
                   </th>
                   <th
-                        className="large-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Horse Power
+                        cylinders
                   </th>
                   <th
-                        className="small-col text-right"
+                        className="text-right text-capitalize"
                   >
-                        Year
+                        displacement
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        horsepower
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        mpg
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        weight
+                  </th>
+                  <th
+                        className="text-right text-capitalize"
+                  >
+                        year
                   </th>
             </tr>
       </thead>
@@ -1225,6 +3207,55 @@ ShallowWrapper {
                             }
                   }
                   editEnabled={false}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
+                            }
+                  }
                   onClick={[Function]}
             />
             <CarRow
@@ -1236,6 +3267,55 @@ ShallowWrapper {
                             }
                   }
                   editEnabled={false}
+                  model={
+                        Object {
+                              "acceleration": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 0.1,
+                                "type": "number",
+                              },
+                              "cylinders": Object {
+                                "max": 16,
+                                "min": 2,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "displacement": Object {
+                                "max": 1000,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "horsepower": Object {
+                                "max": 100,
+                                "min": 40,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "mpg": Object {
+                                "max": 100,
+                                "min": 1,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "name": Object {
+                                "type": "string",
+                              },
+                              "weight": Object {
+                                "max": 10000,
+                                "min": 500,
+                                "step": 1,
+                                "type": "number",
+                              },
+                              "year": Object {
+                                "max": 99,
+                                "min": 0,
+                                "step": 1,
+                                "type": "number",
+                              },
+                            }
+                  }
                   onClick={[Function]}
             />
       </tbody>
@@ -1323,23 +3403,45 @@ ShallowWrapper {
                               >
                                         Id
                               </th>
-                              <th>
-                                        Name
+                              <th
+                                        className="text-capitalize"
+                              >
+                                        name
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Acceleration
+                                        acceleration
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Horse Power
+                                        cylinders
                               </th>
                               <th
-                                        className="small-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Year
+                                        displacement
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        horsepower
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        mpg
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        weight
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        year
                               </th>
                     </tr>
           </thead>
@@ -1353,6 +3455,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarRow
@@ -1364,6 +3515,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
           </tbody>
@@ -1381,23 +3581,45 @@ ShallowWrapper {
                               >
                                         Id
                               </th>
-                              <th>
-                                        Name
+                              <th
+                                        className="text-capitalize"
+                              >
+                                        name
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Acceleration
+                                        acceleration
                               </th>
                               <th
-                                        className="large-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Horse Power
+                                        cylinders
                               </th>
                               <th
-                                        className="small-col text-right"
+                                        className="text-right text-capitalize"
                               >
-                                        Year
+                                        displacement
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        horsepower
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        mpg
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        weight
+                              </th>
+                              <th
+                                        className="text-right text-capitalize"
+                              >
+                                        year
                               </th>
                     </tr>
           </thead>
@@ -1411,6 +3633,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
                     <CarRow
@@ -1422,6 +3693,55 @@ ShallowWrapper {
                                                 }
                               }
                               editEnabled={false}
+                              model={
+                                        Object {
+                                                  "acceleration": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 0.1,
+                                                    "type": "number",
+                                                  },
+                                                  "cylinders": Object {
+                                                    "max": 16,
+                                                    "min": 2,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "displacement": Object {
+                                                    "max": 1000,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "horsepower": Object {
+                                                    "max": 100,
+                                                    "min": 40,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "mpg": Object {
+                                                    "max": 100,
+                                                    "min": 1,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "name": Object {
+                                                    "type": "string",
+                                                  },
+                                                  "weight": Object {
+                                                    "max": 10000,
+                                                    "min": 500,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                  "year": Object {
+                                                    "max": 99,
+                                                    "min": 0,
+                                                    "step": 1,
+                                                    "type": "number",
+                                                  },
+                                                }
+                              }
                               onClick={[Function]}
                     />
           </tbody>

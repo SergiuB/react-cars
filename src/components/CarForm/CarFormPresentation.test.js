@@ -3,10 +3,11 @@ import { shallow } from 'enzyme';
 
 import CarFormPresentation from './CarFormPresentation';
 
+import model from '../../model';
+
 describe('CarFormPresentation', function () {
   it('renders correctly', function () {
-    const onChangeName = jest.fn();
-    const onChangeAcceleration = jest.fn();
+    const onChangeField = jest.fn();
     const onSubmit = jest.fn();
     const onCancel = jest.fn();
     const wrapper = shallow(
@@ -15,10 +16,8 @@ describe('CarFormPresentation', function () {
           name: 'Audi',
           acceleration: 12,
         }}
-        changeHandlers={{
-          name: onChangeName,
-          acceleration: onChangeAcceleration,
-        }}
+        model={model}
+        onChangeField={onChangeField}
         onSubmit={onSubmit}
         onCancel={onCancel}
       />
@@ -27,8 +26,7 @@ describe('CarFormPresentation', function () {
   });
 
   it('renders correctly with field errors but cannot submit', function () {
-    const onChangeName = jest.fn();
-    const onChangeAcceleration = jest.fn();
+    const onChangeField = jest.fn();
     const onSubmit = jest.fn();
     const onCancel = jest.fn();
     const wrapper = shallow(
@@ -41,10 +39,8 @@ describe('CarFormPresentation', function () {
           name: 'Not a good name',
           acceleration: 'This car sucks',
         }}
-        changeHandlers={{
-          name: onChangeName,
-          acceleration: onChangeAcceleration,
-        }}
+        model={model}
+        onChangeField={onChangeField}
         onSubmit={onSubmit}
         onCancel={onCancel}
       />
@@ -59,8 +55,7 @@ describe('CarFormPresentation', function () {
 
 
   it('fires the handlers passed in props', function () {
-    const onChangeName = jest.fn();
-    const onChangeAcceleration = jest.fn();
+    const onChangeField = jest.fn();
     const onSubmit = jest.fn();
     const onCancel = jest.fn();
     const wrapper = shallow(
@@ -69,20 +64,18 @@ describe('CarFormPresentation', function () {
           name: 'Audi',
           acceleration: 12,
         }}
-        changeHandlers={{
-          name: onChangeName,
-          acceleration: onChangeAcceleration,
-        }}
+        model={model}
+        onChangeField={onChangeField}
         onSubmit={onSubmit}
         onCancel={onCancel}
       />
     );
 
     wrapper.find('input[name="acceleration"]').simulate('change', { target: { value: 3 } });
-    expect(onChangeAcceleration).toBeCalledWith({ target: { value: 3 } });
+    expect(onChangeField).toBeCalledWith('acceleration', 3);
 
     wrapper.find('input[name="name"]').simulate('change', { target: { value: 'VW' } });
-    expect(onChangeName).toBeCalledWith({ target: { value: 'VW' } });
+    expect(onChangeField).toBeCalledWith('name', 'VW');
 
     wrapper.find('button[name="cancel"]').simulate('click');
     expect(onCancel).toBeCalled();

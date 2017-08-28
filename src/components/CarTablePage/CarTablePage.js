@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import CarRow from '../CarRow';
 import CarFormRow from './CarFormRow';
 import { NONE, carShape } from '../../constants';
+import model from '../../model';
 
 import './CarTablePage.css';
 
@@ -11,12 +12,24 @@ const getCarRows = (cars, editingCarId, onRowClick) => cars.map(car => (
   <CarRow
     key={car.id}
     car={car}
+    model={model}
     editEnabled={car.id === editingCarId}
     onClick={() => onRowClick(car.id)}
   />
 ));
 
 const findCarIndexById = (cars, carId) => cars.findIndex(car => car.id === carId);
+
+const getHeaderCellClass = (fieldType) => {
+  switch (fieldType) {
+    case 'string':
+      return 'text-capitalize';
+    case 'number':
+      return 'text-right text-capitalize';
+    default:
+      throw new Error('unsupported field type');
+  }
+};
 
 const CarTablePage = ({
   cars,
@@ -36,8 +49,10 @@ const CarTablePage = ({
         <CarFormRow
           key={`${car.id}-form`}
           car={car}
+          model={model}
           onSubmit={onSaveCarChanges}
           onCancel={onCancelCarChanges}
+          colSpan={1 + Object.keys(model).length}
         />
       ));
     }
@@ -48,10 +63,10 @@ const CarTablePage = ({
       <thead className='bg-dark text-light'>
         <tr>
           <th className='id-col'>Id</th>
-          <th>Name</th>
-          <th className='large-col text-right'>Acceleration</th>
-          <th className='large-col text-right'>Horse Power</th>
-          <th className='small-col text-right'>Year</th>
+          {Object.keys(model).map((fieldName) => {
+            const field = model[fieldName];
+            return <th key={fieldName} className={getHeaderCellClass(field.type)}>{fieldName}</th>;
+          })}
         </tr>
       </thead>
       <tbody>

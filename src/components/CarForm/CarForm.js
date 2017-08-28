@@ -9,7 +9,9 @@ class CarForm extends Component {
     this.state = { car: { ...this.props.car } };
   }
 
-  updateFieldAndError = (fieldName, fieldValue, fieldError) =>
+  handleFieldChange = (fieldName, fieldValue) => {
+    const fieldDef = this.props.model[fieldName];
+    const fieldError = this.validateField(fieldValue, fieldDef);
     this.setState({
       car: {
         ...this.state.car,
@@ -19,35 +21,23 @@ class CarForm extends Component {
         ...this.state.errors,
         [fieldName]: fieldError
       }
-    })
-
-  changeName = (event) => {
-    const name = event.target.value;
-    const nameError = this.validateName(name);
-    this.updateFieldAndError('name', name, nameError);
+    });
   }
 
-  changeAcceleration = (event) => {
-    const acceleration = parseFloat(event.target.value);
-    const accelerationError = this.validateNumber(acceleration, 1, 100);
-    this.updateFieldAndError('acceleration', acceleration, accelerationError);
+  validateField = (fieldValue, fieldDef) => {
+    switch (fieldDef.type) {
+      case 'string':
+        return this.validateString(fieldValue);
+      case 'number':
+        return this.validateNumber(fieldValue, fieldDef.min, fieldDef.max);
+      default:
+        throw new Error('unsupported');
+    }
   }
 
-  changeHorsepower = (event) => {
-    const horsepower = parseFloat(event.target.value);
-    const horsepowerError = this.validateNumber(horsepower, 30, 800);
-    this.updateFieldAndError('horsepower', horsepower, horsepowerError);
-  }
-
-  changeYear = (event) => {
-    const year = parseFloat(event.target.value);
-    const yearError = this.validateNumber(year, 0, 99);
-    this.updateFieldAndError('year', year, yearError);
-  }
-
-  validateName = (name) => {
-    if (!name.length) {
-      return 'Name is mandatory';
+  validateString = (str) => {
+    if (!str.length) {
+      return 'Value is mandatory';
     }
     return '';
   }
@@ -71,17 +61,14 @@ class CarForm extends Component {
   }
 
   render() {
+    const { model, onCancel } = this.props;
     return (
       <CarFormPresentation
         {...this.state}
-        changeHandlers={{
-          name: this.changeName,
-          acceleration: this.changeAcceleration,
-          horsepower: this.changeHorsepower,
-          year: this.changeYear,
-        }}
+        model={model}
+        onChangeField={this.handleFieldChange}
         onSubmit={this.submit}
-        onCancel={this.props.onCancel}
+        onCancel={onCancel}
       />
     );
   }
@@ -89,11 +76,14 @@ class CarForm extends Component {
 
 CarForm.propTypes = {
   car: PropTypes.object.isRequired,
+  model: PropTypes.object.isRequired,
+  onChangeField: PropTypes.func.isRequired,
   onSubmit: PropTypes.func.isRequired,
   onCancel: PropTypes.func.isRequired,
 };
 
 CarForm.defaultProps = {
+  onChangeField: () => {},
   onSubmit: () => {},
   onCancel: () => {}
 };
