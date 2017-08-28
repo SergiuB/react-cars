@@ -69,6 +69,10 @@ CarForm is a stateful component, because a form needs to keep the state of the r
 
 One noteworthy feature of the CarForm is that it can validate fields and display error for each field, based on some constraints defined in model.js (like min/max for numeric fields).
 
+#### PageNavigation
+
+Basic prev/next navigation.
+
 ### Testing
 
 Each component has its own tests colocated with the JS.  
