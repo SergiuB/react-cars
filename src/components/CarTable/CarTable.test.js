@@ -46,6 +46,8 @@ describe('CarTable', function () {
 
     wrapper.find(PageNavigation).prop('onNext')();
     wrapper.find(PageNavigation).prop('onNext')();
+
+    // after two next clicks we should be on page 3
     expect(wrapper.find(CarTablePage).prop('cars')).toEqual(cars.page3.cars);
     expect(wrapper.find(PageNavigation).prop('nextEnabled')).toEqual(false);
     expect(wrapper.find(PageNavigation).prop('prevEnabled')).toEqual(true);

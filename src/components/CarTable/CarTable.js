@@ -27,9 +27,11 @@ class CarTable extends Component {
   updateState = (carUrl, stateToMerge) => this.props.api.getCars(carUrl)
     .then(s => this.setState({ ...s, ...stateToMerge }))
 
+  // Row clicking toggles car edit mode
   handleRowClick = cardId =>
     this.setState({ editingCarId: (cardId === this.state.editingCarId) ? NONE : cardId })
 
+  // After the edit changes are saved, the car is no longer in edit mode
   saveCarChanges = car =>
     this.props.api.saveCar(car)
       .then(() => this.updateState(this.state.currentCarUrl, { editingCarId: NONE }))
