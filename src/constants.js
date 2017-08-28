@@ -1,4 +1,3 @@
-
 import PropTypes from 'prop-types';
 
 const carShape = PropTypes.shape({
@@ -7,4 +6,9 @@ const carShape = PropTypes.shape({
   acceleration: PropTypes.number,
 });
 
-export default carShape;
+const NONE = -1;
+
+export {
+  NONE,
+  carShape,
+};

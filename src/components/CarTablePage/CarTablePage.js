@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import CarRow from '../CarRow';
 import CarFormRow from './CarFormRow';
-import carShape from '../../carShape';
+import { NONE, carShape } from '../../constants';
 
 const getCarRows = (cars, editingCarId, onRowClick) => cars.map(car => (
   <CarRow
@@ -25,9 +25,9 @@ const CarTablePage = ({
 }) => {
   const allRows = getCarRows(cars, editingCarId, onRowClick);
 
-  if (editingCarId !== -1) {
+  if (editingCarId !== NONE) {
     const editingCarIndex = findCarIndexById(cars, editingCarId);
-    if (editingCarIndex !== -1) {
+    if (editingCarIndex !== NONE) {
       // insert a CarFormRow for the car to be edited
       const car = cars[editingCarIndex];
       allRows.splice(editingCarIndex + 1, 0, (
@@ -67,7 +67,7 @@ CarTablePage.propTypes = {
 
 
 CarTablePage.defaultProps = {
-  editingCarId: -1,
+  editingCarId: NONE,
   onSaveCarChanges: () => {},
   onCancelCarChanges: () => {},
   onRowClick: () => {},

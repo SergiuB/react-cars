@@ -8,6 +8,8 @@ import PageNavigation from '../PageNavigation';
 
 import { cars, api } from './testUtils';
 
+import { NONE } from '../../constants';
+
 describe('CarTable', function () {
   it('renders correctly with the first page of cars', function () {
     const wrapper = shallow(
@@ -69,7 +71,7 @@ describe('CarTable', function () {
 
     wrapper.find(CarTablePage).prop('onRowClick')(2);
     wrapper.find(CarTablePage).prop('onRowClick')(2);
-    expect(wrapper.find(CarTablePage).prop('editingCarId')).toEqual(-1);
+    expect(wrapper.find(CarTablePage).prop('editingCarId')).toEqual(NONE);
   });
 
   it('updates the currently edited car id if another clicked row header', function () {
@@ -96,7 +98,7 @@ describe('CarTable', function () {
     wrapper.find(CarTablePage).prop('onSaveCarChanges')(updatedCar);
 
     // edit form is closed
-    expect(wrapper.find(CarTablePage).prop('editingCarId')).toEqual(-1);
+    expect(wrapper.find(CarTablePage).prop('editingCarId')).toEqual(NONE);
     // second car in page is updated
     expect(wrapper.find(CarTablePage).prop('cars')[1]).toEqual(updatedCar);
   });
@@ -112,6 +114,6 @@ describe('CarTable', function () {
     wrapper.find(CarTablePage).prop('onCancelCarChanges')();
 
     // edit form is closed
-    expect(wrapper.find(CarTablePage).prop('editingCarId')).toEqual(-1);
+    expect(wrapper.find(CarTablePage).prop('editingCarId')).toEqual(NONE);
   });
 });

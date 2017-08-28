@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import carShape from '../../carShape';
+import { carShape } from '../../constants';
 
 const CarRow = ({
   car,

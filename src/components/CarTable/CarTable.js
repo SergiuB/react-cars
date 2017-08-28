@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 
 import CarTablePage from '../CarTablePage';
 import PageNavigation from '../PageNavigation';
+import { NONE } from '../../constants';
 
 const tapLog = x => { console.log(x); return x; }
 
@@ -12,28 +13,28 @@ class CarTable extends Component {
     currentCarUrl: null,
     nextCarUrl: null,
     prevCarUrl: null,
-    editingCarId: -1,
+    editingCarId: NONE,
   }
 
   componentWillMount() {
     this.updateState();
   }
 
-  getNextCars = () => this.updateState(this.state.nextCarUrl, { editingCarId: -1 });
+  getNextCars = () => this.updateState(this.state.nextCarUrl, { editingCarId: NONE });
 
-  getPrevCars = () => this.updateState(this.state.prevCarUrl, { editingCarId: -1 });
+  getPrevCars = () => this.updateState(this.state.prevCarUrl, { editingCarId: NONE });
 
   updateState = (carUrl, stateToMerge) => this.props.api.getCars(carUrl)
     .then(s => this.setState({ ...s, ...stateToMerge }))
 
   handleRowClick = cardId =>
-    this.setState({ editingCarId: (cardId === this.state.editingCarId) ? -1 : cardId })
+    this.setState({ editingCarId: (cardId === this.state.editingCarId) ? NONE : cardId })
 
   saveCarChanges = car =>
     this.props.api.saveCar(car)
-      .then(() => this.updateState(this.state.currentCarUrl, { editingCarId: -1 }))
+      .then(() => this.updateState(this.state.currentCarUrl, { editingCarId: NONE }))
 
-  cancelCarChanges = () => this.setState({ editingCarId: -1 })
+  cancelCarChanges = () => this.setState({ editingCarId: NONE })
 
   render() {
     const {
